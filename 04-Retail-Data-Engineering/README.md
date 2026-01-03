@@ -30,14 +30,9 @@ A retail data engineering pipeline that transforms raw retail transaction data i
 
 ## Architecture
 
-```
-Bronze (Raw JSON)          Silver (Cleaned CSV)         Gold (Aggregated Metrics)
-┌─────────────────┐       ┌─────────────────────┐       ┌─────────────────────────┐
-│ 560 raw records │  ──►  │ 560 cleaned records │  ──►  │ 485 aggregated records  │
-│ Messy columns   │       │ Standardized schema │       │ Business KPIs           │
-│ Mixed formats   │       │ Proper data types   │       │ Ready for Power BI      │
-└─────────────────┘       └─────────────────────┘       └─────────────────────────┘
-```
+<p align="center">
+  <img src="04-architecture.jpg" alt="Retail Data Engineering Architecture" width="100%">
+</p>
 
 ## Project Structure
 
