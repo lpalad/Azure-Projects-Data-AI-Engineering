@@ -31,28 +31,9 @@ An ETL data pipeline implementing the **Medallion Architecture** (Bronze → Sil
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    MEDALLION ARCHITECTURE                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   BRONZE (Raw)         SILVER (Cleaned)        GOLD (Analytics) │
-│   ┌──────────┐        ┌──────────────┐        ┌─────────────┐  │
-│   │ orders   │   →    │ orders_clean │   →    │             │  │
-│   │ .csv     │        │ .csv         │        │ gold_joined │  │
-│   └──────────┘        └──────────────┘        │ .csv        │  │
-│   ┌──────────┐        ┌──────────────┐        │             │  │
-│   │inventory │   →    │ inventory    │   →    │ (LEFT JOIN) │  │
-│   │ .json    │        │ _clean.csv   │        │             │  │
-│   └──────────┘        └──────────────┘        └─────────────┘  │
-│   ┌──────────┐        ┌──────────────┐              │          │
-│   │ returns  │   →    │ returns      │   →          ▼          │
-│   │ .xlsx    │        │ _clean.csv   │        ┌─────────────┐  │
-│   └──────────┘        └──────────────┘        │  Power BI   │  │
-│                                               │  Dashboard  │  │
-│                                               └─────────────┘  │
-└─────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="architecture.png" alt="Medallion Retail Pipeline Architecture" width="100%">
+</p>
 
 ---
 
