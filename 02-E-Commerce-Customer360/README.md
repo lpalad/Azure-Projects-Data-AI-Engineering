@@ -41,7 +41,7 @@ A **Customer 360** analytics pipeline implementing the **Medallion Architecture*
 ## Dashboard
 
 <p align="center">
-  <img src="dashboard.png" alt="E-Commerce KPI Dashboard" width="100%">
+  <img src="dashboard1.png" alt="E-Commerce KPI Dashboard" width="100%">
 </p>
 
 ---
