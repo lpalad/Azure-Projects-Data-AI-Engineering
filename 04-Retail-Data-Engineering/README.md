@@ -1,6 +1,28 @@
-# 04-Retail-Data-Engineering
+<p align="center">
+  <h1 align="center">Retail Data Engineering Pipeline</h1>
+  <p align="center">
+    <strong>Medallion Architecture (Bronze → Silver → Gold) with PySpark on Microsoft Fabric</strong>
+  </p>
+  <p align="center">
+    <a href="#architecture">Architecture</a> •
+    <a href="#data-pipeline">Pipeline</a> •
+    <a href="#power-bi-dashboard">Dashboard</a> •
+    <a href="#how-to-run">How to Run</a>
+  </p>
+</p>
 
-A retail data engineering pipeline implementing the **Medallion Architecture** (Bronze → Silver → Gold) using PySpark on Microsoft Fabric. This project transforms raw retail transaction data into clean, aggregated business metrics ready for Power BI visualization.
+<p align="center">
+  <img src="https://img.shields.io/badge/PySpark-3.4-E25A1C?style=flat-square&logo=apache-spark&logoColor=white" alt="PySpark">
+  <img src="https://img.shields.io/badge/Microsoft_Fabric-Lakehouse-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft Fabric">
+  <img src="https://img.shields.io/badge/Delta_Lake-Storage-00ADD8?style=flat-square&logo=delta&logoColor=white" alt="Delta Lake">
+  <img src="https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+</p>
+
+---
+
+## Overview
+
+A retail data engineering pipeline that transforms raw retail transaction data into clean, aggregated business metrics ready for Power BI visualization. This project demonstrates the **Medallion Architecture** pattern commonly used in modern data lakehouses.
 
 ## Architecture
 
@@ -34,11 +56,16 @@ Bronze (Raw JSON)          Silver (Cleaned CSV)         Gold (Aggregated Metrics
 └── README.md
 ```
 
+---
+
 ## Data Pipeline
 
 ### Bronze Layer (Raw Data)
 
-**Source:** `retail_raw_data_560.json` - 560 retail transactions with messy column names
+> **Source:** `retail_raw_data_560.json` - 560 retail transactions with messy column names
+
+<details>
+<summary><strong>View Data Quality Issues</strong></summary>
 
 | Raw Column | Issue |
 |------------|-------|
@@ -56,9 +83,11 @@ Bronze (Raw JSON)          Silver (Cleaned CSV)         Gold (Aggregated Metrics
 | `new customer` | Space, lowercase |
 | `store type` | Space, lowercase |
 
+</details>
+
 ### Silver Layer (Cleaned Data)
 
-**Transformations Applied:**
+> **Transformations:** Column renaming, date parsing, numeric precision, text standardization
 
 | Transformation | Details |
 |----------------|---------|
@@ -68,7 +97,8 @@ Bronze (Raw JSON)          Silver (Cleaned CSV)         Gold (Aggregated Metrics
 | **Text Standardization** | Channel, NewCustomer, StoreType → Title Case |
 | **Data Types** | Proper casting (Integer, Double, Date) |
 
-**Clean Schema:**
+<details>
+<summary><strong>View Clean Schema</strong></summary>
 
 | Column | Type | Example |
 |--------|------|---------|
@@ -87,28 +117,30 @@ Bronze (Raw JSON)          Silver (Cleaned CSV)         Gold (Aggregated Metrics
 | NewCustomer | String | Yes, No |
 | StoreType | String | Web, Mobile App, Flagship, Outlet |
 
+</details>
+
 ### Gold Layer (Aggregated Metrics)
 
-**Dimensions:**
-- Region, CustomerSegment, ProductCategory, Channel, StoreType
-- Year, Quarter, Month
-
-**Metrics:**
+> **Dimensions:** Region, CustomerSegment, ProductCategory, Channel, StoreType, Year, Quarter, Month
 
 | Metric | Calculation |
 |--------|-------------|
-| TotalSales | SUM(Quantity × UnitPrice) |
-| TotalCost | SUM(Quantity × CostPrice) |
-| GrossProfit | TotalSales - TotalCost |
-| OrderCount | COUNT(OrderID) |
-| CustomerCount | COUNT(DISTINCT CustomerID) |
-| AvgOrderValue | TotalSales / OrderCount |
-| TotalQuantity | SUM(Quantity) |
-| ProfitMargin | (GrossProfit / TotalSales) × 100 |
+| **TotalSales** | SUM(Quantity × UnitPrice) |
+| **TotalCost** | SUM(Quantity × CostPrice) |
+| **GrossProfit** | TotalSales - TotalCost |
+| **OrderCount** | COUNT(OrderID) |
+| **CustomerCount** | COUNT(DISTINCT CustomerID) |
+| **AvgOrderValue** | TotalSales / OrderCount |
+| **TotalQuantity** | SUM(Quantity) |
+| **ProfitMargin** | (GrossProfit / TotalSales) × 100 |
+
+---
 
 ## Power BI Dashboard
 
-![Power BI Dashboard](data/gold/dashboard.png)
+<p align="center">
+  <img src="data/gold/dashboard.png" alt="Power BI Dashboard" width="100%">
+</p>
 
 ### DAX Measures
 
@@ -132,12 +164,26 @@ Avg Order Value = DIVIDE(SUM(retail_metrics[TotalSales]), SUM(retail_metrics[Ord
 | Line Chart | Month | TotalSales (trend) |
 | Table | All dimensions | All metrics |
 
+---
+
 ## Technology Stack
 
-- **PySpark** - Data transformation
-- **Microsoft Fabric** - Cloud platform
-- **Delta Lake** - Storage format (production)
-- **Power BI** - Visualization
+<table>
+  <tr>
+    <td align="center"><strong>Processing</strong></td>
+    <td align="center"><strong>Platform</strong></td>
+    <td align="center"><strong>Storage</strong></td>
+    <td align="center"><strong>Visualization</strong></td>
+  </tr>
+  <tr>
+    <td align="center">PySpark</td>
+    <td align="center">Microsoft Fabric</td>
+    <td align="center">Delta Lake</td>
+    <td align="center">Power BI</td>
+  </tr>
+</table>
+
+---
 
 ## Scripts
 
@@ -175,9 +221,12 @@ df_gold = (
 )
 ```
 
+---
+
 ## How to Run
 
 ### Local (Development)
+
 ```bash
 # Requires PySpark installed
 cd 04-Retail-Data-Engineering
@@ -186,15 +235,54 @@ spark-submit scripts/silver_to_gold.py
 ```
 
 ### Microsoft Fabric (Production)
-1. Upload `retail_raw_data_560.json` to Lakehouse Files/bronze/
+
+1. Upload `retail_raw_data_560.json` to Lakehouse `Files/bronze/`
 2. Open notebook in Fabric
 3. Update paths to Lakehouse paths
 4. Run cells sequentially
 
+---
+
 ## Data Summary
 
 | Layer | Records | File |
-|-------|---------|------|
-| Bronze | 560 | retail_raw_data_560.json |
-| Silver | 560 | retail_clean.csv |
-| Gold | 485 | retail_metrics.csv |
+|:------|:-------:|:-----|
+| **Bronze** | 560 | `retail_raw_data_560.json` |
+| **Silver** | 560 | `retail_clean.csv` |
+| **Gold** | 485 | `retail_metrics.csv` |
+
+---
+
+## Related Repositories
+
+- [AWS Projects](https://github.com/lpalad/AWS-Projects) - AWS infrastructure and AI/ML projects
+
+## Blog Posts
+
+Related blog posts: [cloudhermit.com.au](https://www.cloudhermit.com.au)
+
+---
+
+## Author
+
+<table>
+  <tr>
+    <td>
+      <strong>Leonard S Palad</strong><br>
+      MBA | Master of AI (In-progress)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://salesconnect.com.au/aip.html">AI Portfolio</a> •
+      <a href="https://www.linkedin.com/in/leonardspalad/">LinkedIn</a> •
+      <a href="https://www.cloudhermit.com.au/">Blog</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ using PySpark and Microsoft Fabric</sub>
+</p>
