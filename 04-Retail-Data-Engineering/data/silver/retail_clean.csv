@@ -1,0 +1,561 @@
+OrderID,OrderDate,CustomerID,CustomerSegment,Region,ProductID,ProductCategory,ProductName,Quantity,UnitPrice,CostPrice,Channel,NewCustomer,StoreType
+1000,26-03-2025,C046,Retail,East,P009,Furniture,Office Chair,2,54.77,41.21,In-Store,No,Web
+1001,19-03-2025,C088,Retail,North,P014,Apparel,T-Shirt,3,274.63,184.69,Online,Yes,Web
+1002,26-06-2025,C011,Wholesale,West,P018,Apparel,Jeans,2,285.29,214.46,In-Store,No,Mobile App
+1003,22-06-2025,C029,Retail,North,P013,Electronics,USB Cable,10,131.60,86.88,Online,No,Flagship
+1004,20-02-2025,C065,Retail,South,P016,Furniture,Office Chair,5,176.91,130.78,Online,Yes,Flagship
+1005,08-05-2025,C042,Retail,East,P010,Grocery,Almonds Pack,2,155.77,107.75,In-Store,No,Mobile App
+1006,08-05-2025,C090,Wholesale,West,P004,Grocery,Almonds Pack,1,120.90,75.17,In-Store,Yes,Outlet
+1007,02-06-2025,C029,Retail,East,P020,Apparel,T-Shirt,3,149.25,121.87,In-Store,Yes,Web
+1008,18-02-2025,C027,Wholesale,South,P012,Grocery,Almonds Pack,10,152.55,124.28,Online,No,Web
+1009,30-05-2025,C074,Wholesale,North,P009,Apparel,T-Shirt,10,23.60,15.13,In-Store,Yes,Flagship
+1010,11-04-2025,C065,Wholesale,East,P012,Electronics,USB Cable,10,106.48,75.53,In-Store,Yes,Mobile App
+1011,27-05-2025,C051,Retail,West,P019,Apparel,Jeans,3,128.81,79.74,In-Store,No,Mobile App
+1012,23-01-2025,C035,Wholesale,East,P013,Apparel,T-Shirt,2,248.73,166.96,Online,Yes,Outlet
+1013,22-02-2025,C018,Retail,West,P011,Furniture,Table,5,270.77,166.27,In-Store,Yes,Mobile App
+1014,16-03-2025,C019,Retail,North,P018,Apparel,T-Shirt,2,294.62,237.57,Online,No,Flagship
+1015,04-07-2025,C088,Wholesale,East,P009,Grocery,Almonds Pack,2,87.21,54.33,Online,No,Mobile App
+1016,21-01-2025,C041,Wholesale,South,P011,Furniture,Table,2,63.57,49.11,Online,Yes,Outlet
+1017,22-05-2025,C035,Retail,West,P019,Electronics,USB Cable,5,154.44,123.97,Online,Yes,Flagship
+1018,17-04-2025,C087,Retail,South,P015,Electronics,Keyboard,3,87.24,65.32,Online,No,Outlet
+1019,03-02-2025,C072,Wholesale,South,P016,Electronics,Bluetooth Speaker,10,227.16,156.55,In-Store,Yes,Mobile App
+1020,01-06-2025,C079,Retail,East,P004,Apparel,T-Shirt,2,61.65,43.24,Online,Yes,Web
+1021,07-02-2025,C020,Wholesale,South,P012,Grocery,Almonds Pack,3,69.71,45.26,Online,No,Mobile App
+1022,17-05-2025,C040,Retail,East,P001,Furniture,Table,5,212.99,148.99,In-Store,Yes,Web
+1023,25-04-2025,C078,Retail,West,P013,Furniture,Office Chair,3,27.12,20.69,Online,No,Mobile App
+1024,20-05-2025,C084,Wholesale,South,P010,Apparel,Jeans,1,151.51,93.41,Online,Yes,Flagship
+1025,15-03-2025,C031,Retail,North,P009,Furniture,Table,2,241.82,166.63,In-Store,No,Flagship
+1026,07-04-2025,C078,Wholesale,South,P007,Electronics,Mouse,1,279.88,170.18,In-Store,Yes,Web
+1027,28-05-2025,C057,Wholesale,South,P013,Furniture,Office Chair,2,21.49,17.66,Online,No,Flagship
+1028,01-07-2025,C096,Wholesale,West,P015,Grocery,Almonds Pack,2,199.17,123.47,In-Store,No,Outlet
+1029,24-05-2025,C060,Wholesale,West,P007,Furniture,Office Chair,5,20.54,15.06,Online,Yes,Outlet
+1030,14-07-2025,C021,Retail,South,P017,Grocery,Organic Juice,5,156.03,94.11,In-Store,Yes,Mobile App
+1031,16-05-2025,C099,Wholesale,South,P007,Apparel,T-Shirt,10,25.33,19.60,In-Store,No,Mobile App
+1032,15-07-2025,C042,Wholesale,South,P006,Apparel,Jeans,3,85.94,71.04,Online,No,Mobile App
+1033,15-03-2025,C029,Wholesale,South,P019,Apparel,T-Shirt,3,256.86,198.33,Online,No,Web
+1034,16-06-2025,C056,Retail,East,P012,Apparel,Jeans,5,169.64,115.23,Online,Yes,Flagship
+1035,22-04-2025,C014,Wholesale,North,P013,Apparel,T-Shirt,2,31.89,24.83,Online,Yes,Outlet
+1036,11-06-2025,C064,Retail,West,P009,Electronics,Bluetooth Speaker,5,173.46,110.65,Online,No,Outlet
+1037,23-03-2025,C004,Retail,North,P009,Apparel,Jeans,2,203.71,127.99,Online,No,Web
+1038,09-05-2025,C068,Retail,East,P011,Electronics,Keyboard,2,188.49,137.19,Online,No,Web
+1039,15-04-2025,C008,Retail,East,P007,Grocery,Organic Juice,5,169.63,136.65,In-Store,No,Mobile App
+1040,01-03-2025,C094,Retail,East,P015,Electronics,USB Cable,1,90.73,54.55,In-Store,Yes,Outlet
+1041,15-05-2025,C082,Retail,North,P009,Grocery,Organic Juice,3,64.65,44.42,Online,No,Web
+1042,06-06-2025,C039,Wholesale,South,P013,Furniture,Office Chair,3,97.67,72.20,Online,Yes,Outlet
+1043,18-06-2025,C077,Wholesale,South,P019,Electronics,Mouse,10,171.43,130.70,In-Store,No,Web
+1044,23-05-2025,C093,Wholesale,North,P004,Furniture,Table,1,262.30,179.32,Online,Yes,Mobile App
+1045,09-05-2025,C050,Wholesale,East,P004,Grocery,Almonds Pack,2,16.74,11.29,Online,Yes,Mobile App
+1046,07-05-2025,C082,Wholesale,East,P020,Furniture,Office Chair,5,62.39,40.08,In-Store,No,Mobile App
+1047,01-06-2025,C062,Wholesale,East,P020,Furniture,Office Chair,3,111.82,80.09,In-Store,Yes,Mobile App
+1048,15-05-2025,C089,Retail,East,P020,Apparel,Jeans,5,31.51,22.25,Online,Yes,Mobile App
+1049,18-06-2025,C048,Wholesale,South,P005,Grocery,Organic Juice,2,181.54,115.47,In-Store,No,Outlet
+1050,21-01-2025,C047,Retail,South,P018,Furniture,Office Chair,10,232.77,154.99,Online,Yes,Flagship
+1051,05-07-2025,C020,Wholesale,East,P009,Furniture,Office Chair,3,18.07,11.81,Online,No,Flagship
+1052,26-03-2025,C028,Retail,North,P018,Electronics,Keyboard,2,247.97,197.33,Online,No,Mobile App
+1053,01-06-2025,C051,Retail,West,P010,Furniture,Table,5,134.65,80.96,Online,No,Flagship
+1054,10-05-2025,C078,Retail,South,P013,Grocery,Almonds Pack,10,210.50,162.78,In-Store,No,Mobile App
+1055,04-06-2025,C015,Retail,North,P010,Electronics,Keyboard,5,299.08,213.92,Online,No,Web
+1056,09-07-2025,C010,Wholesale,East,P007,Furniture,Office Chair,1,106.34,80.83,In-Store,Yes,Flagship
+1057,12-06-2025,C098,Retail,South,P006,Grocery,Organic Juice,2,98.68,74.83,In-Store,No,Web
+1058,31-01-2025,C051,Wholesale,East,P007,Apparel,T-Shirt,2,233.83,142.85,In-Store,Yes,Flagship
+1059,17-02-2025,C059,Wholesale,South,P020,Grocery,Organic Juice,2,287.09,213.09,Online,Yes,Mobile App
+1060,15-01-2025,C081,Retail,East,P012,Furniture,Office Chair,1,201.12,151.38,In-Store,No,Web
+1061,08-03-2025,C013,Retail,East,P007,Furniture,Table,1,273.26,187.23,Online,No,Mobile App
+1062,25-01-2025,C065,Wholesale,North,P006,Furniture,Office Chair,1,133.12,94.52,Online,No,Mobile App
+1063,02-04-2025,C063,Wholesale,East,P019,Electronics,Bluetooth Speaker,1,27.82,23.52,In-Store,Yes,Flagship
+1064,13-04-2025,C019,Retail,East,P001,Apparel,T-Shirt,2,152.58,106.67,Online,Yes,Outlet
+1065,03-07-2025,C022,Wholesale,North,P016,Apparel,Jeans,10,283.04,203.20,Online,No,Web
+1066,06-06-2025,C074,Retail,East,P004,Electronics,Bluetooth Speaker,5,296.09,239.11,Online,No,Mobile App
+1067,31-05-2025,C002,Wholesale,North,P010,Electronics,Mouse,2,128.85,102.59,Online,Yes,Flagship
+1068,25-04-2025,C082,Wholesale,South,P019,Furniture,Table,3,192.02,147.27,Online,Yes,Mobile App
+1069,26-04-2025,C054,Retail,West,P005,Apparel,T-Shirt,3,72.41,46.55,In-Store,Yes,Flagship
+1070,20-04-2025,C070,Retail,East,P016,Electronics,Mouse,10,83.64,69.80,Online,No,Mobile App
+1071,15-06-2025,C083,Retail,West,P020,Apparel,Jeans,2,68.86,56.18,In-Store,Yes,Mobile App
+1072,15-03-2025,C029,Retail,South,P014,Furniture,Office Chair,2,218.89,174.99,Online,Yes,Web
+1073,17-06-2025,C061,Retail,North,P004,Grocery,Organic Juice,5,51.55,33.87,Online,Yes,Outlet
+1074,28-06-2025,C050,Retail,South,P020,Electronics,Mouse,2,87.59,59.87,Online,Yes,Flagship
+1075,06-05-2025,C068,Wholesale,East,P012,Apparel,Jeans,10,46.23,37.12,Online,Yes,Web
+1076,24-04-2025,C005,Retail,South,P017,Furniture,Office Chair,2,152.21,128.25,Online,No,Web
+1077,02-04-2025,C092,Wholesale,North,P001,Grocery,Almonds Pack,5,239.52,179.11,Online,Yes,Mobile App
+1078,26-03-2025,C027,Retail,East,P020,Apparel,Jeans,1,283.85,171.45,Online,No,Outlet
+1079,05-03-2025,C066,Wholesale,West,P005,Apparel,Jeans,2,153.51,126.35,In-Store,Yes,Flagship
+1080,27-05-2025,C087,Retail,South,P004,Apparel,Jeans,5,266.06,209.43,In-Store,Yes,Web
+1081,29-01-2025,C038,Retail,West,P013,Apparel,Jeans,1,177.24,125.86,In-Store,No,Flagship
+1082,08-07-2025,C051,Wholesale,North,P004,Furniture,Table,5,163.38,121.73,In-Store,No,Flagship
+1083,22-01-2025,C024,Wholesale,South,P001,Apparel,Jeans,3,183.05,128.56,In-Store,Yes,Web
+1084,20-03-2025,C087,Retail,South,P004,Electronics,USB Cable,2,116.80,80.67,In-Store,Yes,Web
+1085,14-02-2025,C050,Wholesale,North,P010,Furniture,Table,1,155.29,94.57,Online,Yes,Flagship
+1086,11-04-2025,C072,Wholesale,West,P004,Apparel,Jeans,1,194.25,136.07,Online,Yes,Outlet
+1087,19-02-2025,C008,Wholesale,West,P010,Apparel,T-Shirt,2,145.87,104.61,Online,Yes,Web
+1088,11-03-2025,C033,Wholesale,East,P016,Furniture,Table,1,22.69,13.65,In-Store,No,Outlet
+1089,08-05-2025,C023,Wholesale,North,P004,Apparel,Jeans,1,169.98,118.99,Online,Yes,Flagship
+1090,07-02-2025,C027,Wholesale,West,P019,Furniture,Office Chair,10,293.72,238.98,Online,No,Flagship
+1091,13-06-2025,C015,Wholesale,West,P017,Furniture,Office Chair,5,160.71,123.27,In-Store,Yes,Mobile App
+1092,12-04-2025,C002,Retail,East,P001,Apparel,T-Shirt,1,171.27,110.31,Online,No,Flagship
+1093,08-06-2025,C063,Wholesale,North,P001,Apparel,T-Shirt,3,110.90,88.11,Online,Yes,Flagship
+1094,12-03-2025,C080,Wholesale,West,P014,Apparel,Jeans,5,108.62,92.16,In-Store,No,Mobile App
+1095,01-04-2025,C021,Retail,North,P006,Apparel,T-Shirt,10,167.51,103.07,In-Store,No,Web
+1096,07-02-2025,C084,Retail,West,P001,Grocery,Almonds Pack,1,176.98,138.59,Online,Yes,Outlet
+1097,15-07-2025,C007,Wholesale,East,P016,Apparel,T-Shirt,5,84.22,69.58,Online,No,Mobile App
+1098,14-02-2025,C088,Retail,West,P002,Furniture,Table,5,160.14,96.98,Online,No,Flagship
+1099,30-05-2025,C040,Retail,East,P010,Electronics,Keyboard,2,213.72,172.79,Online,Yes,Outlet
+1100,28-06-2025,C061,Wholesale,North,P007,Grocery,Organic Juice,1,99.86,73.33,Online,Yes,Outlet
+1101,04-06-2025,C035,Retail,South,P016,Furniture,Table,1,298.66,218.70,Online,No,Outlet
+1102,10-06-2025,C077,Retail,North,P017,Grocery,Organic Juice,5,216.56,133.70,Online,Yes,Web
+1103,07-02-2025,C041,Retail,North,P016,Furniture,Office Chair,5,234.39,167.53,In-Store,Yes,Outlet
+1104,22-04-2025,C004,Retail,East,P003,Apparel,T-Shirt,2,200.12,126.50,Online,No,Flagship
+1105,09-04-2025,C031,Retail,West,P016,Furniture,Office Chair,3,19.82,15.20,Online,No,Flagship
+1106,24-02-2025,C062,Retail,West,P018,Grocery,Organic Juice,10,197.28,139.68,In-Store,No,Mobile App
+1107,08-03-2025,C069,Wholesale,South,P001,Grocery,Organic Juice,10,214.88,180.83,Online,Yes,Flagship
+1108,28-02-2025,C080,Wholesale,East,P006,Electronics,Bluetooth Speaker,2,296.56,205.28,Online,No,Outlet
+1109,11-07-2025,C091,Retail,South,P007,Furniture,Office Chair,3,254.55,196.96,Online,No,Outlet
+1110,10-02-2025,C042,Retail,West,P015,Furniture,Office Chair,5,91.88,64.16,In-Store,No,Flagship
+1111,31-01-2025,C029,Retail,South,P001,Apparel,T-Shirt,1,89.12,66.48,In-Store,Yes,Mobile App
+1112,08-03-2025,C100,Retail,West,P011,Apparel,T-Shirt,3,111.51,83.73,In-Store,Yes,Mobile App
+1113,25-05-2025,C056,Wholesale,North,P002,Electronics,Mouse,10,221.46,157.18,Online,Yes,Mobile App
+1114,24-02-2025,C039,Retail,East,P006,Apparel,T-Shirt,5,17.19,10.67,Online,No,Mobile App
+1115,11-05-2025,C026,Retail,North,P010,Apparel,T-Shirt,2,81.13,57.80,Online,No,Mobile App
+1116,14-03-2025,C018,Wholesale,North,P013,Electronics,Mouse,10,294.35,238.22,In-Store,Yes,Outlet
+1117,27-03-2025,C055,Wholesale,North,P015,Apparel,Jeans,2,217.93,168.41,In-Store,Yes,Mobile App
+1118,13-03-2025,C076,Wholesale,East,P003,Grocery,Almonds Pack,5,154.48,130.42,Online,Yes,Mobile App
+1119,12-03-2025,C035,Wholesale,West,P012,Furniture,Table,10,107.42,79.48,Online,Yes,Outlet
+1120,19-05-2025,C045,Retail,North,P016,Grocery,Almonds Pack,10,83.26,63.34,In-Store,Yes,Flagship
+1121,29-03-2025,C071,Retail,North,P014,Electronics,Keyboard,5,103.75,79.69,Online,Yes,Web
+1122,27-06-2025,C021,Retail,East,P013,Grocery,Almonds Pack,2,108.50,67.30,In-Store,No,Web
+1123,08-06-2025,C040,Wholesale,West,P004,Electronics,Bluetooth Speaker,10,49.21,31.74,In-Store,Yes,Outlet
+1124,31-01-2025,C021,Wholesale,East,P007,Furniture,Table,3,238.50,179.98,Online,Yes,Flagship
+1125,29-05-2025,C011,Retail,North,P017,Furniture,Table,10,221.14,147.36,Online,No,Mobile App
+1126,30-06-2025,C088,Wholesale,North,P014,Furniture,Table,3,201.84,144.41,Online,No,Flagship
+1127,30-05-2025,C056,Wholesale,East,P018,Electronics,USB Cable,5,236.74,161.14,Online,No,Web
+1128,10-05-2025,C017,Retail,North,P003,Grocery,Almonds Pack,2,255.32,203.40,Online,Yes,Flagship
+1129,21-05-2025,C050,Wholesale,North,P011,Electronics,Keyboard,1,105.24,66.57,Online,No,Web
+1130,30-06-2025,C099,Wholesale,West,P020,Electronics,Mouse,2,279.67,211.72,Online,Yes,Web
+1131,21-06-2025,C027,Retail,East,P006,Grocery,Organic Juice,10,145.02,98.19,In-Store,No,Outlet
+1132,15-02-2025,C099,Retail,North,P018,Grocery,Almonds Pack,3,67.81,47.04,Online,No,Mobile App
+1133,11-06-2025,C062,Wholesale,West,P007,Furniture,Office Chair,10,14.52,12.01,Online,Yes,Flagship
+1134,19-04-2025,C051,Wholesale,North,P012,Apparel,Jeans,5,149.80,91.47,Online,No,Mobile App
+1135,23-04-2025,C036,Wholesale,South,P016,Electronics,Bluetooth Speaker,3,68.48,41.10,Online,Yes,Web
+1136,18-02-2025,C044,Retail,North,P012,Apparel,Jeans,2,36.79,29.26,In-Store,No,Outlet
+1137,19-01-2025,C093,Wholesale,North,P001,Furniture,Office Chair,2,106.27,69.25,Online,Yes,Outlet
+1138,18-04-2025,C010,Wholesale,South,P004,Furniture,Office Chair,5,154.86,119.96,Online,Yes,Mobile App
+1139,18-04-2025,C079,Wholesale,South,P007,Apparel,Jeans,2,234.16,142.89,In-Store,No,Flagship
+1140,06-02-2025,C056,Wholesale,North,P004,Furniture,Office Chair,2,102.59,76.97,Online,Yes,Outlet
+1141,13-02-2025,C019,Wholesale,South,P005,Electronics,Bluetooth Speaker,5,94.86,75.52,In-Store,Yes,Mobile App
+1142,19-02-2025,C032,Retail,East,P018,Grocery,Organic Juice,1,170.06,120.56,In-Store,Yes,Flagship
+1143,04-06-2025,C080,Retail,North,P004,Furniture,Office Chair,2,72.80,48.76,In-Store,No,Web
+1144,07-07-2025,C026,Retail,East,P007,Grocery,Almonds Pack,1,133.62,84.59,In-Store,Yes,Flagship
+1145,08-05-2025,C075,Retail,South,P010,Electronics,Keyboard,3,81.80,55.88,Online,Yes,Flagship
+1146,27-02-2025,C001,Wholesale,North,P011,Grocery,Organic Juice,10,246.87,207.26,In-Store,No,Outlet
+1147,21-04-2025,C030,Wholesale,North,P017,Grocery,Organic Juice,2,212.11,146.23,Online,Yes,Flagship
+1148,17-02-2025,C010,Wholesale,North,P003,Apparel,T-Shirt,5,122.31,83.94,Online,No,Web
+1149,24-01-2025,C001,Retail,East,P004,Furniture,Office Chair,5,105.98,75.46,In-Store,Yes,Web
+1150,14-03-2025,C029,Retail,East,P017,Furniture,Table,10,129.12,104.02,In-Store,No,Mobile App
+1151,07-07-2025,C075,Wholesale,South,P015,Grocery,Organic Juice,3,285.55,177.18,In-Store,Yes,Web
+1152,16-02-2025,C068,Wholesale,North,P015,Electronics,USB Cable,1,278.71,220.41,Online,No,Mobile App
+1153,05-05-2025,C020,Retail,North,P012,Electronics,Keyboard,5,97.97,69.58,Online,No,Mobile App
+1154,28-05-2025,C073,Wholesale,West,P019,Grocery,Organic Juice,1,103.73,63.95,In-Store,No,Flagship
+1155,25-04-2025,C062,Wholesale,South,P002,Grocery,Almonds Pack,2,295.74,188.65,Online,Yes,Mobile App
+1156,16-05-2025,C077,Retail,East,P019,Apparel,Jeans,5,86.67,68.03,Online,Yes,Web
+1157,16-05-2025,C029,Retail,North,P010,Apparel,Jeans,10,245.98,206.55,Online,No,Mobile App
+1158,15-04-2025,C014,Wholesale,South,P006,Furniture,Office Chair,5,239.31,183.33,Online,Yes,Outlet
+1159,08-05-2025,C077,Retail,North,P011,Grocery,Organic Juice,5,228.06,139.90,Online,No,Mobile App
+1160,04-04-2025,C002,Wholesale,East,P019,Apparel,T-Shirt,2,256.12,214.95,In-Store,Yes,Flagship
+1161,20-01-2025,C060,Wholesale,South,P020,Furniture,Office Chair,5,23.31,16.73,Online,No,Web
+1162,05-02-2025,C051,Wholesale,West,P012,Apparel,Jeans,3,29.31,17.93,In-Store,Yes,Flagship
+1163,26-01-2025,C035,Wholesale,West,P019,Furniture,Office Chair,2,28.47,21.84,Online,Yes,Web
+1164,11-04-2025,C034,Retail,North,P014,Electronics,Keyboard,2,105.85,81.58,In-Store,No,Web
+1165,30-01-2025,C045,Retail,North,P013,Furniture,Table,2,22.90,13.77,In-Store,Yes,Outlet
+1166,05-03-2025,C056,Retail,West,P015,Furniture,Table,2,143.37,89.70,In-Store,Yes,Flagship
+1167,29-01-2025,C029,Wholesale,North,P007,Electronics,Keyboard,10,227.26,149.01,In-Store,Yes,Flagship
+1168,10-04-2025,C100,Retail,North,P015,Grocery,Organic Juice,2,194.34,131.01,In-Store,No,Mobile App
+1169,13-02-2025,C006,Wholesale,West,P004,Grocery,Organic Juice,3,258.78,208.39,Online,No,Web
+1170,30-05-2025,C068,Retail,East,P020,Apparel,Jeans,1,36.00,23.62,In-Store,Yes,Flagship
+1171,26-02-2025,C075,Wholesale,South,P015,Grocery,Almonds Pack,3,120.20,79.91,Online,Yes,Flagship
+1172,09-06-2025,C073,Retail,East,P002,Electronics,Bluetooth Speaker,5,48.09,30.49,In-Store,No,Flagship
+1173,14-05-2025,C016,Wholesale,West,P001,Furniture,Office Chair,1,251.34,171.19,Online,No,Mobile App
+1174,12-05-2025,C074,Retail,West,P020,Apparel,Jeans,10,34.32,25.98,Online,Yes,Web
+1175,23-06-2025,C092,Retail,East,P016,Grocery,Organic Juice,5,50.35,31.55,In-Store,No,Outlet
+1176,05-07-2025,C049,Retail,North,P007,Apparel,T-Shirt,10,261.29,162.52,In-Store,Yes,Mobile App
+1177,19-06-2025,C065,Retail,South,P006,Apparel,T-Shirt,10,32.88,20.30,Online,Yes,Outlet
+1178,09-03-2025,C030,Wholesale,East,P004,Apparel,T-Shirt,3,13.36,8.66,In-Store,Yes,Outlet
+1179,24-01-2025,C053,Retail,South,P006,Furniture,Table,1,239.70,168.08,Online,No,Flagship
+1180,13-03-2025,C098,Wholesale,West,P017,Grocery,Organic Juice,1,155.30,112.53,In-Store,No,Mobile App
+1181,29-05-2025,C017,Wholesale,West,P015,Grocery,Organic Juice,3,105.72,87.15,In-Store,Yes,Outlet
+1182,05-05-2025,C033,Wholesale,East,P004,Apparel,T-Shirt,3,142.08,116.28,Online,No,Mobile App
+1183,30-04-2025,C017,Wholesale,South,P002,Electronics,Keyboard,1,264.22,187.68,Online,No,Web
+1184,24-02-2025,C064,Wholesale,North,P009,Electronics,Bluetooth Speaker,5,227.99,180.33,In-Store,No,Outlet
+1185,03-03-2025,C056,Wholesale,South,P020,Apparel,Jeans,3,258.98,218.53,In-Store,No,Web
+1186,23-04-2025,C070,Wholesale,West,P008,Grocery,Organic Juice,10,159.09,120.87,Online,No,Web
+1187,25-06-2025,C019,Retail,West,P014,Furniture,Table,2,191.33,138.94,In-Store,No,Flagship
+1188,13-06-2025,C042,Wholesale,South,P003,Furniture,Table,10,23.77,14.85,In-Store,Yes,Mobile App
+1189,30-04-2025,C056,Wholesale,East,P011,Furniture,Table,5,60.41,37.05,Online,No,Outlet
+1190,03-03-2025,C017,Wholesale,East,P011,Grocery,Almonds Pack,2,215.30,150.27,Online,No,Flagship
+1191,11-04-2025,C022,Wholesale,East,P006,Electronics,Bluetooth Speaker,1,283.71,217.87,In-Store,Yes,Flagship
+1192,14-02-2025,C027,Retail,North,P010,Apparel,T-Shirt,3,257.65,189.88,In-Store,No,Outlet
+1193,24-01-2025,C067,Wholesale,North,P003,Electronics,Bluetooth Speaker,5,61.98,44.75,In-Store,No,Outlet
+1194,01-06-2025,C074,Wholesale,North,P012,Electronics,Keyboard,3,211.68,144.40,In-Store,Yes,Flagship
+1195,12-02-2025,C074,Wholesale,North,P008,Electronics,USB Cable,2,263.68,209.11,In-Store,Yes,Flagship
+1196,24-02-2025,C070,Retail,South,P011,Grocery,Almonds Pack,5,38.07,26.36,Online,Yes,Outlet
+1197,26-02-2025,C071,Retail,West,P006,Furniture,Table,3,157.49,119.24,In-Store,No,Flagship
+1198,01-03-2025,C075,Retail,West,P012,Apparel,T-Shirt,1,103.63,75.51,Online,No,Flagship
+1199,02-06-2025,C079,Retail,South,P012,Electronics,Mouse,2,227.76,156.54,In-Store,Yes,Web
+1200,09-04-2025,C096,Retail,North,P008,Furniture,Table,5,205.33,161.32,In-Store,No,Outlet
+1201,15-07-2025,C067,Wholesale,West,P016,Apparel,T-Shirt,2,189.75,122.44,In-Store,No,Mobile App
+1202,02-04-2025,C077,Wholesale,North,P004,Grocery,Almonds Pack,10,237.75,143.33,In-Store,Yes,Web
+1203,10-06-2025,C036,Wholesale,West,P020,Grocery,Organic Juice,3,264.69,182.10,Online,No,Mobile App
+1204,22-04-2025,C059,Retail,North,P010,Grocery,Organic Juice,5,12.74,9.38,In-Store,No,Outlet
+1205,14-03-2025,C087,Retail,North,P004,Grocery,Almonds Pack,1,84.26,65.29,Online,No,Flagship
+1206,14-05-2025,C083,Retail,South,P012,Apparel,Jeans,2,85.71,64.62,Online,No,Web
+1207,21-06-2025,C007,Wholesale,South,P016,Apparel,Jeans,3,223.16,163.40,Online,No,Web
+1208,04-06-2025,C095,Wholesale,East,P015,Apparel,T-Shirt,1,72.52,59.90,In-Store,No,Outlet
+1209,01-06-2025,C089,Retail,South,P003,Grocery,Organic Juice,3,64.18,50.51,In-Store,No,Web
+1210,20-06-2025,C056,Retail,South,P014,Electronics,Keyboard,2,121.52,83.10,Online,No,Mobile App
+1211,10-03-2025,C095,Wholesale,East,P019,Electronics,Keyboard,3,228.92,161.81,Online,Yes,Flagship
+1212,22-04-2025,C037,Retail,East,P006,Furniture,Table,1,190.63,158.22,In-Store,Yes,Web
+1213,07-05-2025,C067,Retail,West,P016,Furniture,Office Chair,5,231.92,175.68,In-Store,No,Mobile App
+1214,21-03-2025,C007,Wholesale,East,P005,Apparel,Jeans,2,118.01,95.08,In-Store,No,Web
+1215,11-05-2025,C073,Wholesale,West,P013,Grocery,Organic Juice,5,17.89,12.46,In-Store,No,Mobile App
+1216,18-05-2025,C078,Wholesale,West,P011,Furniture,Table,10,180.25,111.17,Online,No,Mobile App
+1217,25-05-2025,C003,Retail,West,P018,Electronics,Mouse,3,167.56,119.61,In-Store,No,Mobile App
+1218,29-05-2025,C044,Retail,East,P001,Furniture,Table,5,243.83,199.45,In-Store,Yes,Mobile App
+1219,07-06-2025,C007,Retail,East,P011,Furniture,Office Chair,3,63.85,53.90,Online,Yes,Mobile App
+1220,21-01-2025,C066,Wholesale,East,P012,Apparel,Jeans,10,201.94,122.01,Online,Yes,Mobile App
+1221,11-02-2025,C100,Wholesale,North,P007,Grocery,Almonds Pack,10,273.50,188.09,In-Store,No,Mobile App
+1222,17-02-2025,C051,Wholesale,North,P020,Electronics,USB Cable,5,184.54,115.56,In-Store,No,Mobile App
+1223,16-01-2025,C082,Retail,West,P016,Furniture,Table,10,293.79,232.16,In-Store,No,Flagship
+1224,05-07-2025,C024,Retail,North,P009,Electronics,Keyboard,10,37.29,28.22,Online,Yes,Mobile App
+1225,12-07-2025,C015,Retail,North,P012,Grocery,Almonds Pack,10,259.18,156.27,Online,No,Flagship
+1226,06-04-2025,C015,Wholesale,West,P007,Furniture,Table,3,145.82,123.50,In-Store,No,Flagship
+1227,07-06-2025,C005,Retail,West,P008,Furniture,Office Chair,2,217.18,174.11,In-Store,No,Mobile App
+1228,24-01-2025,C024,Wholesale,West,P001,Apparel,T-Shirt,1,59.25,50.05,In-Store,No,Outlet
+1229,21-04-2025,C057,Wholesale,East,P015,Electronics,Keyboard,1,81.47,54.37,Online,No,Flagship
+1230,28-05-2025,C028,Retail,East,P015,Electronics,USB Cable,10,200.36,161.19,Online,No,Mobile App
+1231,12-06-2025,C079,Retail,East,P020,Grocery,Almonds Pack,1,155.38,103.69,Online,No,Flagship
+1232,09-03-2025,C044,Retail,West,P002,Apparel,T-Shirt,5,69.91,53.65,In-Store,Yes,Outlet
+1233,25-05-2025,C080,Retail,North,P007,Grocery,Organic Juice,3,69.26,44.87,Online,No,Outlet
+1234,28-06-2025,C035,Wholesale,West,P016,Grocery,Organic Juice,10,89.00,62.61,In-Store,No,Outlet
+1235,12-04-2025,C092,Retail,North,P016,Electronics,Mouse,2,72.20,60.65,Online,Yes,Web
+1236,22-06-2025,C029,Wholesale,East,P011,Furniture,Table,1,122.24,94.45,Online,No,Flagship
+1237,03-04-2025,C020,Retail,North,P013,Grocery,Organic Juice,3,8.55,6.70,In-Store,No,Outlet
+1238,13-07-2025,C097,Retail,West,P013,Electronics,Keyboard,5,297.53,190.09,Online,No,Web
+1239,11-05-2025,C087,Retail,West,P004,Furniture,Office Chair,3,162.59,108.91,In-Store,No,Outlet
+1240,01-04-2025,C016,Retail,East,P017,Grocery,Organic Juice,2,226.33,139.71,Online,Yes,Outlet
+1241,12-04-2025,C069,Retail,North,P008,Apparel,T-Shirt,2,281.57,218.32,In-Store,No,Web
+1242,14-05-2025,C026,Wholesale,East,P020,Apparel,T-Shirt,5,19.09,13.54,In-Store,No,Flagship
+1243,20-06-2025,C050,Wholesale,North,P010,Furniture,Table,3,205.74,157.50,In-Store,No,Mobile App
+1244,03-02-2025,C088,Retail,North,P001,Electronics,Mouse,1,37.43,29.45,In-Store,No,Web
+1245,15-07-2025,C080,Wholesale,South,P007,Furniture,Office Chair,2,119.94,85.73,In-Store,No,Outlet
+1246,25-06-2025,C016,Wholesale,West,P003,Furniture,Table,3,44.89,31.68,Online,No,Mobile App
+1247,27-02-2025,C014,Retail,East,P013,Furniture,Table,3,207.22,126.88,In-Store,Yes,Mobile App
+1248,27-02-2025,C072,Wholesale,East,P005,Grocery,Organic Juice,5,174.13,114.04,Online,Yes,Mobile App
+1249,10-05-2025,C065,Retail,East,P015,Grocery,Organic Juice,2,166.09,122.76,In-Store,No,Web
+1250,28-03-2025,C024,Wholesale,West,P012,Electronics,Keyboard,1,89.66,63.62,Online,Yes,Flagship
+1251,31-01-2025,C006,Retail,West,P015,Electronics,Bluetooth Speaker,3,292.81,180.77,In-Store,Yes,Web
+1252,13-04-2025,C096,Wholesale,South,P005,Grocery,Almonds Pack,1,26.54,18.62,In-Store,No,Web
+1253,22-06-2025,C048,Wholesale,West,P009,Furniture,Office Chair,3,211.75,174.99,Online,Yes,Flagship
+1254,14-06-2025,C069,Retail,South,P011,Grocery,Organic Juice,2,266.71,213.77,In-Store,No,Web
+1255,11-02-2025,C021,Retail,South,P005,Grocery,Almonds Pack,5,237.18,195.62,Online,Yes,Flagship
+1256,06-02-2025,C008,Retail,South,P008,Furniture,Office Chair,5,233.95,166.35,Online,No,Mobile App
+1257,10-05-2025,C028,Retail,South,P004,Electronics,USB Cable,5,18.55,14.44,In-Store,No,Mobile App
+1258,01-02-2025,C059,Retail,South,P005,Grocery,Almonds Pack,1,187.26,113.21,In-Store,Yes,Web
+1259,10-07-2025,C054,Wholesale,West,P010,Apparel,Jeans,3,138.34,87.33,In-Store,No,Flagship
+1260,30-03-2025,C095,Retail,East,P017,Furniture,Table,5,198.45,146.04,In-Store,Yes,Web
+1261,08-05-2025,C031,Wholesale,East,P002,Furniture,Office Chair,10,276.03,217.56,Online,Yes,Mobile App
+1262,30-04-2025,C035,Wholesale,West,P015,Apparel,Jeans,3,84.11,59.70,Online,No,Mobile App
+1263,28-04-2025,C068,Wholesale,West,P015,Grocery,Almonds Pack,3,58.28,47.97,Online,Yes,Mobile App
+1264,16-04-2025,C094,Wholesale,West,P005,Electronics,USB Cable,1,77.01,47.06,Online,Yes,Outlet
+1265,16-07-2025,C069,Wholesale,East,P007,Apparel,Jeans,5,78.06,48.16,In-Store,No,Outlet
+1266,14-02-2025,C072,Wholesale,East,P013,Electronics,Mouse,3,41.69,27.57,In-Store,No,Web
+1267,17-02-2025,C038,Wholesale,West,P010,Grocery,Almonds Pack,5,62.30,48.62,Online,No,Flagship
+1268,28-06-2025,C048,Wholesale,North,P012,Apparel,T-Shirt,1,124.79,90.04,Online,Yes,Mobile App
+1269,08-02-2025,C057,Wholesale,North,P013,Grocery,Organic Juice,2,287.16,196.67,Online,Yes,Outlet
+1270,06-03-2025,C001,Retail,West,P016,Electronics,Keyboard,3,292.15,237.92,In-Store,No,Mobile App
+1271,09-05-2025,C050,Wholesale,East,P018,Apparel,Jeans,5,106.75,81.96,In-Store,No,Mobile App
+1272,02-05-2025,C028,Retail,South,P001,Electronics,USB Cable,2,53.27,41.94,Online,No,Outlet
+1273,12-04-2025,C011,Wholesale,East,P015,Apparel,Jeans,10,134.94,90.19,In-Store,No,Mobile App
+1274,07-07-2025,C015,Wholesale,East,P016,Grocery,Almonds Pack,5,126.74,98.27,In-Store,No,Flagship
+1275,14-04-2025,C053,Wholesale,North,P011,Furniture,Table,10,216.36,155.24,Online,Yes,Outlet
+1276,09-05-2025,C060,Wholesale,South,P011,Electronics,Bluetooth Speaker,2,118.32,89.03,In-Store,No,Mobile App
+1277,10-07-2025,C004,Wholesale,South,P020,Furniture,Office Chair,1,229.31,178.13,In-Store,No,Web
+1278,28-04-2025,C060,Retail,West,P008,Furniture,Table,3,240.46,157.02,In-Store,No,Outlet
+1279,29-04-2025,C100,Wholesale,North,P006,Furniture,Table,1,128.04,102.04,Online,No,Mobile App
+1280,01-04-2025,C026,Wholesale,West,P001,Grocery,Almonds Pack,3,8.69,5.50,Online,Yes,Mobile App
+1281,03-06-2025,C047,Retail,South,P018,Apparel,Jeans,2,294.64,188.76,Online,Yes,Flagship
+1282,25-03-2025,C033,Wholesale,North,P019,Apparel,Jeans,3,287.91,221.20,Online,Yes,Outlet
+1283,27-02-2025,C054,Retail,South,P014,Electronics,USB Cable,3,18.17,11.85,Online,Yes,Outlet
+1284,07-03-2025,C022,Retail,South,P002,Electronics,USB Cable,10,113.21,90.28,Online,Yes,Web
+1285,06-06-2025,C044,Wholesale,South,P007,Electronics,Bluetooth Speaker,2,93.28,67.22,In-Store,Yes,Web
+1286,27-03-2025,C022,Retail,North,P019,Grocery,Organic Juice,1,235.01,179.47,In-Store,Yes,Flagship
+1287,27-01-2025,C034,Wholesale,East,P016,Grocery,Organic Juice,2,24.64,19.52,In-Store,No,Flagship
+1288,13-04-2025,C096,Wholesale,East,P014,Furniture,Table,10,176.38,120.34,Online,No,Web
+1289,30-04-2025,C079,Wholesale,North,P018,Grocery,Almonds Pack,2,124.75,96.97,In-Store,Yes,Outlet
+1290,03-04-2025,C019,Wholesale,South,P020,Grocery,Organic Juice,2,5.96,4.58,In-Store,No,Outlet
+1291,03-02-2025,C063,Retail,East,P007,Grocery,Almonds Pack,2,156.81,107.37,In-Store,Yes,Web
+1292,19-01-2025,C077,Retail,East,P011,Apparel,T-Shirt,1,72.55,50.91,In-Store,Yes,Outlet
+1293,07-07-2025,C013,Retail,East,P009,Grocery,Almonds Pack,10,126.92,90.43,In-Store,No,Outlet
+1294,08-02-2025,C041,Wholesale,East,P008,Electronics,USB Cable,2,228.78,140.03,Online,No,Web
+1295,13-04-2025,C032,Wholesale,South,P011,Furniture,Table,3,292.54,229.34,Online,No,Outlet
+1296,25-02-2025,C082,Wholesale,West,P007,Electronics,USB Cable,1,24.42,16.95,In-Store,Yes,Mobile App
+1297,29-05-2025,C070,Retail,East,P016,Grocery,Almonds Pack,3,214.23,155.53,In-Store,No,Web
+1298,07-03-2025,C075,Retail,North,P008,Grocery,Organic Juice,2,29.91,19.88,Online,Yes,Flagship
+1299,05-03-2025,C098,Wholesale,East,P017,Electronics,Mouse,1,57.54,46.65,Online,Yes,Mobile App
+1300,09-06-2025,C080,Wholesale,North,P015,Furniture,Office Chair,10,191.41,133.26,Online,No,Outlet
+1301,27-04-2025,C022,Wholesale,South,P010,Furniture,Office Chair,5,142.98,107.92,Online,No,Mobile App
+1302,03-03-2025,C059,Retail,South,P014,Electronics,USB Cable,10,39.83,27.37,Online,No,Outlet
+1303,22-01-2025,C017,Retail,South,P008,Electronics,USB Cable,1,191.93,131.80,In-Store,No,Web
+1304,24-01-2025,C061,Wholesale,North,P007,Furniture,Table,1,87.42,56.58,In-Store,No,Mobile App
+1305,26-03-2025,C083,Wholesale,South,P009,Furniture,Office Chair,3,207.22,167.13,In-Store,No,Flagship
+1306,18-01-2025,C068,Retail,North,P013,Electronics,Mouse,10,63.23,52.29,Online,No,Outlet
+1307,12-02-2025,C082,Wholesale,South,P008,Apparel,Jeans,5,11.55,7.32,In-Store,Yes,Flagship
+1308,19-01-2025,C057,Retail,South,P008,Grocery,Organic Juice,3,79.14,60.27,In-Store,No,Outlet
+1309,29-04-2025,C098,Wholesale,South,P017,Apparel,Jeans,3,154.07,100.24,Online,Yes,Flagship
+1310,07-04-2025,C076,Wholesale,East,P008,Apparel,T-Shirt,3,54.38,37.94,In-Store,No,Web
+1311,19-06-2025,C051,Wholesale,South,P013,Furniture,Table,5,189.79,129.40,In-Store,No,Web
+1312,30-03-2025,C085,Retail,East,P020,Furniture,Table,1,208.74,147.98,Online,No,Outlet
+1313,13-03-2025,C027,Retail,East,P005,Apparel,Jeans,5,68.54,53.24,In-Store,Yes,Outlet
+1314,07-07-2025,C044,Retail,West,P011,Apparel,Jeans,5,12.69,8.05,In-Store,Yes,Flagship
+1315,26-02-2025,C014,Retail,West,P017,Furniture,Table,1,290.36,214.51,In-Store,Yes,Outlet
+1316,14-05-2025,C080,Retail,West,P020,Grocery,Organic Juice,5,177.04,134.51,In-Store,Yes,Mobile App
+1317,23-04-2025,C001,Wholesale,West,P019,Furniture,Office Chair,10,202.99,172.51,In-Store,No,Outlet
+1318,04-03-2025,C049,Wholesale,South,P015,Electronics,Mouse,2,154.97,99.89,In-Store,No,Web
+1319,12-02-2025,C013,Wholesale,East,P001,Furniture,Table,5,107.26,67.42,In-Store,No,Outlet
+1320,25-05-2025,C042,Retail,West,P016,Grocery,Almonds Pack,10,291.59,220.54,In-Store,No,Web
+1321,10-04-2025,C075,Retail,West,P012,Grocery,Organic Juice,10,226.68,181.65,In-Store,Yes,Outlet
+1322,01-02-2025,C100,Wholesale,North,P011,Furniture,Office Chair,1,212.78,130.76,Online,No,Mobile App
+1323,22-02-2025,C060,Wholesale,West,P010,Apparel,T-Shirt,3,91.78,69.84,In-Store,No,Web
+1324,31-05-2025,C083,Retail,East,P001,Apparel,T-Shirt,1,173.34,140.31,Online,No,Mobile App
+1325,24-01-2025,C100,Retail,South,P015,Grocery,Almonds Pack,1,203.56,123.04,In-Store,No,Web
+1326,19-05-2025,C054,Wholesale,West,P017,Apparel,Jeans,3,21.60,14.72,In-Store,Yes,Web
+1327,09-04-2025,C065,Retail,South,P009,Furniture,Table,5,264.48,219.83,In-Store,Yes,Web
+1328,13-05-2025,C097,Wholesale,East,P016,Grocery,Organic Juice,3,30.11,18.69,Online,No,Flagship
+1329,03-07-2025,C008,Wholesale,East,P004,Apparel,Jeans,5,284.88,189.88,In-Store,No,Mobile App
+1330,16-02-2025,C073,Wholesale,South,P018,Apparel,T-Shirt,10,109.06,69.51,In-Store,Yes,Flagship
+1331,19-01-2025,C033,Wholesale,South,P016,Grocery,Almonds Pack,10,140.60,85.66,Online,No,Web
+1332,27-05-2025,C016,Retail,East,P013,Electronics,Mouse,2,20.74,14.37,Online,No,Flagship
+1333,02-02-2025,C008,Wholesale,East,P020,Apparel,T-Shirt,2,247.57,187.36,Online,Yes,Web
+1334,28-02-2025,C077,Wholesale,North,P002,Electronics,Bluetooth Speaker,5,86.72,58.59,Online,No,Outlet
+1335,25-02-2025,C061,Retail,East,P003,Furniture,Office Chair,2,267.41,171.17,In-Store,No,Outlet
+1336,06-04-2025,C074,Retail,South,P018,Apparel,T-Shirt,10,94.96,61.17,In-Store,Yes,Outlet
+1337,30-01-2025,C050,Wholesale,West,P004,Furniture,Office Chair,5,226.72,157.24,In-Store,Yes,Mobile App
+1338,23-06-2025,C058,Wholesale,North,P002,Electronics,Mouse,2,95.00,76.00,Online,No,Web
+1339,12-05-2025,C095,Retail,North,P013,Grocery,Organic Juice,2,205.46,129.30,Online,No,Mobile App
+1340,09-07-2025,C064,Wholesale,North,P011,Furniture,Table,5,57.83,36.84,In-Store,Yes,Web
+1341,18-06-2025,C045,Wholesale,West,P018,Apparel,Jeans,3,228.61,150.06,In-Store,Yes,Flagship
+1342,19-01-2025,C033,Retail,South,P014,Electronics,Bluetooth Speaker,10,138.58,109.09,In-Store,Yes,Outlet
+1343,16-05-2025,C091,Retail,West,P002,Grocery,Almonds Pack,5,49.36,41.83,In-Store,No,Mobile App
+1344,30-06-2025,C088,Wholesale,South,P017,Grocery,Organic Juice,10,7.62,4.94,Online,No,Outlet
+1345,06-04-2025,C072,Retail,North,P013,Electronics,Keyboard,1,51.31,37.53,In-Store,No,Web
+1346,10-04-2025,C067,Wholesale,East,P004,Furniture,Office Chair,10,136.56,113.81,Online,Yes,Mobile App
+1347,07-06-2025,C093,Wholesale,South,P017,Apparel,T-Shirt,2,271.04,203.24,In-Store,No,Mobile App
+1348,15-04-2025,C079,Wholesale,West,P002,Apparel,Jeans,10,270.70,183.82,In-Store,Yes,Outlet
+1349,23-01-2025,C085,Wholesale,South,P019,Grocery,Organic Juice,10,201.68,166.10,In-Store,No,Web
+1350,23-05-2025,C034,Wholesale,East,P004,Electronics,USB Cable,10,204.42,147.10,Online,Yes,Web
+1351,15-01-2025,C098,Wholesale,West,P019,Apparel,Jeans,2,115.89,70.06,In-Store,Yes,Mobile App
+1352,26-02-2025,C002,Retail,East,P003,Apparel,T-Shirt,1,243.20,166.84,Online,No,Flagship
+1353,17-06-2025,C060,Retail,West,P001,Furniture,Table,5,171.82,123.09,Online,No,Flagship
+1354,14-02-2025,C036,Retail,South,P013,Furniture,Table,1,52.67,35.04,In-Store,No,Outlet
+1355,03-04-2025,C011,Wholesale,North,P018,Apparel,T-Shirt,5,235.74,162.70,Online,Yes,Flagship
+1356,08-07-2025,C075,Wholesale,East,P001,Electronics,Bluetooth Speaker,2,117.03,88.48,In-Store,No,Outlet
+1357,29-01-2025,C026,Wholesale,North,P001,Electronics,USB Cable,10,299.89,195.83,Online,Yes,Mobile App
+1358,26-05-2025,C016,Retail,East,P019,Grocery,Almonds Pack,1,25.05,17.37,In-Store,Yes,Web
+1359,14-06-2025,C035,Wholesale,East,P017,Grocery,Almonds Pack,10,112.85,81.35,In-Store,No,Flagship
+1360,29-04-2025,C083,Wholesale,West,P006,Grocery,Organic Juice,3,87.37,59.15,In-Store,No,Outlet
+1361,22-06-2025,C099,Wholesale,North,P009,Apparel,Jeans,10,174.71,130.08,Online,No,Web
+1362,15-07-2025,C032,Wholesale,North,P009,Furniture,Table,3,90.10,73.23,Online,Yes,Web
+1363,07-07-2025,C088,Wholesale,East,P001,Grocery,Almonds Pack,3,158.15,132.76,In-Store,No,Flagship
+1364,03-03-2025,C030,Wholesale,North,P013,Electronics,Mouse,10,215.33,158.85,Online,No,Flagship
+1365,01-02-2025,C030,Wholesale,West,P018,Furniture,Office Chair,5,59.64,43.50,Online,No,Outlet
+1366,16-02-2025,C013,Wholesale,North,P003,Electronics,Bluetooth Speaker,10,20.18,15.42,Online,No,Web
+1367,15-01-2025,C041,Retail,South,P008,Furniture,Table,10,69.81,53.93,In-Store,Yes,Flagship
+1368,29-05-2025,C012,Retail,East,P003,Apparel,Jeans,5,5.20,4.06,In-Store,Yes,Web
+1369,03-05-2025,C035,Wholesale,East,P020,Apparel,T-Shirt,5,148.51,94.79,In-Store,Yes,Outlet
+1370,27-04-2025,C046,Wholesale,East,P006,Apparel,T-Shirt,3,30.05,24.75,Online,Yes,Flagship
+1371,29-04-2025,C017,Wholesale,East,P008,Apparel,Jeans,3,209.27,133.85,In-Store,No,Web
+1372,07-04-2025,C065,Wholesale,West,P002,Apparel,T-Shirt,5,180.54,134.96,Online,Yes,Outlet
+1373,23-04-2025,C042,Wholesale,West,P016,Grocery,Almonds Pack,10,91.04,59.44,Online,No,Outlet
+1374,15-05-2025,C054,Wholesale,West,P016,Electronics,USB Cable,1,20.71,17.04,Online,No,Flagship
+1375,04-07-2025,C014,Retail,West,P019,Furniture,Office Chair,2,118.86,75.81,Online,Yes,Outlet
+1376,02-04-2025,C004,Retail,West,P006,Furniture,Table,2,31.02,20.56,In-Store,No,Flagship
+1377,20-05-2025,C064,Retail,North,P008,Electronics,Keyboard,10,288.45,225.42,Online,Yes,Outlet
+1378,10-04-2025,C053,Retail,West,P010,Apparel,Jeans,1,228.05,165.16,In-Store,No,Flagship
+1379,17-03-2025,C069,Wholesale,East,P020,Electronics,Bluetooth Speaker,1,201.34,134.11,In-Store,Yes,Mobile App
+1380,01-02-2025,C088,Retail,East,P012,Grocery,Almonds Pack,2,157.58,105.41,Online,Yes,Web
+1381,15-05-2025,C081,Wholesale,West,P002,Furniture,Office Chair,1,216.47,132.57,In-Store,Yes,Mobile App
+1382,10-02-2025,C072,Wholesale,East,P017,Apparel,Jeans,10,199.58,162.04,Online,No,Mobile App
+1383,22-04-2025,C066,Wholesale,North,P009,Apparel,Jeans,2,193.26,137.37,Online,No,Mobile App
+1384,04-02-2025,C036,Wholesale,South,P001,Furniture,Table,3,165.26,104.97,In-Store,No,Mobile App
+1385,10-07-2025,C015,Wholesale,South,P002,Furniture,Table,3,162.06,111.69,In-Store,Yes,Mobile App
+1386,26-05-2025,C075,Retail,West,P011,Electronics,USB Cable,5,236.66,189.11,Online,Yes,Outlet
+1387,01-06-2025,C004,Wholesale,East,P015,Grocery,Almonds Pack,1,283.26,175.60,Online,Yes,Mobile App
+1388,21-01-2025,C078,Retail,West,P017,Furniture,Office Chair,2,282.91,228.51,Online,No,Mobile App
+1389,09-04-2025,C049,Wholesale,East,P016,Apparel,Jeans,2,147.38,109.96,Online,Yes,Web
+1390,04-04-2025,C097,Retail,East,P020,Furniture,Table,5,43.26,33.73,In-Store,No,Outlet
+1391,03-06-2025,C095,Retail,North,P016,Apparel,T-Shirt,1,231.82,172.93,In-Store,No,Flagship
+1392,15-06-2025,C057,Wholesale,East,P004,Electronics,Keyboard,10,205.94,151.37,Online,No,Mobile App
+1393,25-02-2025,C092,Retail,West,P006,Electronics,USB Cable,1,174.86,110.03,In-Store,Yes,Outlet
+1394,12-05-2025,C012,Wholesale,South,P013,Furniture,Table,3,95.85,68.92,Online,Yes,Web
+1395,04-07-2025,C030,Retail,North,P014,Apparel,Jeans,1,283.05,183.03,Online,No,Outlet
+1396,20-05-2025,C095,Wholesale,West,P013,Grocery,Organic Juice,3,80.08,59.76,Online,No,Flagship
+1397,24-02-2025,C034,Retail,East,P005,Electronics,Keyboard,1,11.52,9.45,In-Store,Yes,Mobile App
+1398,24-04-2025,C045,Retail,North,P017,Grocery,Organic Juice,5,47.92,38.33,Online,Yes,Outlet
+1399,28-01-2025,C078,Wholesale,South,P001,Furniture,Table,1,157.51,125.53,Online,Yes,Mobile App
+1400,25-01-2025,C016,Wholesale,North,P014,Electronics,Bluetooth Speaker,5,74.49,53.70,Online,Yes,Mobile App
+1401,27-03-2025,C066,Wholesale,South,P005,Furniture,Office Chair,5,162.88,108.74,Online,No,Web
+1402,24-01-2025,C002,Retail,South,P015,Electronics,Bluetooth Speaker,5,237.16,182.63,Online,Yes,Flagship
+1403,23-01-2025,C079,Retail,West,P002,Grocery,Almonds Pack,2,13.19,9.47,In-Store,No,Flagship
+1404,08-03-2025,C024,Retail,South,P004,Grocery,Organic Juice,1,53.51,37.13,In-Store,No,Outlet
+1405,01-06-2025,C063,Wholesale,East,P007,Electronics,USB Cable,1,36.70,29.46,In-Store,No,Outlet
+1406,18-06-2025,C017,Wholesale,East,P014,Electronics,Bluetooth Speaker,3,189.23,124.89,Online,No,Web
+1407,15-01-2025,C030,Wholesale,North,P005,Apparel,Jeans,3,244.95,203.77,Online,Yes,Web
+1408,17-06-2025,C099,Wholesale,East,P004,Apparel,Jeans,2,65.49,43.39,In-Store,Yes,Flagship
+1409,17-03-2025,C089,Wholesale,West,P015,Apparel,T-Shirt,1,224.63,149.17,In-Store,Yes,Outlet
+1410,02-07-2025,C010,Retail,East,P008,Furniture,Office Chair,2,73.47,59.17,In-Store,No,Web
+1411,05-07-2025,C007,Retail,South,P019,Apparel,T-Shirt,2,110.26,87.91,Online,No,Mobile App
+1412,30-05-2025,C087,Wholesale,South,P013,Apparel,T-Shirt,5,151.68,101.88,Online,No,Outlet
+1413,19-05-2025,C039,Retail,West,P014,Electronics,USB Cable,2,223.24,157.91,Online,Yes,Web
+1414,08-05-2025,C028,Wholesale,West,P016,Furniture,Office Chair,2,213.02,135.43,In-Store,Yes,Web
+1415,19-05-2025,C032,Wholesale,West,P012,Apparel,Jeans,2,279.80,186.32,Online,No,Web
+1416,06-05-2025,C067,Retail,North,P006,Furniture,Office Chair,3,168.94,112.94,In-Store,No,Mobile App
+1417,15-01-2025,C075,Retail,West,P019,Grocery,Organic Juice,3,116.18,70.14,Online,No,Outlet
+1418,26-01-2025,C080,Wholesale,East,P002,Electronics,Bluetooth Speaker,3,42.15,27.48,In-Store,Yes,Flagship
+1419,06-04-2025,C007,Wholesale,West,P013,Furniture,Office Chair,3,238.56,153.14,Online,Yes,Outlet
+1420,22-03-2025,C042,Retail,North,P010,Apparel,Jeans,10,229.32,166.93,Online,Yes,Outlet
+1421,19-01-2025,C086,Retail,South,P002,Furniture,Table,1,142.39,117.05,Online,Yes,Web
+1422,20-02-2025,C075,Retail,East,P007,Furniture,Table,10,295.14,182.13,Online,Yes,Flagship
+1423,01-06-2025,C095,Retail,West,P009,Grocery,Almonds Pack,2,71.37,53.56,In-Store,Yes,Mobile App
+1424,21-02-2025,C011,Retail,East,P013,Furniture,Table,5,220.81,163.47,Online,No,Mobile App
+1425,01-02-2025,C033,Retail,North,P010,Furniture,Table,2,9.10,6.75,Online,No,Web
+1426,18-02-2025,C064,Retail,South,P012,Grocery,Organic Juice,5,236.08,144.21,Online,Yes,Flagship
+1427,07-07-2025,C066,Retail,South,P010,Electronics,Keyboard,3,267.23,183.76,In-Store,No,Outlet
+1428,07-06-2025,C048,Wholesale,West,P002,Grocery,Organic Juice,10,203.80,140.91,In-Store,No,Outlet
+1429,03-02-2025,C100,Retail,North,P007,Furniture,Table,3,59.86,40.38,In-Store,No,Web
+1430,30-03-2025,C059,Retail,North,P005,Electronics,Bluetooth Speaker,1,91.96,72.34,In-Store,No,Web
+1431,14-07-2025,C009,Wholesale,North,P005,Electronics,USB Cable,10,52.62,32.33,In-Store,No,Mobile App
+1432,02-04-2025,C065,Retail,East,P017,Furniture,Office Chair,1,36.86,31.33,In-Store,No,Mobile App
+1433,18-06-2025,C078,Wholesale,North,P004,Grocery,Almonds Pack,5,32.86,20.67,In-Store,No,Flagship
+1434,28-06-2025,C009,Wholesale,South,P003,Furniture,Office Chair,3,206.39,165.26,Online,Yes,Mobile App
+1435,23-01-2025,C047,Retail,East,P018,Grocery,Almonds Pack,3,193.74,163.62,In-Store,No,Outlet
+1436,03-04-2025,C093,Retail,South,P012,Furniture,Office Chair,5,260.43,162.26,Online,No,Outlet
+1437,16-04-2025,C016,Retail,South,P002,Furniture,Office Chair,1,296.69,246.33,In-Store,Yes,Outlet
+1438,02-03-2025,C029,Retail,North,P017,Grocery,Organic Juice,2,155.14,115.25,In-Store,Yes,Web
+1439,18-01-2025,C029,Retail,West,P008,Electronics,Bluetooth Speaker,1,178.38,124.27,In-Store,Yes,Web
+1440,09-04-2025,C022,Wholesale,South,P001,Apparel,T-Shirt,5,236.23,165.33,In-Store,Yes,Mobile App
+1441,19-06-2025,C024,Retail,North,P013,Electronics,Bluetooth Speaker,1,248.23,155.00,Online,No,Mobile App
+1442,07-06-2025,C076,Wholesale,South,P013,Furniture,Table,5,267.81,220.11,In-Store,Yes,Web
+1443,26-05-2025,C076,Wholesale,South,P006,Furniture,Table,1,43.11,33.38,In-Store,No,Web
+1444,18-05-2025,C070,Wholesale,East,P002,Grocery,Organic Juice,10,233.41,195.65,In-Store,No,Outlet
+1445,17-03-2025,C021,Retail,North,P012,Furniture,Table,3,64.87,45.40,Online,Yes,Outlet
+1446,07-02-2025,C081,Retail,East,P006,Grocery,Almonds Pack,3,271.39,166.19,Online,Yes,Flagship
+1447,16-03-2025,C080,Retail,East,P009,Electronics,Bluetooth Speaker,10,27.30,16.54,In-Store,No,Flagship
+1448,16-06-2025,C034,Retail,West,P017,Furniture,Table,5,221.55,141.80,In-Store,No,Outlet
+1449,31-03-2025,C048,Wholesale,West,P014,Grocery,Organic Juice,1,77.71,64.24,Online,Yes,Web
+1450,13-05-2025,C041,Retail,West,P003,Grocery,Almonds Pack,5,282.81,219.48,In-Store,Yes,Mobile App
+1451,13-03-2025,C071,Retail,South,P006,Grocery,Almonds Pack,2,77.16,64.58,Online,No,Web
+1452,25-02-2025,C006,Wholesale,North,P016,Apparel,T-Shirt,10,140.22,104.23,Online,Yes,Mobile App
+1453,28-01-2025,C082,Retail,West,P008,Electronics,Keyboard,5,127.69,81.90,In-Store,No,Mobile App
+1454,31-01-2025,C083,Retail,North,P020,Electronics,Mouse,2,220.98,172.30,In-Store,Yes,Flagship
+1455,03-05-2025,C035,Retail,West,P006,Furniture,Table,1,63.35,53.17,Online,Yes,Mobile App
+1456,22-04-2025,C077,Retail,North,P017,Apparel,T-Shirt,10,273.86,170.79,Online,No,Web
+1457,20-01-2025,C045,Wholesale,North,P009,Electronics,Mouse,1,215.72,163.58,In-Store,No,Flagship
+1458,03-05-2025,C036,Retail,South,P004,Apparel,T-Shirt,3,58.19,37.74,Online,No,Flagship
+1459,12-02-2025,C015,Wholesale,East,P014,Grocery,Organic Juice,3,78.18,54.54,Online,No,Web
+1460,15-01-2025,C029,Retail,West,P004,Grocery,Organic Juice,10,280.71,217.87,Online,Yes,Outlet
+1461,07-03-2025,C015,Wholesale,North,P019,Grocery,Organic Juice,2,61.31,48.87,In-Store,No,Outlet
+1462,10-03-2025,C098,Retail,South,P019,Furniture,Table,3,175.16,114.28,Online,Yes,Outlet
+1463,26-03-2025,C070,Retail,South,P011,Furniture,Table,10,148.45,121.58,In-Store,Yes,Flagship
+1464,23-06-2025,C040,Wholesale,East,P009,Apparel,Jeans,1,264.87,171.36,Online,Yes,Web
+1465,04-04-2025,C046,Retail,West,P005,Apparel,Jeans,2,285.07,179.30,In-Store,No,Outlet
+1466,06-03-2025,C025,Wholesale,North,P001,Grocery,Almonds Pack,3,212.34,138.85,In-Store,Yes,Flagship
+1467,19-06-2025,C004,Retail,North,P019,Electronics,Keyboard,5,273.24,231.07,Online,No,Mobile App
+1468,15-05-2025,C064,Retail,South,P012,Electronics,USB Cable,2,255.21,185.57,Online,Yes,Web
+1469,15-05-2025,C059,Retail,West,P003,Apparel,T-Shirt,2,57.29,45.04,In-Store,Yes,Outlet
+1470,18-05-2025,C026,Wholesale,West,P010,Apparel,T-Shirt,2,133.29,89.17,In-Store,No,Web
+1471,24-01-2025,C005,Retail,East,P003,Furniture,Table,1,234.90,169.02,Online,No,Outlet
+1472,06-07-2025,C016,Retail,West,P010,Grocery,Almonds Pack,3,217.27,157.67,Online,Yes,Web
+1473,26-02-2025,C075,Retail,North,P019,Furniture,Office Chair,10,87.22,65.11,Online,Yes,Outlet
+1474,18-02-2025,C085,Wholesale,North,P008,Electronics,Keyboard,10,27.57,21.94,In-Store,No,Web
+1475,11-06-2025,C002,Wholesale,West,P004,Apparel,T-Shirt,1,155.32,100.38,Online,Yes,Mobile App
+1476,13-02-2025,C017,Retail,South,P012,Apparel,T-Shirt,1,45.03,27.28,In-Store,Yes,Web
+1477,19-05-2025,C067,Wholesale,East,P001,Grocery,Almonds Pack,10,91.66,59.92,In-Store,No,Flagship
+1478,11-07-2025,C034,Wholesale,North,P008,Electronics,USB Cable,3,26.10,19.73,Online,No,Outlet
+1479,01-07-2025,C055,Retail,West,P014,Grocery,Almonds Pack,10,244.54,176.93,Online,No,Outlet
+1480,12-04-2025,C009,Wholesale,West,P017,Electronics,Bluetooth Speaker,1,5.78,4.87,In-Store,No,Mobile App
+1481,21-05-2025,C091,Wholesale,North,P017,Furniture,Office Chair,2,121.95,84.12,In-Store,No,Flagship
+1482,16-02-2025,C012,Retail,East,P011,Furniture,Office Chair,2,272.58,198.32,Online,No,Mobile App
+1483,07-03-2025,C006,Wholesale,West,P004,Apparel,Jeans,10,253.80,184.68,Online,No,Outlet
+1484,10-06-2025,C026,Retail,North,P009,Electronics,Mouse,1,295.54,216.38,Online,Yes,Web
+1485,22-05-2025,C050,Wholesale,East,P004,Electronics,Keyboard,3,35.47,26.62,Online,No,Mobile App
+1486,01-02-2025,C015,Wholesale,North,P019,Electronics,Mouse,10,38.26,30.65,Online,No,Mobile App
+1487,08-07-2025,C024,Retail,West,P002,Furniture,Office Chair,3,159.81,116.82,Online,Yes,Web
+1488,02-07-2025,C090,Wholesale,East,P001,Apparel,T-Shirt,5,206.03,167.03,Online,No,Flagship
+1489,26-01-2025,C009,Retail,West,P019,Grocery,Organic Juice,2,291.53,225.41,Online,Yes,Mobile App
+1490,18-01-2025,C050,Wholesale,South,P020,Grocery,Organic Juice,2,276.90,214.58,In-Store,Yes,Outlet
+1491,13-07-2025,C088,Wholesale,East,P013,Apparel,T-Shirt,1,117.24,73.58,Online,No,Outlet
+1492,17-04-2025,C095,Wholesale,West,P006,Grocery,Almonds Pack,2,210.54,169.38,Online,Yes,Outlet
+1493,15-07-2025,C076,Retail,East,P014,Grocery,Organic Juice,2,174.55,120.23,In-Store,No,Web
+1494,11-07-2025,C034,Retail,North,P009,Grocery,Organic Juice,3,242.15,179.03,Online,Yes,Outlet
+1495,26-01-2025,C001,Wholesale,South,P012,Electronics,USB Cable,2,39.18,25.19,In-Store,Yes,Outlet
+1496,14-04-2025,C025,Wholesale,North,P006,Grocery,Almonds Pack,3,126.44,79.09,In-Store,No,Web
+1497,08-06-2025,C022,Wholesale,South,P003,Electronics,Keyboard,1,121.13,84.41,In-Store,No,Flagship
+1498,21-05-2025,C083,Wholesale,East,P018,Apparel,T-Shirt,2,17.18,13.63,In-Store,No,Mobile App
+1499,21-04-2025,C006,Wholesale,West,P007,Furniture,Table,2,137.05,113.13,In-Store,No,Web
+1500,09-02-2025,C083,Wholesale,South,P013,Grocery,Organic Juice,2,50.38,37.08,In-Store,No,Web
+1501,28-05-2025,C012,Wholesale,West,P016,Furniture,Table,5,53.72,39.66,Online,No,Outlet
+1502,04-05-2025,C078,Wholesale,North,P013,Electronics,Mouse,3,239.79,149.75,In-Store,No,Flagship
+1503,25-05-2025,C077,Wholesale,East,P017,Electronics,USB Cable,1,132.11,93.85,Online,Yes,Mobile App
+1504,04-04-2025,C042,Retail,West,P008,Furniture,Table,5,286.89,183.42,In-Store,Yes,Flagship
+1505,15-05-2025,C036,Retail,South,P015,Grocery,Almonds Pack,2,235.41,151.38,In-Store,Yes,Flagship
+1506,04-04-2025,C044,Retail,West,P003,Grocery,Organic Juice,10,264.69,189.16,Online,No,Outlet
+1507,03-06-2025,C033,Retail,South,P002,Apparel,Jeans,1,218.00,133.59,In-Store,No,Outlet
+1508,26-04-2025,C067,Wholesale,South,P009,Electronics,Mouse,10,79.99,61.39,Online,Yes,Web
+1509,28-04-2025,C091,Wholesale,West,P003,Furniture,Office Chair,1,44.78,28.60,Online,No,Mobile App
+1510,15-03-2025,C082,Wholesale,North,P018,Furniture,Office Chair,3,15.55,12.74,Online,No,Flagship
+1511,22-02-2025,C051,Retail,East,P011,Electronics,Bluetooth Speaker,1,98.42,64.86,Online,Yes,Outlet
+1512,28-01-2025,C081,Wholesale,West,P005,Apparel,Jeans,5,187.19,154.83,In-Store,Yes,Web
+1513,11-07-2025,C001,Wholesale,West,P004,Furniture,Table,2,189.79,152.97,Online,No,Mobile App
+1514,30-04-2025,C099,Wholesale,East,P004,Grocery,Organic Juice,3,251.12,188.29,Online,Yes,Outlet
+1515,22-02-2025,C006,Wholesale,South,P019,Apparel,T-Shirt,1,265.07,204.43,Online,Yes,Outlet
+1516,29-05-2025,C007,Retail,East,P014,Grocery,Almonds Pack,5,285.57,237.07,In-Store,Yes,Flagship
+1517,05-06-2025,C096,Retail,East,P015,Apparel,T-Shirt,2,269.13,218.89,Online,No,Flagship
+1518,30-06-2025,C069,Wholesale,West,P014,Furniture,Table,2,292.95,231.13,Online,Yes,Outlet
+1519,14-05-2025,C070,Retail,East,P006,Apparel,Jeans,1,288.02,218.43,In-Store,Yes,Web
+1520,07-04-2025,C033,Wholesale,North,P015,Apparel,Jeans,5,159.70,107.04,Online,Yes,Web
+1521,27-03-2025,C032,Retail,East,P004,Apparel,T-Shirt,5,268.68,163.64,In-Store,Yes,Mobile App
+1522,04-06-2025,C055,Wholesale,South,P001,Furniture,Table,10,109.25,68.88,In-Store,No,Flagship
+1523,18-06-2025,C049,Wholesale,North,P004,Electronics,Keyboard,3,51.09,30.81,Online,No,Outlet
+1524,05-07-2025,C048,Retail,South,P014,Electronics,Mouse,10,6.38,4.35,Online,No,Flagship
+1525,23-06-2025,C013,Wholesale,East,P010,Furniture,Office Chair,10,284.88,198.53,Online,No,Mobile App
+1526,18-02-2025,C004,Wholesale,South,P017,Apparel,Jeans,2,146.13,95.65,Online,Yes,Flagship
+1527,11-06-2025,C006,Wholesale,West,P018,Grocery,Almonds Pack,3,184.99,147.35,In-Store,Yes,Flagship
+1528,14-04-2025,C094,Retail,West,P010,Electronics,Bluetooth Speaker,5,199.86,147.91,Online,No,Outlet
+1529,30-05-2025,C017,Wholesale,West,P001,Apparel,T-Shirt,5,80.00,59.27,Online,Yes,Flagship
+1530,19-03-2025,C082,Wholesale,South,P014,Furniture,Table,5,182.75,155.27,In-Store,Yes,Flagship
+1531,28-03-2025,C034,Wholesale,East,P020,Furniture,Table,1,99.64,62.20,Online,Yes,Web
+1532,15-06-2025,C069,Wholesale,South,P009,Apparel,Jeans,1,82.29,53.13,In-Store,No,Flagship
+1533,11-07-2025,C059,Retail,South,P008,Furniture,Table,2,271.53,207.62,Online,No,Flagship
+1534,27-03-2025,C070,Wholesale,North,P011,Furniture,Table,2,107.95,91.46,Online,No,Flagship
+1535,01-05-2025,C099,Wholesale,South,P016,Grocery,Almonds Pack,2,121.43,84.69,In-Store,No,Outlet
+1536,07-02-2025,C064,Retail,South,P005,Grocery,Almonds Pack,10,9.73,7.83,Online,No,Web
+1537,06-06-2025,C032,Retail,South,P015,Grocery,Almonds Pack,2,260.21,160.99,In-Store,No,Web
+1538,05-06-2025,C086,Retail,West,P002,Grocery,Organic Juice,10,213.50,179.34,In-Store,No,Mobile App
+1539,08-07-2025,C001,Retail,East,P017,Furniture,Table,10,145.31,91.75,In-Store,Yes,Flagship
+1540,01-05-2025,C099,Wholesale,East,P006,Furniture,Table,3,245.32,205.05,Online,Yes,Outlet
+1541,12-02-2025,C096,Retail,West,P015,Furniture,Office Chair,3,126.29,93.70,Online,No,Mobile App
+1542,12-02-2025,C038,Wholesale,West,P001,Apparel,Jeans,1,52.41,43.77,Online,No,Web
+1543,22-04-2025,C005,Retail,West,P016,Furniture,Office Chair,3,211.04,148.69,In-Store,No,Mobile App
+1544,20-04-2025,C047,Retail,West,P010,Grocery,Almonds Pack,5,99.40,83.97,In-Store,No,Outlet
+1545,16-05-2025,C056,Retail,East,P018,Electronics,Bluetooth Speaker,2,96.73,71.05,In-Store,Yes,Outlet
+1546,17-06-2025,C073,Retail,South,P009,Apparel,T-Shirt,3,249.62,165.95,In-Store,No,Outlet
+1547,18-03-2025,C049,Wholesale,West,P007,Furniture,Table,10,179.29,110.03,Online,Yes,Mobile App
+1548,11-05-2025,C001,Retail,East,P011,Furniture,Office Chair,10,5.54,3.32,In-Store,No,Outlet
+1549,24-02-2025,C092,Retail,West,P017,Electronics,Bluetooth Speaker,10,104.17,77.52,In-Store,No,Outlet
+1550,21-04-2025,C022,Wholesale,West,P016,Furniture,Office Chair,5,32.51,22.35,Online,Yes,Outlet
+1551,19-01-2025,C042,Wholesale,East,P016,Apparel,Jeans,5,20.59,12.46,Online,No,Flagship
+1552,17-05-2025,C076,Retail,East,P010,Furniture,Table,1,108.98,85.94,In-Store,No,Outlet
+1553,14-03-2025,C050,Wholesale,North,P010,Electronics,Keyboard,10,263.62,187.68,Online,Yes,Flagship
+1554,17-04-2025,C054,Wholesale,South,P014,Electronics,Bluetooth Speaker,10,196.31,166.82,Online,No,Flagship
+1555,19-02-2025,C086,Wholesale,West,P011,Furniture,Table,10,250.64,191.54,Online,No,Mobile App
+1556,07-02-2025,C088,Retail,East,P017,Grocery,Organic Juice,3,289.04,242.54,In-Store,No,Flagship
+1557,21-03-2025,C062,Wholesale,North,P007,Furniture,Office Chair,3,16.14,10.98,Online,Yes,Flagship
+1558,19-02-2025,C032,Retail,East,P004,Electronics,Bluetooth Speaker,2,247.68,183.75,In-Store,Yes,Flagship
+1559,15-02-2025,C068,Wholesale,South,P014,Apparel,T-Shirt,1,256.88,217.04,Online,No,Web

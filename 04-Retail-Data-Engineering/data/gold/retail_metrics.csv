@@ -1,0 +1,486 @@
+Region,CustomerSegment,ProductCategory,Channel,StoreType,Year,Quarter,Month,TotalSales,TotalCost,GrossProfit,OrderCount,CustomerCount,AvgOrderValue,TotalQuantity,ProfitMargin
+East,Wholesale,Apparel,Online,Outlet,2025,1,1,497.46,333.92,163.54,1,1,497.46,2,32.88
+East,Wholesale,Apparel,In-Store,Flagship,2025,1,1,467.66,285.7,181.96,1,1,467.66,2,38.91
+East,Retail,Furniture,In-Store,Web,2025,1,1,731.02,528.68,202.34,2,2,365.51,6,27.68
+East,Wholesale,Furniture,Online,Flagship,2025,1,1,715.5,539.94,175.56,1,1,715.5,3,24.54
+East,Wholesale,Apparel,Online,Mobile App,2025,1,1,2019.4,1220.1,799.3,1,1,2019.4,10,39.58
+East,Wholesale,Grocery,In-Store,Flagship,2025,1,1,49.28,39.04,10.24,1,1,49.28,2,20.78
+East,Retail,Apparel,In-Store,Outlet,2025,1,1,72.55,50.91,21.64,1,1,72.55,1,29.83
+East,Wholesale,Electronics,In-Store,Flagship,2025,1,1,126.45,82.44,44.01,1,1,126.45,3,34.8
+East,Retail,Grocery,In-Store,Outlet,2025,1,1,581.22,490.86,90.36,1,1,581.22,3,15.55
+East,Retail,Furniture,Online,Outlet,2025,1,1,234.9,169.02,65.88,1,1,234.9,1,28.05
+East,Wholesale,Apparel,Online,Flagship,2025,1,1,102.95,62.3,40.65,1,1,102.95,5,39.49
+North,Wholesale,Furniture,Online,Mobile App,2025,1,1,133.12,94.52,38.6,1,1,133.12,1,29.0
+North,Wholesale,Furniture,Online,Outlet,2025,1,1,212.54,138.5,74.04,1,1,212.54,2,34.84
+North,Retail,Furniture,In-Store,Outlet,2025,1,1,45.8,27.54,18.26,1,1,45.8,2,39.87
+North,Wholesale,Electronics,In-Store,Flagship,2025,1,1,2488.32,1653.68,834.64,2,2,1244.16,11,33.54
+North,Wholesale,Electronics,In-Store,Outlet,2025,1,1,309.9,223.75,86.15,1,1,309.9,5,27.8
+North,Wholesale,Furniture,In-Store,Mobile App,2025,1,1,87.42,56.58,30.84,1,1,87.42,1,35.28
+North,Retail,Electronics,Online,Outlet,2025,1,1,632.3,522.9,109.4,1,1,632.3,10,17.3
+North,Wholesale,Electronics,Online,Mobile App,2025,1,1,3371.35,2226.8,1144.55,2,2,1685.67,15,33.95
+North,Wholesale,Apparel,Online,Web,2025,1,1,734.85,611.31,123.54,1,1,734.85,3,16.81
+North,Retail,Electronics,In-Store,Flagship,2025,1,1,441.96,344.6,97.36,1,1,441.96,2,22.03
+South,Wholesale,Furniture,Online,Outlet,2025,1,1,127.14,98.22,28.92,1,1,127.14,2,22.75
+South,Retail,Furniture,Online,Flagship,2025,1,1,2567.4,1717.98,849.42,2,2,1283.7,11,33.08
+South,Wholesale,Apparel,In-Store,Web,2025,1,1,549.15,385.68,163.47,1,1,549.15,3,29.77
+South,Retail,Apparel,In-Store,Mobile App,2025,1,1,89.12,66.48,22.64,1,1,89.12,1,25.4
+South,Wholesale,Furniture,Online,Web,2025,1,1,116.55,83.65,32.9,1,1,116.55,5,28.23
+South,Retail,Electronics,In-Store,Web,2025,1,1,191.93,131.8,60.13,1,1,191.93,1,31.33
+South,Retail,Grocery,In-Store,Outlet,2025,1,1,237.42,180.81,56.61,1,1,237.42,3,23.84
+South,Retail,Grocery,In-Store,Web,2025,1,1,203.56,123.04,80.52,1,1,203.56,1,39.56
+South,Wholesale,Grocery,Online,Web,2025,1,1,1406.0,856.6,549.4,1,1,1406.0,10,39.08
+South,Retail,Electronics,In-Store,Outlet,2025,1,1,1385.8,1090.9,294.9,1,1,1385.8,10,21.28
+South,Wholesale,Grocery,In-Store,Web,2025,1,1,2016.8,1661.0,355.8,1,1,2016.8,10,17.64
+South,Retail,Furniture,In-Store,Flagship,2025,1,1,698.1,539.3,158.8,1,1,698.1,10,22.75
+South,Wholesale,Furniture,Online,Mobile App,2025,1,1,157.51,125.53,31.98,1,1,157.51,1,20.3
+South,Retail,Electronics,Online,Flagship,2025,1,1,1185.8,913.15,272.65,1,1,1185.8,5,22.99
+South,Retail,Furniture,Online,Web,2025,1,1,142.39,117.05,25.34,1,1,142.39,1,17.8
+South,Wholesale,Grocery,In-Store,Outlet,2025,1,1,553.8,429.16,124.64,1,1,553.8,2,22.51
+South,Wholesale,Electronics,In-Store,Outlet,2025,1,1,78.36,50.38,27.98,1,1,78.36,2,35.71
+West,Retail,Apparel,In-Store,Flagship,2025,1,1,177.24,125.86,51.38,1,1,177.24,1,28.99
+West,Wholesale,Furniture,Online,Web,2025,1,1,56.94,43.68,13.26,1,1,56.94,2,23.29
+West,Retail,Furniture,In-Store,Flagship,2025,1,1,2937.9,2321.6,616.3,1,1,2937.9,10,20.98
+West,Wholesale,Apparel,In-Store,Outlet,2025,1,1,59.25,50.05,9.2,1,1,59.25,1,15.53
+West,Retail,Electronics,In-Store,Web,2025,1,1,1056.81,666.58,390.23,2,2,528.4,4,36.93
+West,Wholesale,Furniture,In-Store,Mobile App,2025,1,1,1133.6,786.2,347.4,1,1,1133.6,5,30.65
+West,Wholesale,Apparel,In-Store,Mobile App,2025,1,1,231.78,140.12,91.66,1,1,231.78,2,39.55
+West,Retail,Furniture,Online,Mobile App,2025,1,1,565.82,457.02,108.8,1,1,565.82,2,19.23
+West,Retail,Grocery,In-Store,Flagship,2025,1,1,26.38,18.94,7.44,1,1,26.38,2,28.2
+West,Retail,Grocery,Online,Outlet,2025,1,1,3155.64,2389.12,766.52,2,2,1577.82,13,24.29
+West,Retail,Electronics,In-Store,Mobile App,2025,1,1,638.45,409.5,228.95,1,1,638.45,5,35.86
+West,Retail,Grocery,Online,Mobile App,2025,1,1,583.06,450.82,132.24,1,1,583.06,2,22.68
+West,Wholesale,Apparel,In-Store,Web,2025,1,1,935.95,774.15,161.8,1,1,935.95,5,17.29
+East,Wholesale,Electronics,Online,Outlet,2025,1,2,593.12,410.56,182.56,1,1,593.12,2,30.78
+East,Retail,Apparel,Online,Mobile App,2025,1,2,85.95,53.35,32.6,1,1,85.95,5,37.93
+East,Retail,Grocery,In-Store,Flagship,2025,1,2,1037.18,848.18,189.0,2,2,518.59,4,18.22
+East,Retail,Furniture,In-Store,Mobile App,2025,1,2,621.66,380.64,241.02,1,1,621.66,3,38.77
+East,Wholesale,Grocery,Online,Mobile App,2025,1,2,870.65,570.2,300.45,1,1,870.65,5,34.51
+East,Wholesale,Electronics,In-Store,Web,2025,1,2,125.07,82.71,42.36,1,1,125.07,3,33.87
+East,Retail,Grocery,In-Store,Web,2025,1,2,313.62,214.74,98.88,1,1,313.62,2,31.53
+East,Wholesale,Electronics,Online,Web,2025,1,2,457.56,280.06,177.5,1,1,457.56,2,38.79
+East,Wholesale,Furniture,In-Store,Outlet,2025,1,2,536.3,337.1,199.2,1,1,536.3,5,37.14
+East,Wholesale,Apparel,Online,Web,2025,1,2,495.14,374.72,120.42,1,1,495.14,2,24.32
+East,Retail,Furniture,In-Store,Outlet,2025,1,2,534.82,342.34,192.48,1,1,534.82,2,35.99
+East,Retail,Apparel,Online,Flagship,2025,1,2,243.2,166.84,76.36,1,1,243.2,1,31.4
+East,Retail,Grocery,Online,Web,2025,1,2,315.16,210.82,104.34,1,1,315.16,2,33.11
+East,Wholesale,Apparel,Online,Mobile App,2025,1,2,1995.8,1620.4,375.4,1,1,1995.8,10,18.81
+East,Retail,Electronics,In-Store,Mobile App,2025,1,2,11.52,9.45,2.07,1,1,11.52,1,17.97
+East,Retail,Furniture,Online,Flagship,2025,1,2,2951.4,1821.3,1130.1,1,1,2951.4,10,38.29
+East,Retail,Furniture,Online,Mobile App,2025,1,2,1649.21,1213.99,435.22,2,2,824.61,7,26.39
+East,Retail,Grocery,Online,Flagship,2025,1,2,814.17,498.57,315.6,1,1,814.17,3,38.76
+East,Wholesale,Grocery,Online,Web,2025,1,2,234.54,163.62,70.92,1,1,234.54,3,30.24
+East,Retail,Electronics,Online,Outlet,2025,1,2,98.42,64.86,33.56,1,1,98.42,1,34.1
+East,Retail,Electronics,In-Store,Flagship,2025,1,2,495.36,367.5,127.86,1,1,495.36,2,25.81
+North,Wholesale,Furniture,Online,Flagship,2025,1,2,155.29,94.57,60.72,1,1,155.29,1,39.1
+North,Retail,Furniture,In-Store,Outlet,2025,1,2,1171.95,837.65,334.3,1,1,1171.95,5,28.53
+North,Retail,Grocery,Online,Mobile App,2025,1,2,203.43,141.12,62.31,1,1,203.43,3,30.63
+North,Retail,Apparel,In-Store,Outlet,2025,1,2,846.53,628.16,218.37,2,2,423.26,5,25.8
+North,Wholesale,Furniture,Online,Outlet,2025,1,2,205.18,153.94,51.24,1,1,205.18,2,24.97
+North,Wholesale,Grocery,In-Store,Outlet,2025,1,2,2468.7,2072.6,396.1,1,1,2468.7,10,16.04
+North,Wholesale,Apparel,Online,Web,2025,1,2,611.55,419.7,191.85,1,1,611.55,5,31.37
+North,Wholesale,Electronics,Online,Mobile App,2025,1,2,661.31,526.91,134.4,2,2,330.65,11,20.32
+North,Wholesale,Electronics,In-Store,Outlet,2025,1,2,1139.95,901.65,238.3,1,1,1139.95,5,20.9
+North,Wholesale,Electronics,In-Store,Flagship,2025,1,2,527.36,418.22,109.14,1,1,527.36,2,20.7
+North,Wholesale,Grocery,In-Store,Mobile App,2025,1,2,2735.0,1880.9,854.1,1,1,2735.0,10,31.23
+North,Wholesale,Electronics,In-Store,Mobile App,2025,1,2,922.7,577.8,344.9,1,1,922.7,5,37.38
+North,Retail,Electronics,In-Store,Web,2025,1,2,37.43,29.45,7.98,1,1,37.43,1,21.32
+North,Wholesale,Grocery,Online,Outlet,2025,1,2,574.32,393.34,180.98,1,1,574.32,2,31.51
+North,Wholesale,Furniture,Online,Mobile App,2025,1,2,212.78,130.76,82.02,1,1,212.78,1,38.55
+North,Wholesale,Electronics,Online,Outlet,2025,1,2,433.6,292.95,140.65,1,1,433.6,5,32.44
+North,Wholesale,Electronics,Online,Web,2025,1,2,201.8,154.2,47.6,1,1,201.8,10,23.59
+North,Retail,Furniture,Online,Web,2025,1,2,18.2,13.5,4.7,1,1,18.2,2,25.82
+North,Retail,Furniture,In-Store,Web,2025,1,2,179.58,121.14,58.44,1,1,179.58,3,32.54
+North,Wholesale,Apparel,Online,Mobile App,2025,1,2,1402.2,1042.3,359.9,1,1,1402.2,10,25.67
+North,Retail,Furniture,Online,Outlet,2025,1,2,872.2,651.1,221.1,1,1,872.2,10,25.35
+North,Wholesale,Electronics,In-Store,Web,2025,1,2,275.7,219.4,56.3,1,1,275.7,10,20.42
+South,Retail,Furniture,Online,Flagship,2025,1,2,884.55,653.9,230.65,1,1,884.55,5,26.08
+South,Wholesale,Grocery,Online,Web,2025,1,2,1525.5,1242.8,282.7,1,1,1525.5,10,18.53
+South,Wholesale,Electronics,In-Store,Mobile App,2025,1,2,2745.9,1943.1,802.8,2,2,1372.95,15,29.24
+South,Wholesale,Grocery,Online,Mobile App,2025,1,2,783.31,561.96,221.35,2,2,391.65,5,28.26
+South,Wholesale,Grocery,Online,Flagship,2025,1,2,360.6,239.73,120.87,1,1,360.6,3,33.52
+South,Retail,Grocery,Online,Outlet,2025,1,2,190.35,131.8,58.55,1,1,190.35,5,30.76
+South,Retail,Grocery,Online,Flagship,2025,1,2,2366.3,1699.15,667.15,2,2,1183.15,10,28.19
+South,Retail,Furniture,Online,Mobile App,2025,1,2,1169.75,831.75,338.0,1,1,1169.75,5,28.9
+South,Retail,Grocery,In-Store,Web,2025,1,2,187.26,113.21,74.05,1,1,187.26,1,39.54
+South,Retail,Electronics,Online,Outlet,2025,1,2,54.51,35.55,18.96,1,1,54.51,3,34.78
+South,Wholesale,Apparel,In-Store,Flagship,2025,1,2,1148.35,731.7,416.65,2,2,574.17,15,36.28
+South,Retail,Furniture,In-Store,Outlet,2025,1,2,52.67,35.04,17.63,1,1,52.67,1,33.47
+South,Wholesale,Furniture,In-Store,Mobile App,2025,1,2,495.78,314.91,180.87,1,1,495.78,3,36.48
+South,Retail,Apparel,In-Store,Web,2025,1,2,45.03,27.28,17.75,1,1,45.03,1,39.42
+South,Wholesale,Grocery,In-Store,Web,2025,1,2,100.76,74.16,26.6,1,1,100.76,2,26.4
+South,Wholesale,Apparel,Online,Outlet,2025,1,2,265.07,204.43,60.64,1,1,265.07,1,22.88
+South,Wholesale,Apparel,Online,Flagship,2025,1,2,292.26,191.3,100.96,1,1,292.26,2,34.54
+South,Retail,Grocery,Online,Web,2025,1,2,97.3,78.3,19.0,1,1,97.3,10,19.53
+South,Wholesale,Apparel,Online,Web,2025,1,2,256.88,217.04,39.84,1,1,256.88,1,15.51
+West,Retail,Furniture,In-Store,Mobile App,2025,1,2,1353.85,831.35,522.5,1,1,1353.85,5,38.59
+West,Wholesale,Apparel,Online,Web,2025,1,2,344.15,252.99,91.16,2,2,172.07,3,26.49
+West,Wholesale,Furniture,Online,Flagship,2025,1,2,2937.2,2389.8,547.4,1,1,2937.2,10,18.64
+West,Retail,Grocery,Online,Outlet,2025,1,2,176.98,138.59,38.39,1,1,176.98,1,21.69
+West,Retail,Furniture,Online,Flagship,2025,1,2,800.7,484.9,315.8,1,1,800.7,5,39.44
+West,Retail,Grocery,In-Store,Mobile App,2025,1,2,1972.8,1396.8,576.0,1,1,1972.8,10,29.2
+West,Retail,Furniture,In-Store,Flagship,2025,1,2,931.87,678.52,253.35,2,2,465.94,8,27.19
+West,Wholesale,Apparel,In-Store,Flagship,2025,1,2,87.93,53.79,34.14,1,1,87.93,3,38.83
+West,Wholesale,Grocery,Online,Web,2025,1,2,776.34,625.17,151.17,1,1,776.34,3,19.47
+West,Wholesale,Grocery,Online,Flagship,2025,1,2,311.5,243.1,68.4,1,1,311.5,5,21.96
+West,Wholesale,Electronics,In-Store,Mobile App,2025,1,2,24.42,16.95,7.47,1,1,24.42,1,30.59
+West,Retail,Furniture,In-Store,Outlet,2025,1,2,290.36,214.51,75.85,1,1,290.36,1,26.12
+West,Wholesale,Apparel,In-Store,Web,2025,1,2,275.34,209.52,65.82,1,1,275.34,3,23.9
+West,Wholesale,Furniture,Online,Outlet,2025,1,2,298.2,217.5,80.7,1,1,298.2,5,27.06
+West,Retail,Electronics,In-Store,Outlet,2025,1,2,1216.56,885.23,331.33,2,1,608.28,11,27.23
+West,Retail,Furniture,Online,Mobile App,2025,1,2,378.87,281.1,97.77,1,1,378.87,3,25.81
+West,Wholesale,Furniture,Online,Mobile App,2025,1,2,2506.4,1915.4,591.0,1,1,2506.4,10,23.58
+East,Retail,Furniture,In-Store,Web,2025,1,3,1101.79,812.62,289.17,2,2,550.89,7,26.25
+East,Retail,Electronics,In-Store,Outlet,2025,1,3,90.73,54.55,36.18,1,1,90.73,1,39.88
+East,Retail,Furniture,Online,Mobile App,2025,1,3,273.26,187.23,86.03,1,1,273.26,1,31.48
+East,Retail,Apparel,Online,Outlet,2025,1,3,283.85,171.45,112.4,1,1,283.85,1,39.6
+East,Wholesale,Furniture,In-Store,Outlet,2025,1,3,22.69,13.65,9.04,1,1,22.69,1,39.84
+East,Wholesale,Grocery,Online,Mobile App,2025,1,3,772.4,652.1,120.3,1,1,772.4,5,15.57
+East,Retail,Furniture,In-Store,Mobile App,2025,1,3,1291.2,1040.2,251.0,1,1,1291.2,10,19.44
+East,Wholesale,Apparel,In-Store,Outlet,2025,1,3,40.08,25.98,14.1,1,1,40.08,3,35.18
+East,Wholesale,Grocery,Online,Flagship,2025,1,3,430.6,300.54,130.06,1,1,430.6,2,30.2
+East,Wholesale,Electronics,Online,Flagship,2025,1,3,686.76,485.43,201.33,1,1,686.76,3,29.32
+East,Wholesale,Apparel,In-Store,Web,2025,1,3,236.02,190.16,45.86,1,1,236.02,2,19.43
+East,Wholesale,Electronics,Online,Mobile App,2025,1,3,57.54,46.65,10.89,1,1,57.54,1,18.93
+East,Retail,Furniture,Online,Outlet,2025,1,3,208.74,147.98,60.76,1,1,208.74,1,29.11
+East,Retail,Apparel,In-Store,Outlet,2025,1,3,342.7,266.2,76.5,1,1,342.7,5,22.32
+East,Wholesale,Electronics,In-Store,Mobile App,2025,1,3,201.34,134.11,67.23,1,1,201.34,1,33.39
+East,Retail,Electronics,In-Store,Flagship,2025,1,3,273.0,165.4,107.6,1,1,273.0,10,39.41
+East,Retail,Apparel,In-Store,Mobile App,2025,1,3,1343.4,818.2,525.2,1,1,1343.4,5,39.09
+East,Wholesale,Furniture,Online,Web,2025,1,3,99.64,62.2,37.44,1,1,99.64,1,37.58
+North,Retail,Apparel,Online,Web,2025,1,3,1231.31,810.05,421.26,2,2,615.65,5,34.21
+North,Retail,Apparel,Online,Flagship,2025,1,3,589.24,475.14,114.1,1,1,589.24,2,19.36
+North,Retail,Furniture,In-Store,Flagship,2025,1,3,483.64,333.26,150.38,1,1,483.64,2,31.09
+North,Retail,Electronics,Online,Mobile App,2025,1,3,495.94,394.66,101.28,1,1,495.94,2,20.42
+North,Wholesale,Electronics,In-Store,Outlet,2025,1,3,2943.5,2382.2,561.3,1,1,2943.5,10,19.07
+North,Wholesale,Apparel,In-Store,Mobile App,2025,1,3,435.86,336.82,99.04,1,1,435.86,2,22.72
+North,Retail,Electronics,Online,Web,2025,1,3,518.75,398.45,120.3,1,1,518.75,5,23.19
+North,Retail,Grocery,Online,Flagship,2025,1,3,144.08,105.05,39.03,2,2,72.04,3,27.09
+North,Wholesale,Apparel,Online,Outlet,2025,1,3,863.73,663.6,200.13,1,1,863.73,3,23.17
+North,Retail,Grocery,In-Store,Flagship,2025,1,3,235.01,179.47,55.54,1,1,235.01,1,23.63
+North,Wholesale,Electronics,Online,Flagship,2025,1,3,4789.5,3465.3,1324.2,2,2,2394.75,20,27.65
+North,Retail,Apparel,Online,Outlet,2025,1,3,2293.2,1669.3,623.9,1,1,2293.2,10,27.21
+North,Retail,Electronics,In-Store,Web,2025,1,3,91.96,72.34,19.62,1,1,91.96,1,21.34
+North,Retail,Grocery,In-Store,Web,2025,1,3,310.28,230.5,79.78,1,1,310.28,2,25.71
+North,Retail,Furniture,Online,Outlet,2025,1,3,194.61,136.2,58.41,1,1,194.61,3,30.01
+North,Wholesale,Grocery,In-Store,Outlet,2025,1,3,122.62,97.74,24.88,1,1,122.62,2,20.29
+North,Wholesale,Grocery,In-Store,Flagship,2025,1,3,637.02,416.55,220.47,1,1,637.02,3,34.61
+North,Wholesale,Furniture,Online,Flagship,2025,1,3,310.97,254.08,56.89,3,3,103.66,8,18.29
+South,Wholesale,Apparel,Online,Web,2025,1,3,770.58,594.99,175.59,1,1,770.58,3,22.79
+South,Retail,Furniture,Online,Web,2025,1,3,437.78,349.98,87.8,1,1,437.78,2,20.06
+South,Retail,Electronics,In-Store,Web,2025,1,3,233.6,161.34,72.26,1,1,233.6,2,30.93
+South,Wholesale,Grocery,Online,Flagship,2025,1,3,2148.8,1808.3,340.5,1,1,2148.8,10,15.85
+South,Wholesale,Apparel,In-Store,Web,2025,1,3,776.94,655.59,121.35,1,1,776.94,3,15.62
+South,Retail,Electronics,Online,Web,2025,1,3,1132.1,902.8,229.3,1,1,1132.1,10,20.25
+South,Retail,Electronics,Online,Outlet,2025,1,3,398.3,273.7,124.6,1,1,398.3,10,31.28
+South,Wholesale,Furniture,In-Store,Flagship,2025,1,3,1535.41,1277.74,257.67,2,2,767.71,8,16.78
+South,Wholesale,Electronics,In-Store,Web,2025,1,3,309.94,199.78,110.16,1,1,309.94,2,35.54
+South,Wholesale,Furniture,Online,Web,2025,1,3,814.4,543.7,270.7,1,1,814.4,5,33.24
+South,Retail,Grocery,In-Store,Outlet,2025,1,3,53.51,37.13,16.38,1,1,53.51,1,30.61
+South,Retail,Grocery,Online,Web,2025,1,3,154.32,129.16,25.16,1,1,154.32,2,16.3
+South,Retail,Furniture,Online,Outlet,2025,1,3,525.48,342.84,182.64,1,1,525.48,3,34.76
+South,Retail,Furniture,In-Store,Flagship,2025,1,3,1484.5,1215.8,268.7,1,1,1484.5,10,18.1
+West,Wholesale,Apparel,In-Store,Flagship,2025,1,3,307.02,252.7,54.32,1,1,307.02,2,17.69
+West,Wholesale,Apparel,In-Store,Mobile App,2025,1,3,543.1,460.8,82.3,1,1,543.1,5,15.15
+West,Retail,Apparel,In-Store,Mobile App,2025,1,3,334.53,251.19,83.34,1,1,334.53,3,24.91
+West,Wholesale,Furniture,Online,Outlet,2025,1,3,1074.2,794.8,279.4,1,1,1074.2,10,26.01
+West,Retail,Furniture,In-Store,Flagship,2025,1,3,286.74,179.4,107.34,1,1,286.74,2,37.43
+West,Wholesale,Grocery,In-Store,Mobile App,2025,1,3,155.3,112.53,42.77,1,1,155.3,1,27.54
+West,Retail,Apparel,Online,Flagship,2025,1,3,103.63,75.51,28.12,1,1,103.63,1,27.13
+West,Retail,Apparel,In-Store,Outlet,2025,1,3,349.55,268.25,81.3,1,1,349.55,5,23.26
+West,Wholesale,Electronics,Online,Flagship,2025,1,3,89.66,63.62,26.04,1,1,89.66,1,29.04
+West,Retail,Electronics,In-Store,Mobile App,2025,1,3,876.45,713.76,162.69,1,1,876.45,3,18.56
+West,Wholesale,Apparel,In-Store,Outlet,2025,1,3,224.63,149.17,75.46,1,1,224.63,1,33.59
+West,Wholesale,Grocery,Online,Web,2025,1,3,77.71,64.24,13.47,1,1,77.71,1,17.33
+West,Wholesale,Apparel,Online,Outlet,2025,1,3,2538.0,1846.8,691.2,1,1,2538.0,10,27.23
+West,Wholesale,Furniture,Online,Mobile App,2025,1,3,1792.9,1100.3,692.6,1,1,1792.9,10,38.63
+East,Wholesale,Electronics,In-Store,Mobile App,2025,2,4,1064.8,755.3,309.5,1,1,1064.8,10,29.07
+East,Retail,Grocery,In-Store,Mobile App,2025,2,4,848.15,683.25,164.9,1,1,848.15,5,19.44
+East,Wholesale,Electronics,In-Store,Flagship,2025,2,4,311.53,241.39,70.14,2,2,155.76,2,22.51
+East,Retail,Apparel,Online,Outlet,2025,2,4,305.16,213.34,91.82,1,1,305.16,2,30.09
+East,Retail,Electronics,Online,Mobile App,2025,2,4,836.4,698.0,138.4,1,1,836.4,10,16.55
+East,Retail,Apparel,Online,Flagship,2025,2,4,571.51,363.31,208.2,2,2,285.75,3,36.43
+East,Wholesale,Apparel,In-Store,Flagship,2025,2,4,512.24,429.9,82.34,1,1,512.24,2,16.07
+East,Wholesale,Furniture,Online,Outlet,2025,2,4,302.05,185.25,116.8,1,1,302.05,5,38.67
+East,Retail,Furniture,In-Store,Web,2025,2,4,190.63,158.22,32.41,1,1,190.63,1,17.0
+East,Wholesale,Electronics,Online,Flagship,2025,2,4,81.47,54.37,27.1,1,1,81.47,1,33.26
+East,Retail,Grocery,Online,Outlet,2025,2,4,452.66,279.42,173.24,1,1,452.66,2,38.27
+East,Wholesale,Apparel,In-Store,Mobile App,2025,2,4,1349.4,901.9,447.5,1,1,1349.4,10,33.16
+East,Wholesale,Furniture,Online,Web,2025,2,4,1763.8,1203.4,560.4,1,1,1763.8,10,31.77
+East,Wholesale,Apparel,In-Store,Web,2025,2,4,790.95,515.37,275.58,2,2,395.48,6,34.84
+East,Wholesale,Furniture,Online,Mobile App,2025,2,4,1365.6,1138.1,227.5,1,1,1365.6,10,16.66
+East,Wholesale,Apparel,Online,Flagship,2025,2,4,90.15,74.25,15.9,1,1,90.15,3,17.64
+East,Wholesale,Apparel,Online,Web,2025,2,4,294.76,219.92,74.84,1,1,294.76,2,25.39
+East,Retail,Furniture,In-Store,Outlet,2025,2,4,216.3,168.65,47.65,1,1,216.3,5,22.03
+East,Retail,Furniture,In-Store,Mobile App,2025,2,4,36.86,31.33,5.53,1,1,36.86,1,15.0
+East,Wholesale,Grocery,Online,Outlet,2025,2,4,753.36,564.87,188.49,1,1,753.36,3,25.02
+North,Wholesale,Apparel,Online,Outlet,2025,2,4,63.78,49.66,14.12,1,1,63.78,2,22.14
+North,Wholesale,Grocery,Online,Mobile App,2025,2,4,1197.6,895.55,302.05,1,1,1197.6,5,25.22
+North,Retail,Apparel,In-Store,Web,2025,2,4,2238.24,1467.34,770.9,2,2,1119.12,12,34.44
+North,Wholesale,Apparel,Online,Mobile App,2025,2,4,1135.52,732.09,403.43,2,2,567.76,7,35.53
+North,Wholesale,Grocery,Online,Flagship,2025,2,4,424.22,292.46,131.76,1,1,424.22,2,31.06
+North,Retail,Electronics,In-Store,Web,2025,2,4,263.01,200.69,62.32,2,2,131.5,3,23.69
+North,Retail,Grocery,In-Store,Mobile App,2025,2,4,388.68,262.02,126.66,1,1,388.68,2,32.59
+North,Retail,Furniture,In-Store,Outlet,2025,2,4,1026.65,806.6,220.05,1,1,1026.65,5,21.43
+North,Wholesale,Grocery,In-Store,Web,2025,2,4,2756.82,1670.57,1086.25,2,2,1378.41,13,39.4
+North,Retail,Grocery,In-Store,Outlet,2025,2,4,89.35,67.0,22.35,2,2,44.67,8,25.01
+North,Retail,Electronics,Online,Web,2025,2,4,144.4,121.3,23.1,1,1,144.4,2,16.0
+North,Wholesale,Furniture,Online,Outlet,2025,2,4,2163.6,1552.4,611.2,1,1,2163.6,10,28.25
+North,Wholesale,Furniture,Online,Mobile App,2025,2,4,128.04,102.04,26.0,1,1,128.04,1,20.31
+North,Wholesale,Grocery,In-Store,Outlet,2025,2,4,249.5,193.94,55.56,1,1,249.5,2,22.27
+North,Wholesale,Apparel,Online,Flagship,2025,2,4,1178.7,813.5,365.2,1,1,1178.7,5,30.98
+North,Retail,Grocery,Online,Outlet,2025,2,4,239.6,191.65,47.95,1,1,239.6,5,20.01
+North,Retail,Apparel,Online,Web,2025,2,4,2738.6,1707.9,1030.7,1,1,2738.6,10,37.64
+North,Wholesale,Apparel,Online,Web,2025,2,4,798.5,535.2,263.3,1,1,798.5,5,32.97
+South,Retail,Electronics,Online,Outlet,2025,2,4,261.72,195.96,65.76,1,1,261.72,3,25.13
+South,Wholesale,Electronics,In-Store,Web,2025,2,4,279.88,170.18,109.7,1,1,279.88,1,39.2
+South,Wholesale,Furniture,Online,Mobile App,2025,2,4,2065.26,1581.21,484.05,3,3,688.42,13,23.44
+South,Retail,Furniture,Online,Web,2025,2,4,304.42,256.5,47.92,1,1,304.42,2,15.74
+South,Wholesale,Electronics,Online,Web,2025,2,4,1269.56,924.88,344.68,3,3,423.19,14,27.15
+South,Wholesale,Apparel,In-Store,Flagship,2025,2,4,468.32,285.78,182.54,1,1,468.32,2,38.98
+South,Wholesale,Grocery,Online,Mobile App,2025,2,4,591.48,377.3,214.18,1,1,591.48,2,36.21
+South,Wholesale,Furniture,Online,Outlet,2025,2,4,2074.17,1604.67,469.5,2,2,1037.09,8,22.64
+South,Wholesale,Grocery,In-Store,Web,2025,2,4,26.54,18.62,7.92,1,1,26.54,1,29.84
+South,Wholesale,Grocery,In-Store,Outlet,2025,2,4,11.92,9.16,2.76,1,1,11.92,2,23.15
+South,Wholesale,Apparel,Online,Flagship,2025,2,4,462.21,300.72,161.49,1,1,462.21,3,34.94
+South,Retail,Furniture,In-Store,Web,2025,2,4,1322.4,1099.15,223.25,1,1,1322.4,5,16.88
+South,Retail,Apparel,In-Store,Outlet,2025,2,4,949.6,611.7,337.9,1,1,949.6,10,35.58
+South,Retail,Furniture,Online,Outlet,2025,2,4,1302.15,811.3,490.85,1,1,1302.15,5,37.7
+South,Retail,Furniture,In-Store,Outlet,2025,2,4,296.69,246.33,50.36,1,1,296.69,1,16.97
+South,Wholesale,Apparel,In-Store,Mobile App,2025,2,4,1181.15,826.65,354.5,1,1,1181.15,5,30.01
+South,Wholesale,Electronics,Online,Flagship,2025,2,4,1963.1,1668.2,294.9,1,1,1963.1,10,15.02
+West,Retail,Furniture,Online,Mobile App,2025,2,4,81.36,62.07,19.29,1,1,81.36,3,23.71
+West,Retail,Apparel,In-Store,Flagship,2025,2,4,445.28,304.81,140.47,2,2,222.64,4,31.55
+West,Wholesale,Apparel,Online,Outlet,2025,2,4,1096.95,810.87,286.08,2,2,548.48,6,26.08
+West,Retail,Furniture,Online,Flagship,2025,2,4,59.46,45.6,13.86,1,1,59.46,3,23.31
+West,Wholesale,Grocery,Online,Web,2025,2,4,1590.9,1208.7,382.2,1,1,1590.9,10,24.02
+West,Wholesale,Furniture,In-Store,Flagship,2025,2,4,437.46,370.5,66.96,1,1,437.46,3,15.31
+West,Wholesale,Apparel,Online,Mobile App,2025,2,4,252.33,179.1,73.23,1,1,252.33,3,29.02
+West,Wholesale,Grocery,Online,Mobile App,2025,2,4,200.91,160.41,40.5,2,2,100.45,6,20.16
+West,Wholesale,Electronics,Online,Outlet,2025,2,4,77.01,47.06,29.95,1,1,77.01,1,38.89
+West,Retail,Furniture,In-Store,Outlet,2025,2,4,721.38,471.06,250.32,1,1,721.38,3,34.7
+West,Wholesale,Furniture,In-Store,Outlet,2025,2,4,2029.9,1725.1,304.8,1,1,2029.9,10,15.02
+West,Retail,Grocery,In-Store,Outlet,2025,2,4,2763.8,2236.35,527.45,2,2,1381.9,15,19.08
+West,Wholesale,Apparel,In-Store,Outlet,2025,2,4,2707.0,1838.2,868.8,1,1,2707.0,10,32.09
+West,Wholesale,Grocery,In-Store,Outlet,2025,2,4,262.11,177.45,84.66,1,1,262.11,3,32.3
+West,Wholesale,Grocery,Online,Outlet,2025,2,4,1331.48,933.16,398.32,2,2,665.74,12,29.92
+West,Retail,Furniture,In-Store,Flagship,2025,2,4,1496.49,958.22,538.27,2,2,748.25,7,35.97
+West,Wholesale,Furniture,Online,Outlet,2025,2,4,878.23,571.17,307.06,2,2,439.12,8,34.96
+West,Retail,Apparel,In-Store,Outlet,2025,2,4,570.14,358.6,211.54,1,1,570.14,2,37.1
+West,Wholesale,Electronics,In-Store,Mobile App,2025,2,4,5.78,4.87,0.91,1,1,5.78,1,15.74
+West,Wholesale,Furniture,In-Store,Web,2025,2,4,274.1,226.26,47.84,1,1,274.1,2,17.45
+West,Retail,Grocery,Online,Outlet,2025,2,4,2646.9,1891.6,755.3,1,1,2646.9,10,28.54
+West,Wholesale,Furniture,Online,Mobile App,2025,2,4,44.78,28.6,16.18,1,1,44.78,1,36.13
+West,Retail,Electronics,Online,Outlet,2025,2,4,999.3,739.55,259.75,1,1,999.3,5,25.99
+West,Retail,Furniture,In-Store,Mobile App,2025,2,4,633.12,446.07,187.05,1,1,633.12,3,29.54
+East,Retail,Grocery,In-Store,Mobile App,2025,2,5,311.54,215.5,96.04,1,1,311.54,2,30.83
+East,Retail,Furniture,In-Store,Web,2025,2,5,1064.95,744.95,320.0,1,1,1064.95,5,30.05
+East,Retail,Electronics,Online,Web,2025,2,5,376.98,274.38,102.6,1,1,376.98,2,27.22
+East,Wholesale,Grocery,Online,Mobile App,2025,2,5,33.48,22.58,10.9,1,1,33.48,2,32.56
+East,Wholesale,Furniture,In-Store,Mobile App,2025,2,5,311.95,200.4,111.55,1,1,311.95,5,35.76
+East,Retail,Apparel,Online,Mobile App,2025,2,5,330.89,251.56,79.33,2,2,165.44,6,23.97
+East,Wholesale,Apparel,Online,Web,2025,2,5,462.3,371.2,91.1,1,1,462.3,10,19.71
+East,Retail,Electronics,Online,Outlet,2025,2,5,427.44,345.58,81.86,1,1,427.44,2,19.15
+East,Wholesale,Electronics,Online,Web,2025,2,5,3227.9,2276.7,951.2,2,2,1613.95,15,29.47
+East,Retail,Apparel,Online,Web,2025,2,5,433.35,340.15,93.2,1,1,433.35,5,21.51
+East,Retail,Apparel,In-Store,Flagship,2025,2,5,36.0,23.62,12.38,1,1,36.0,1,34.39
+East,Wholesale,Apparel,Online,Mobile App,2025,2,5,426.24,348.84,77.4,1,1,426.24,3,18.16
+East,Retail,Furniture,In-Store,Mobile App,2025,2,5,1219.15,997.25,221.9,1,1,1219.15,5,18.2
+East,Retail,Electronics,Online,Mobile App,2025,2,5,2003.6,1611.9,391.7,1,1,2003.6,10,19.55
+East,Wholesale,Apparel,In-Store,Flagship,2025,2,5,95.45,67.7,27.75,1,1,95.45,5,29.07
+East,Retail,Grocery,In-Store,Web,2025,2,5,999.92,729.48,270.44,3,3,333.31,6,27.05
+East,Wholesale,Furniture,Online,Mobile App,2025,2,5,2760.3,2175.6,584.7,1,1,2760.3,10,21.18
+East,Wholesale,Apparel,In-Store,Mobile App,2025,2,5,568.11,437.06,131.05,2,2,284.06,7,23.07
+East,Wholesale,Grocery,Online,Flagship,2025,2,5,90.33,56.07,34.26,1,1,90.33,3,37.93
+East,Retail,Electronics,Online,Flagship,2025,2,5,41.48,28.74,12.74,1,1,41.48,2,30.71
+East,Retail,Apparel,In-Store,Web,2025,2,5,314.02,238.73,75.29,2,2,157.01,6,23.98
+East,Wholesale,Apparel,In-Store,Outlet,2025,2,5,742.55,473.95,268.6,1,1,742.55,5,36.17
+East,Wholesale,Grocery,In-Store,Outlet,2025,2,5,2334.1,1956.5,377.6,1,1,2334.1,10,16.18
+East,Wholesale,Grocery,In-Store,Flagship,2025,2,5,916.6,599.2,317.4,1,1,916.6,10,34.63
+East,Wholesale,Electronics,Online,Mobile App,2025,2,5,238.52,173.71,64.81,2,2,119.26,4,27.17
+East,Retail,Grocery,In-Store,Flagship,2025,2,5,1427.85,1185.35,242.5,1,1,1427.85,5,16.98
+East,Wholesale,Furniture,Online,Outlet,2025,2,5,735.96,615.15,120.81,1,1,735.96,3,16.42
+East,Retail,Electronics,In-Store,Outlet,2025,2,5,193.46,142.1,51.36,1,1,193.46,2,26.55
+East,Retail,Furniture,In-Store,Outlet,2025,2,5,164.38,119.14,45.24,2,2,82.19,11,27.52
+North,Wholesale,Apparel,In-Store,Flagship,2025,2,5,236.0,151.3,84.7,1,1,236.0,10,35.89
+North,Retail,Grocery,Online,Web,2025,2,5,193.95,133.26,60.69,1,1,193.95,3,31.29
+North,Wholesale,Furniture,Online,Mobile App,2025,2,5,262.3,179.32,82.98,1,1,262.3,1,31.64
+North,Wholesale,Electronics,Online,Flagship,2025,2,5,257.7,205.18,52.52,1,1,257.7,2,20.38
+North,Wholesale,Apparel,Online,Flagship,2025,2,5,169.98,118.99,50.99,1,1,169.98,1,30.0
+North,Wholesale,Electronics,Online,Mobile App,2025,2,5,2214.6,1571.8,642.8,1,1,2214.6,10,29.03
+North,Retail,Apparel,Online,Mobile App,2025,2,5,2622.06,2181.1,440.96,2,2,1311.03,12,16.82
+North,Retail,Grocery,In-Store,Flagship,2025,2,5,832.6,633.4,199.2,1,1,832.6,10,23.93
+North,Retail,Furniture,Online,Mobile App,2025,2,5,2211.4,1473.6,737.8,1,1,2211.4,10,33.36
+North,Retail,Grocery,Online,Flagship,2025,2,5,510.64,406.8,103.84,1,1,510.64,2,20.34
+North,Wholesale,Electronics,Online,Web,2025,2,5,105.24,66.57,38.67,1,1,105.24,1,36.74
+North,Retail,Electronics,Online,Mobile App,2025,2,5,489.85,347.9,141.95,1,1,489.85,5,28.98
+North,Retail,Grocery,Online,Mobile App,2025,2,5,1551.22,958.1,593.12,2,2,775.61,7,38.24
+North,Retail,Grocery,Online,Outlet,2025,2,5,207.78,134.61,73.17,1,1,207.78,3,35.22
+North,Retail,Electronics,Online,Outlet,2025,2,5,2884.5,2254.2,630.3,1,1,2884.5,10,21.85
+North,Retail,Furniture,In-Store,Mobile App,2025,2,5,506.82,338.82,168.0,1,1,506.82,3,33.15
+North,Wholesale,Furniture,In-Store,Flagship,2025,2,5,243.9,168.24,75.66,1,1,243.9,2,31.02
+North,Wholesale,Electronics,In-Store,Flagship,2025,2,5,719.37,449.25,270.12,1,1,719.37,3,37.55
+South,Wholesale,Apparel,Online,Flagship,2025,2,5,151.51,93.41,58.1,1,1,151.51,1,38.35
+South,Wholesale,Furniture,Online,Flagship,2025,2,5,42.98,35.32,7.66,1,1,42.98,2,17.82
+South,Wholesale,Apparel,In-Store,Mobile App,2025,2,5,253.3,196.0,57.3,1,1,253.3,10,22.62
+South,Retail,Grocery,In-Store,Mobile App,2025,2,5,2105.0,1627.8,477.2,1,1,2105.0,10,22.67
+South,Retail,Apparel,In-Store,Web,2025,2,5,1330.3,1047.15,283.15,1,1,1330.3,5,21.28
+South,Retail,Electronics,Online,Flagship,2025,2,5,245.4,167.64,77.76,1,1,245.4,3,31.69
+South,Retail,Apparel,Online,Web,2025,2,5,171.42,129.24,42.18,1,1,171.42,2,24.61
+South,Retail,Electronics,In-Store,Mobile App,2025,2,5,92.75,72.2,20.55,1,1,92.75,5,22.16
+South,Retail,Electronics,Online,Outlet,2025,2,5,106.54,83.88,22.66,1,1,106.54,2,21.27
+South,Wholesale,Electronics,In-Store,Mobile App,2025,2,5,236.64,178.06,58.58,1,1,236.64,2,24.75
+South,Wholesale,Furniture,Online,Web,2025,2,5,287.55,206.76,80.79,1,1,287.55,3,28.1
+South,Wholesale,Apparel,Online,Outlet,2025,2,5,758.4,509.4,249.0,1,1,758.4,5,32.83
+South,Wholesale,Furniture,In-Store,Web,2025,2,5,43.11,33.38,9.73,1,1,43.11,1,22.57
+South,Retail,Apparel,Online,Flagship,2025,2,5,174.57,113.22,61.35,1,1,174.57,3,35.14
+South,Retail,Electronics,Online,Web,2025,2,5,510.42,371.14,139.28,1,1,510.42,2,27.29
+South,Retail,Grocery,In-Store,Flagship,2025,2,5,470.82,302.76,168.06,1,1,470.82,2,35.7
+South,Wholesale,Grocery,In-Store,Outlet,2025,2,5,242.86,169.38,73.48,1,1,242.86,2,30.26
+West,Wholesale,Grocery,In-Store,Outlet,2025,2,5,438.06,336.62,101.44,2,2,219.03,4,23.16
+West,Retail,Apparel,In-Store,Mobile App,2025,2,5,386.43,239.22,147.21,1,1,386.43,3,38.09
+West,Retail,Electronics,Online,Flagship,2025,2,5,772.2,619.85,152.35,1,1,772.2,5,19.73
+West,Wholesale,Furniture,Online,Outlet,2025,2,5,371.3,273.6,97.7,2,2,185.65,10,26.31
+West,Wholesale,Grocery,In-Store,Flagship,2025,2,5,103.73,63.95,39.78,1,1,103.73,1,38.35
+West,Wholesale,Furniture,Online,Mobile App,2025,2,5,2053.84,1282.89,770.95,2,2,1026.92,11,37.54
+West,Retail,Apparel,Online,Web,2025,2,5,343.2,259.8,83.4,1,1,343.2,10,24.3
+West,Retail,Furniture,In-Store,Mobile App,2025,2,5,1159.6,878.4,281.2,1,1,1159.6,5,24.25
+West,Wholesale,Grocery,In-Store,Mobile App,2025,2,5,89.45,62.3,27.15,1,1,89.45,5,30.35
+West,Retail,Electronics,In-Store,Mobile App,2025,2,5,502.68,358.83,143.85,1,1,502.68,3,28.62
+West,Retail,Furniture,In-Store,Outlet,2025,2,5,487.77,326.73,161.04,1,1,487.77,3,33.02
+West,Retail,Grocery,In-Store,Mobile App,2025,2,5,2546.05,1979.1,566.95,3,3,848.68,15,22.27
+West,Retail,Grocery,In-Store,Web,2025,2,5,2915.9,2205.4,710.5,1,1,2915.9,10,24.37
+West,Wholesale,Apparel,In-Store,Web,2025,2,5,331.38,222.5,108.88,2,2,165.69,5,32.86
+West,Wholesale,Electronics,Online,Flagship,2025,2,5,20.71,17.04,3.67,1,1,20.71,1,17.72
+West,Wholesale,Furniture,In-Store,Mobile App,2025,2,5,216.47,132.57,83.9,1,1,216.47,1,38.76
+West,Retail,Electronics,Online,Outlet,2025,2,5,1183.3,945.55,237.75,1,1,1183.3,5,20.09
+West,Wholesale,Grocery,Online,Flagship,2025,2,5,240.24,179.28,60.96,1,1,240.24,3,25.37
+West,Retail,Electronics,Online,Web,2025,2,5,446.48,315.82,130.66,1,1,446.48,2,29.26
+West,Wholesale,Furniture,In-Store,Web,2025,2,5,426.04,270.86,155.18,1,1,426.04,2,36.42
+West,Wholesale,Apparel,Online,Web,2025,2,5,559.6,372.64,186.96,1,1,559.6,2,33.41
+West,Retail,Furniture,Online,Mobile App,2025,2,5,63.35,53.17,10.18,1,1,63.35,1,16.07
+West,Retail,Apparel,In-Store,Outlet,2025,2,5,114.58,90.08,24.5,1,1,114.58,2,21.38
+West,Wholesale,Apparel,Online,Flagship,2025,2,5,400.0,296.35,103.65,1,1,400.0,5,25.91
+East,Retail,Apparel,In-Store,Web,2025,2,6,447.75,365.61,82.14,1,1,447.75,3,18.35
+East,Retail,Apparel,Online,Web,2025,2,6,123.3,86.48,36.82,1,1,123.3,2,29.86
+East,Retail,Apparel,Online,Flagship,2025,2,6,1386.46,1013.93,372.53,2,2,693.23,7,26.87
+East,Wholesale,Furniture,In-Store,Mobile App,2025,2,6,335.46,240.27,95.19,1,1,335.46,3,28.38
+East,Retail,Electronics,Online,Mobile App,2025,2,6,1480.45,1195.55,284.9,1,1,1480.45,5,19.24
+East,Retail,Grocery,In-Store,Web,2025,2,6,217.0,134.6,82.4,1,1,217.0,2,37.97
+East,Retail,Grocery,In-Store,Outlet,2025,2,6,1701.95,1139.65,562.3,2,2,850.98,15,33.04
+East,Retail,Electronics,In-Store,Flagship,2025,2,6,240.45,152.45,88.0,1,1,240.45,5,36.6
+East,Wholesale,Apparel,In-Store,Outlet,2025,2,6,72.52,59.9,12.62,1,1,72.52,1,17.4
+East,Retail,Furniture,Online,Mobile App,2025,2,6,191.55,161.7,29.85,1,1,191.55,3,15.58
+East,Retail,Grocery,Online,Flagship,2025,2,6,155.38,103.69,51.69,1,1,155.38,1,33.27
+East,Wholesale,Furniture,Online,Flagship,2025,2,6,122.24,94.45,27.79,1,1,122.24,1,22.73
+East,Wholesale,Grocery,In-Store,Flagship,2025,2,6,1128.5,813.5,315.0,1,1,1128.5,10,27.91
+East,Wholesale,Grocery,Online,Mobile App,2025,2,6,283.26,175.6,107.66,1,1,283.26,1,38.01
+East,Wholesale,Electronics,Online,Mobile App,2025,2,6,2059.4,1513.7,545.7,1,1,2059.4,10,26.5
+East,Wholesale,Electronics,In-Store,Outlet,2025,2,6,36.7,29.46,7.24,1,1,36.7,1,19.73
+East,Wholesale,Electronics,Online,Web,2025,2,6,567.69,374.67,193.02,1,1,567.69,3,34.0
+East,Wholesale,Apparel,In-Store,Flagship,2025,2,6,130.98,86.78,44.2,1,1,130.98,2,33.75
+East,Wholesale,Apparel,Online,Web,2025,2,6,264.87,171.36,93.51,1,1,264.87,1,35.3
+East,Wholesale,Furniture,Online,Mobile App,2025,2,6,2848.8,1985.3,863.5,1,1,2848.8,10,30.31
+North,Retail,Electronics,Online,Flagship,2025,2,6,1316.0,868.8,447.2,1,1,1316.0,10,33.98
+North,Retail,Electronics,Online,Web,2025,2,6,1790.94,1285.98,504.96,2,2,895.47,6,28.2
+North,Retail,Grocery,Online,Outlet,2025,2,6,257.75,169.35,88.4,1,1,257.75,5,34.3
+North,Wholesale,Apparel,Online,Flagship,2025,2,6,332.7,264.33,68.37,1,1,332.7,3,20.55
+North,Wholesale,Grocery,Online,Outlet,2025,2,6,99.86,73.33,26.53,1,1,99.86,1,26.57
+North,Retail,Grocery,Online,Web,2025,2,6,1082.8,668.5,414.3,1,1,1082.8,5,38.26
+North,Wholesale,Furniture,Online,Flagship,2025,2,6,605.52,433.23,172.29,1,1,605.52,3,28.45
+North,Retail,Furniture,In-Store,Web,2025,2,6,145.6,97.52,48.08,1,1,145.6,2,33.02
+North,Wholesale,Electronics,In-Store,Flagship,2025,2,6,635.04,433.2,201.84,1,1,635.04,3,31.78
+North,Wholesale,Furniture,In-Store,Mobile App,2025,2,6,617.22,472.5,144.72,1,1,617.22,3,23.45
+North,Wholesale,Apparel,Online,Mobile App,2025,2,6,124.79,90.04,34.75,1,1,124.79,1,27.85
+North,Wholesale,Furniture,Online,Outlet,2025,2,6,1914.1,1332.6,581.5,1,1,1914.1,10,30.38
+North,Wholesale,Electronics,Online,Web,2025,2,6,190.0,152.0,38.0,1,1,190.0,2,20.0
+North,Wholesale,Apparel,Online,Web,2025,2,6,1747.1,1300.8,446.3,1,1,1747.1,10,25.55
+North,Retail,Apparel,In-Store,Flagship,2025,2,6,231.82,172.93,58.89,1,1,231.82,1,25.4
+North,Wholesale,Grocery,In-Store,Flagship,2025,2,6,164.3,103.35,60.95,1,1,164.3,5,37.1
+North,Retail,Electronics,Online,Mobile App,2025,2,6,1614.43,1310.35,304.08,2,2,807.22,6,18.84
+North,Wholesale,Electronics,Online,Outlet,2025,2,6,153.27,92.43,60.84,1,1,153.27,3,39.69
+South,Wholesale,Furniture,Online,Outlet,2025,2,6,293.01,216.6,76.41,1,1,293.01,3,26.08
+South,Wholesale,Electronics,In-Store,Web,2025,2,6,1900.86,1441.44,459.42,2,2,950.43,12,24.17
+South,Wholesale,Grocery,In-Store,Outlet,2025,2,6,363.08,230.94,132.14,1,1,363.08,2,36.39
+South,Retail,Grocery,In-Store,Web,2025,2,6,1443.74,1050.71,393.03,4,4,360.94,9,27.22
+South,Retail,Electronics,Online,Flagship,2025,2,6,175.18,119.74,55.44,1,1,175.18,2,31.65
+South,Retail,Furniture,Online,Outlet,2025,2,6,298.66,218.7,79.96,1,1,298.66,1,26.77
+South,Retail,Apparel,Online,Outlet,2025,2,6,328.8,203.0,125.8,1,1,328.8,10,38.26
+South,Wholesale,Furniture,In-Store,Mobile App,2025,2,6,237.7,148.5,89.2,1,1,237.7,10,37.53
+South,Retail,Electronics,In-Store,Web,2025,2,6,455.52,313.08,142.44,1,1,455.52,2,31.27
+South,Wholesale,Apparel,Online,Web,2025,2,6,669.48,490.2,179.28,1,1,669.48,3,26.78
+South,Retail,Electronics,Online,Mobile App,2025,2,6,243.04,166.2,76.84,1,1,243.04,2,31.62
+South,Retail,Apparel,Online,Flagship,2025,2,6,589.28,377.52,211.76,1,1,589.28,2,35.94
+South,Wholesale,Furniture,In-Store,Web,2025,2,6,2288.0,1747.55,540.45,2,2,1144.0,10,23.62
+South,Wholesale,Grocery,Online,Outlet,2025,2,6,76.2,49.4,26.8,1,1,76.2,10,35.17
+South,Wholesale,Apparel,In-Store,Mobile App,2025,2,6,542.08,406.48,135.6,1,1,542.08,2,25.01
+South,Wholesale,Furniture,Online,Mobile App,2025,2,6,619.17,495.78,123.39,1,1,619.17,3,19.93
+South,Wholesale,Electronics,In-Store,Flagship,2025,2,6,121.13,84.41,36.72,1,1,121.13,1,30.31
+South,Retail,Apparel,In-Store,Outlet,2025,2,6,966.86,631.44,335.42,2,2,483.43,4,34.69
+South,Wholesale,Furniture,In-Store,Flagship,2025,2,6,1092.5,688.8,403.7,1,1,1092.5,10,36.95
+South,Wholesale,Apparel,In-Store,Flagship,2025,2,6,82.29,53.13,29.16,1,1,82.29,1,35.44
+West,Wholesale,Apparel,In-Store,Mobile App,2025,2,6,570.58,428.92,141.66,1,1,570.58,2,24.83
+West,Retail,Electronics,Online,Outlet,2025,2,6,867.3,553.25,314.05,1,1,867.3,5,36.21
+West,Retail,Furniture,Online,Flagship,2025,2,6,1532.35,1020.25,512.1,2,2,766.17,10,33.42
+West,Retail,Apparel,In-Store,Mobile App,2025,2,6,137.72,112.36,25.36,1,1,137.72,2,18.41
+West,Wholesale,Furniture,In-Store,Mobile App,2025,2,6,803.55,616.35,187.2,1,1,803.55,5,23.3
+West,Wholesale,Electronics,In-Store,Outlet,2025,2,6,492.1,317.4,174.7,1,1,492.1,10,35.5
+West,Wholesale,Electronics,Online,Web,2025,2,6,559.34,423.44,135.9,1,1,559.34,2,24.3
+West,Wholesale,Furniture,Online,Flagship,2025,2,6,780.45,645.07,135.38,2,2,390.23,13,17.35
+West,Retail,Furniture,In-Store,Flagship,2025,2,6,382.66,277.88,104.78,1,1,382.66,2,27.38
+West,Wholesale,Grocery,Online,Mobile App,2025,2,6,794.07,546.3,247.77,1,1,794.07,3,31.2
+West,Retail,Furniture,In-Store,Mobile App,2025,2,6,434.36,348.22,86.14,1,1,434.36,2,19.83
+West,Wholesale,Grocery,In-Store,Outlet,2025,2,6,2928.0,2035.2,892.8,2,2,1464.0,20,30.49
+West,Wholesale,Furniture,Online,Mobile App,2025,2,6,134.67,95.04,39.63,1,1,134.67,3,29.43
+West,Wholesale,Apparel,In-Store,Flagship,2025,2,6,685.83,450.18,235.65,1,1,685.83,3,34.36
+West,Retail,Grocery,In-Store,Mobile App,2025,2,6,2277.74,1900.52,377.22,2,2,1138.87,12,16.56
+West,Retail,Furniture,In-Store,Outlet,2025,2,6,1107.75,709.0,398.75,1,1,1107.75,5,36.0
+West,Wholesale,Apparel,Online,Mobile App,2025,2,6,155.32,100.38,54.94,1,1,155.32,1,35.37
+West,Wholesale,Furniture,Online,Outlet,2025,2,6,585.9,462.26,123.64,1,1,585.9,2,21.1
+West,Wholesale,Grocery,In-Store,Flagship,2025,2,6,554.97,442.05,112.92,1,1,554.97,3,20.35
+East,Wholesale,Grocery,Online,Mobile App,2025,3,7,174.42,108.66,65.76,1,1,174.42,2,37.7
+East,Wholesale,Furniture,Online,Flagship,2025,3,7,54.21,35.43,18.78,1,1,54.21,3,34.64
+East,Wholesale,Furniture,In-Store,Flagship,2025,3,7,106.34,80.83,25.51,1,1,106.34,1,23.99
+East,Wholesale,Apparel,Online,Mobile App,2025,3,7,421.1,347.9,73.2,1,1,421.1,5,17.38
+East,Retail,Grocery,In-Store,Flagship,2025,3,7,133.62,84.59,49.03,1,1,133.62,1,36.69
+East,Wholesale,Apparel,In-Store,Outlet,2025,3,7,390.3,240.8,149.5,1,1,390.3,5,38.3
+East,Wholesale,Grocery,In-Store,Flagship,2025,3,7,1108.15,889.63,218.52,2,2,554.08,8,19.72
+East,Retail,Grocery,In-Store,Outlet,2025,3,7,1269.2,904.3,364.9,1,1,1269.2,10,28.75
+East,Wholesale,Apparel,In-Store,Mobile App,2025,3,7,1424.4,949.4,475.0,1,1,1424.4,5,33.35
+East,Wholesale,Electronics,In-Store,Outlet,2025,3,7,234.06,176.96,57.1,1,1,234.06,2,24.4
+East,Retail,Furniture,In-Store,Web,2025,3,7,146.94,118.34,28.6,1,1,146.94,2,19.46
+East,Wholesale,Apparel,Online,Flagship,2025,3,7,1030.15,835.15,195.0,1,1,1030.15,5,18.93
+East,Wholesale,Apparel,Online,Outlet,2025,3,7,117.24,73.58,43.66,1,1,117.24,1,37.24
+East,Retail,Grocery,In-Store,Web,2025,3,7,349.1,240.46,108.64,1,1,349.1,2,31.12
+East,Retail,Furniture,In-Store,Flagship,2025,3,7,1453.1,917.5,535.6,1,1,1453.1,10,36.86
+North,Wholesale,Apparel,Online,Web,2025,3,7,2830.4,2032.0,798.4,1,1,2830.4,10,28.21
+North,Wholesale,Furniture,In-Store,Flagship,2025,3,7,816.9,608.65,208.25,1,1,816.9,5,25.49
+North,Retail,Apparel,In-Store,Mobile App,2025,3,7,2612.9,1625.2,987.7,1,1,2612.9,10,37.8
+North,Retail,Electronics,Online,Mobile App,2025,3,7,372.9,282.2,90.7,1,1,372.9,10,24.32
+North,Retail,Grocery,Online,Flagship,2025,3,7,2591.8,1562.7,1029.1,1,1,2591.8,10,39.71
+North,Wholesale,Furniture,In-Store,Web,2025,3,7,289.15,184.2,104.95,1,1,289.15,5,36.3
+North,Wholesale,Furniture,Online,Web,2025,3,7,270.3,219.69,50.61,1,1,270.3,3,18.72
+North,Retail,Apparel,Online,Outlet,2025,3,7,283.05,183.03,100.02,1,1,283.05,1,35.34
+North,Wholesale,Electronics,In-Store,Mobile App,2025,3,7,526.2,323.3,202.9,1,1,526.2,10,38.56
+North,Wholesale,Electronics,Online,Outlet,2025,3,7,78.3,59.19,19.11,1,1,78.3,3,24.41
+North,Retail,Grocery,Online,Outlet,2025,3,7,726.45,537.09,189.36,1,1,726.45,3,26.07
+South,Retail,Grocery,In-Store,Mobile App,2025,3,7,780.15,470.55,309.6,1,1,780.15,5,39.68
+South,Wholesale,Apparel,Online,Mobile App,2025,3,7,257.82,213.12,44.7,1,1,257.82,3,17.34
+South,Retail,Furniture,Online,Outlet,2025,3,7,763.65,590.88,172.77,1,1,763.65,3,22.62
+South,Wholesale,Grocery,In-Store,Web,2025,3,7,856.65,531.54,325.11,1,1,856.65,3,37.95
+South,Wholesale,Furniture,In-Store,Outlet,2025,3,7,239.88,171.46,68.42,1,1,239.88,2,28.52
+South,Wholesale,Furniture,In-Store,Web,2025,3,7,229.31,178.13,51.18,1,1,229.31,1,22.32
+South,Wholesale,Furniture,In-Store,Mobile App,2025,3,7,486.18,335.07,151.11,1,1,486.18,3,31.08
+South,Retail,Apparel,Online,Mobile App,2025,3,7,220.52,175.82,44.7,1,1,220.52,2,20.27
+South,Retail,Electronics,In-Store,Outlet,2025,3,7,801.69,551.28,250.41,1,1,801.69,3,31.24
+South,Retail,Electronics,Online,Flagship,2025,3,7,63.8,43.5,20.3,1,1,63.8,10,31.82
+South,Retail,Furniture,Online,Flagship,2025,3,7,543.06,415.24,127.82,1,1,543.06,2,23.54
+West,Wholesale,Grocery,In-Store,Outlet,2025,3,7,398.34,246.94,151.4,1,1,398.34,2,38.01
+West,Wholesale,Apparel,In-Store,Mobile App,2025,3,7,379.5,244.88,134.62,1,1,379.5,2,35.47
+West,Retail,Electronics,Online,Web,2025,3,7,1487.65,950.45,537.2,1,1,1487.65,5,36.11
+West,Wholesale,Apparel,In-Store,Flagship,2025,3,7,415.02,261.99,153.03,1,1,415.02,3,36.87
+West,Retail,Apparel,In-Store,Flagship,2025,3,7,63.45,40.25,23.2,1,1,63.45,5,36.56
+West,Retail,Furniture,Online,Outlet,2025,3,7,237.72,151.62,86.1,1,1,237.72,2,36.22
+West,Retail,Grocery,Online,Web,2025,3,7,651.81,473.01,178.8,1,1,651.81,3,27.43
+West,Retail,Grocery,Online,Outlet,2025,3,7,2445.4,1769.3,676.1,1,1,2445.4,10,27.65
+West,Retail,Furniture,Online,Web,2025,3,7,479.43,350.46,128.97,1,1,479.43,3,26.9
+West,Wholesale,Furniture,Online,Mobile App,2025,3,7,379.58,305.94,73.64,1,1,379.58,2,19.4

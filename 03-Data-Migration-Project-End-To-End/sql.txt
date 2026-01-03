@@ -1,0 +1,33 @@
+CREATE TABLE DimProduct (
+    ProductID INT,
+    ProductName VARCHAR(100),
+    Category VARCHAR(50),
+    Price FLOAT,
+    FileName VARCHAR(100),
+    LoadDate DATETIME2(0)
+);
+
+
+CREATE TABLE FileTracker (
+    FileName VARCHAR(100) ,
+    LoadDate DATETIME2(0)
+);
+
+select * from FileTracker
+select * from DimProduct
+
+---------------------------------------------------------------------------
+TO TEST THE PIPRLINR 1 RECORD WE WILL INSERT MANUALLY- 
+insert into FileTracker values('product_2024-07-01.csv','')
+
+------------------------------------------------------------------------
+
+fILTER ACTIVITY - 
+filter - @not(contains(string(activity('Lookup1').output.value), item().name))
+
+--------------------------------------------------------------------------------------------------
+
+script activity - INSERT INTO FileTracker (FileName, LoadDate)
+VALUES ('@{item().name}', GETUTCDATE());
+
+-------------------------------------------------------------------------------------------------------

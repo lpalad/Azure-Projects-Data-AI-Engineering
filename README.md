@@ -11,6 +11,8 @@ A collection of Azure and Microsoft Fabric projects demonstrating data engineeri
 |---|---------|-------------|------------|
 | 1 | [Medallion Retail Pipeline](./01-Medallion-Retail-Pipeline/) | ETL pipeline for retail data using Medallion Architecture (Orders, Inventory, Returns) | Python, PySpark, Fabric, Power BI |
 | 2 | [E-Commerce Customer 360](./02-E-Commerce-Customer360/) | Customer analytics pipeline joining 5 data sources for unified customer view | Python, PySpark, Fabric, Power BI |
+| 3 | [Data Migration Project](./03-Data-Migration-Project-End-To-End/) | Azure Data Factory pipeline for incremental CSV to SQL migration with file tracking | Azure Data Factory, SQL, CSV |
+| 4 | [Retail Data Engineering](./04-Retail-Data-Engineering/) | Retail transaction pipeline with Medallion Architecture and aggregated business KPIs | PySpark, Fabric, Delta Lake, Power BI |
 
 ## Architecture
 
@@ -74,8 +76,10 @@ Related blog posts: https://www.cloudhermit.com.au
 
 ## Updates
 
-- January 2026: Added Medallion Retail Pipeline
+- January 2026: Added Retail Data Engineering Pipeline (Project 04)
+- January 2026: Added Data Migration Project (Project 03)
 - January 2026: Added E-Commerce Customer 360 Pipeline
+- January 2026: Added Medallion Retail Pipeline
 
 ## License
 
