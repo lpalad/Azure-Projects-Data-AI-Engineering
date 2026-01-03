@@ -1,0 +1,16 @@
+CustomerID,Name,Email,Gender,DOB,City,OrderID,OrderDate,OrderAmount,OrderStatus,PaymentID,PaymentDate,PaymentMethod,PaymentStatus,PaymentAmount,TicketID,IssueType,TicketDate,ResolutionStatus,SessionID,PageViewed,SessionTime,DeviceType
+1001,John Doe,john.doe@gmail.com,Male,1990-05-12,New York,2001,2022-07-15,120.5,Complete,P001,2022-07-16,Credit Card,Success,120.5,T001,Payment Issue,2022-07-19,Closed,S001,/home,2022-07-18,Android
+1002,Sara Khan,sara.khan@gmail.com,Female,1988-06-12,Mumbai,2002,2022-07-15,0.0,Pending,P002,2022-07-17,Credit Card,Failed,0.0,T002,Delivery Delay,2022-07-19,Pending,S002,/products/shoes,2022-07-18,Ios
+1003,,tom@outlook.com,Male,,San Francisco,2003,2022-07-18,250.0,Shipped,P003,2022-07-17,Paypal,Success,250.0,T003,Payment Issue,2022-07-20,Closed,S003,/products/bags,2022-07-19,Windows
+1004,Anil Sharma,anil.sharma@yahoo.in,Male,1989-03-17,Bangalore,2004,2022-07-19,0.0,Complete,P004,2022-07-18,Cash,Success,-15.0,T004,Login Problem,2022-07-20,,S004,/cart,2022-07-19,Linux
+1005,Priya R,priya.r@hotmail.com,Female,1993-11-23,Delhi,2005,2022-07-20,-45.0,Failed,P005,,Upi,,145.0,T005,,,Resolved,S005,/checkout,2022-07-20,Android
+1006,Amit Patel,amit123@gmail.com,Male,1992-08-19,Surat,2006,2022-07-21,500.0,Complete,P006,2022-07-19,Wallet,Success,500.0,T006,Refund Request,2022-07-21,Pending,S006,/home,2022-07-20,Ios
+1007,Meena Kumari,meena@rediffmail.com,Female,1995-04-10,Chennai,2007,2022-07-21,300.0,Shipped,P007,2022-07-20,Credit Card,Success,300.0,T007,Delivery Delay,2022-07-21,Closed,S007,/products/electronics,2022-07-21,Windows
+1008,Rajesh,rajesh@yahoo.com,Male,1990-01-01,Hyderabad,2008,2022-07-22,100.75,Pending,P008,2022-07-21,Paypal,Failed,0.0,T008,Product Damaged,2022-07-22,Resolved,S008,/products/shoes,2022-07-22,Macos
+1009,Sophie,,Female,1991-02-02,Mumbai,2009,2022-07-22,200.0,Cancelled,P009,2022-07-22,Credit Card,Success,200.0,T009,Login Issue,2022-07-23,Pending,S009,/home,2022-07-22,Ios
+1010,Ali Khan,ali.khan@aol.com,Male,,Lahore,2010,2022-07-23,0.0,Complete,P010,2022-07-23,Upi,Success,100.0,T010,Support Needed,2022-07-23,,S010,/home,2022-07-23,Android
+1011,Ravi Kumar,ravi.k@inbox.com,Male,1988-05-25,Pune,2011,2022-07-23,340.9,Complete,P011,2022-07-23,Wallet,Success,340.9,T011,Wrong Item,2022-07-23,Closed,S011,/products/shoes,2022-07-23,Ios
+1012,Anjali,,Female,1992-10-12,Jaipur,2012,2022-07-24,150.5,Complete,P012,2022-07-24,Cash,Success,150.5,T012,,2022-07-24,Resolved,S012,/checkout,2022-07-24,Windows
+1013,Deepak,deepak@gmail.com,Male,1986-12-01,Indore,2013,2022-07-24,180.0,Complete,P013,2022-07-24,Credit Card,Success,180.0,T013,Refund,2022-07-25,Closed,S013,/cart,2022-07-24,Linux
+1014,Neha,,,1990-03-30,Lucknow,2014,2022-07-25,90.0,Shipped,P014,2022-07-25,Upi,Failed,90.0,T014,Cancelled Item,2022-07-25,Closed,S014,/home,2022-07-25,Android
+1015,Karan Singh,karan@yahoo.co.in,Male,1993-07-07,Delhi,2015,2022-07-26,0.0,Pending,P015,2022-07-26,Netbanking,Success,0.0,T015,Payment Error,2022-07-26,Pending,S015,/products/electronics,2022-07-26,Windows

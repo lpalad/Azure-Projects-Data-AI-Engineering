@@ -1,0 +1,13 @@
+OrderID,CustomerID,ProductName,Quantity,OrderDate,OrderAmount,DeliveryStatus,PaymentMode,ShipAddress,Email,PromoCode,FeedbackScore,ReturnID,ReturnAmount,RefundStatus,ReturnReason,Stock,CostPrice,Available
+1001,C001,Apple iPhone13,1,2023-06-12,7990.0,delivered,creditcard,"221B, baker st. , london",,NEW2023,5.0,R001,799.0,done,Defective,25.0,700.0,True
+1002,C_002,samsung Galaxy s21,0,2023-07-12,1200.0,delivered,paypal,Noida Sector21,,Summer2023,,R002,1200.0,processing,CHANGED mind,,,
+1004,C004,Oneplus Nord,1,2023-07-15,499.0,delivrd,upi,mumbai,,SAVE20,,R003,499.0,inprogress,Late Delivery,20.0,25000.0,True
+1006,C006,Xiaomi  note 12 pro,2,2023-07-21,89999.0,pending,unknown,,,DISCOUNT50,8.0,R005,89999.0,,Wrong product,,,
+1007,C007,Vivo V25,3,,3750.0,unknown,creditcard,chennai,,,2.5,R006,375.0,pending,Damaged Box,,350.0,False
+1009,C009,"iPhone, 14 Pro Max",1,2023-07-20,1099.0,on the way,creditcard,Gotham City,,LAUGH10,,R015,1099.0,processing,FRAUD,,,
+1010,C010,Motorola Edge-40,0,2023-07-25,550.0,onhold,unknown,,,,,R008,550.0,,Misplaced,0.0,500.0,False
+1011,C011,LG Velvet,2,2023-06-18,35000.0,deliverd,paypal,punecity,,VELVET25,6.0,R009,35000.0,requested,battery issue,15.0,32000.0,True
+1012,C012,Realme X50,0,2023-07-06,399.0,pending,creditcard,sector-56 gurgaon,,SAVE10,4.0,R010,399.0,pending,heating issue,30.0,399.0,True
+1013,C013,Asus ROG Phone,3,2023-07-10,59999.0,delivered,cash,bangalore,,,9.0,R011,59999.0,done,Overheating,25.0,59999.0,True
+1014,C014,Google Pixel 6a,1,2023-07-15,449.0,cancelled,debit,Hyderabad,,PIXELNEW,7.0,R012,449.0,issued,screen defect,35.0,449.0,True
+1015,C015,Sony Xperia 5,2,2023-07-15,65000.0,delivering,creditcard,coimbatore,,,,R013,65000.0,completed,Late,22.0,65000.0,True

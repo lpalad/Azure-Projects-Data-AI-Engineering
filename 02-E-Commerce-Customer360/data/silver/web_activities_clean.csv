@@ -1,0 +1,16 @@
+SessionID,CustomerID,PageViewed,SessionTime,DeviceType
+S001,1001,/home,2022-07-18,Android
+S002,1002,/products/shoes,2022-07-18,Ios
+S003,1003,/products/bags,2022-07-19,Windows
+S004,1004,/cart,2022-07-19,Linux
+S005,1005,/checkout,2022-07-20,Android
+S006,1006,/home,2022-07-20,Ios
+S007,1007,/products/electronics,2022-07-21,Windows
+S008,1008,/products/shoes,2022-07-22,Macos
+S009,1009,/home,2022-07-22,Ios
+S010,1010,/home,2022-07-23,Android
+S011,1011,/products/shoes,2022-07-23,Ios
+S012,1012,/checkout,2022-07-24,Windows
+S013,1013,/cart,2022-07-24,Linux
+S014,1014,/home,2022-07-25,Android
+S015,1015,/products/electronics,2022-07-26,Windows

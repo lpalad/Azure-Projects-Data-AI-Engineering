@@ -1,0 +1,16 @@
+ProductID,ProductName,Stock,LastStocked,Warehouse,CostPrice,Available
+P001,Apple iPhone13,25.0,2023-06-01,Delhi 1,700.0,True
+P002,Samsung Galaxy S21,12.0,2023-07-01,Blr 2,72000.0,True
+P003,Oneplus Nord,20.0,2023-06-30,Mumbai 3,25000.0,True
+P004,Nokia 3310,,2023-07-05,,,
+P005,Xiaomi note 12 pro,55.0,2023-12-07,Hyd Zone2,299.0,True
+P006,Vivo V25,,2023-07-20,Chn,350.0,False
+P007,Motorola Edge-40,0.0,2023-07-25,Delhi 1,500.0,False
+P008,LG Velvet,15.0,2023-06-18,Pune City,32000.0,True
+P009,Realme X50,30.0,2023-07-06,Gurgaon-56,399.0,True
+P010,Asus ROG Phone,25.0,2023-07-10,Bangalore,59999.0,True
+P011,Google Pixel 6a,35.0,2023-07-15,Hyderabad,449.0,True
+P012,Sony Xperia 5,22.0,2023-07-15,Coimbatore,65000.0,True
+P013,Nothing Phone 2,,2023-07-18,Delhi,599.0,True
+P014,iQOO Neo 7,18.0,2023-07-22,Chd,32000.0,True
+P015,Infinix Zero 5G,10.0,2023-07-23,Kolkata,250.0,True

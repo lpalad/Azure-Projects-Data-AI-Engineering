@@ -1,0 +1,16 @@
+ReturnID,OrderID,CustomerID,Product,ReturnReason,ReturnDate,RefundStatus,PickupAddress,ReturnAmount
+R001,1001.0,C001,Apple Iphone13,Defective,2023-07-15,done,221B Baker St London,799.0
+R002,1002.0,C_002,Samsung Galaxy S21,CHANGED mind,2023-07-20,processing,Sector-21 Noida,1200.0
+R003,1004.0,C004,Oneplus Nord,Late Delivery,2023-07-22,inprogress,Mumbai,499.0
+R004,1005.0,,Nokia 3310,not as described,2023-07-20,completed,Delhi-4,49.0
+R005,1006.0,C006,Xiaomi Note 12 Pro,Wrong product,2023-07-25,,Hyderabad,89999.0
+R006,1007.0,C007,Vivo V25,Damaged Box,2023-07-26,pending,Chennai,375.0
+R007,1008.0,C008,Iphone 14 Pro Max,FRAUD,2023-07-28,unknown,New Delhi,1099.0
+R008,1010.0,C010,Motorola Edge40,Misplaced,2023-07-25,,,550.0
+R009,1011.0,C011,Lg Velvet,battery issue,2023-06-18,requested,Pune City,35000.0
+R010,1012.0,C012,Realme X50,heating issue,2023-07-06,pending,Sector-56 Gurgaon,399.0
+R011,1013.0,C013,Asus Rog Phone,Overheating,2023-07-10,done,Bangalore,59999.0
+R012,1014.0,C014,Google Pixel 6A,screen defect,2023-07-15,issued,Hyderabad,449.0
+R013,1015.0,C015,Sony Xperia 5,Late,2023-07-15,completed,Coimbatore,65000.0
+R014,,,,,,,,
+R015,1009.0,C009,Iphone 14 Pro Max,FRAUD,2023-07-28,processing,Gotham City,1099.0

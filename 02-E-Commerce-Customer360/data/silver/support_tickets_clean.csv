@@ -1,0 +1,16 @@
+TicketID,CustomerID,IssueType,TicketDate,ResolutionStatus
+T001,1001,Payment Issue,2022-07-19,Closed
+T002,1002,Delivery Delay,2022-07-19,Pending
+T003,1003,Payment Issue,2022-07-20,Closed
+T004,1004,Login Problem,2022-07-20,
+T005,1005,,,Resolved
+T006,1006,Refund Request,2022-07-21,Pending
+T007,1007,Delivery Delay,2022-07-21,Closed
+T008,1008,Product Damaged,2022-07-22,Resolved
+T009,1009,Login Issue,2022-07-23,Pending
+T010,1010,Support Needed,2022-07-23,
+T011,1011,Wrong Item,2022-07-23,Closed
+T012,1012,,2022-07-24,Resolved
+T013,1013,Refund,2022-07-25,Closed
+T014,1014,Cancelled Item,2022-07-25,Closed
+T015,1015,Payment Error,2022-07-26,Pending

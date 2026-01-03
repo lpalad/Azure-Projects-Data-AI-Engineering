@@ -1,0 +1,16 @@
+PaymentID,CustomerID,PaymentDate,PaymentMethod,PaymentStatus,Amount
+P001,1001,2022-07-16,Credit Card,Success,120.5
+P002,1002,2022-07-17,Credit Card,Failed,0.0
+P003,1003,2022-07-17,Paypal,Success,250.0
+P004,1004,2022-07-18,Cash,Success,-15.0
+P005,1005,,Upi,,145.0
+P006,1006,2022-07-19,Wallet,Success,500.0
+P007,1007,2022-07-20,Credit Card,Success,300.0
+P008,1008,2022-07-21,Paypal,Failed,0.0
+P009,1009,2022-07-22,Credit Card,Success,200.0
+P010,1010,2022-07-23,Upi,Success,100.0
+P011,1011,2022-07-23,Wallet,Success,340.9
+P012,1012,2022-07-24,Cash,Success,150.5
+P013,1013,2022-07-24,Credit Card,Success,180.0
+P014,1014,2022-07-25,Upi,Failed,90.0
+P015,1015,2022-07-26,Netbanking,Success,0.0

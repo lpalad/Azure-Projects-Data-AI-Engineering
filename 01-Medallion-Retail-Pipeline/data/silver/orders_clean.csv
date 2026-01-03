@@ -1,0 +1,13 @@
+OrderID,CustomerID,ProductName,Quantity,OrderDate,OrderAmount,DeliveryStatus,PaymentMode,ShipAddress,Email,PromoCode,FeedbackScore
+1001,C001,Apple iPhone13,1,2023-06-12,7990.0,delivered,creditcard,"221B, baker st. , london",,NEW2023,5.0
+1002,C_002,samsung Galaxy s21,0,2023-07-12,1200.0,delivered,paypal,Noida Sector21,,Summer2023,
+1004,C004,Oneplus Nord,1,2023-07-15,499.0,delivrd,upi,mumbai,,SAVE20,
+1006,C006,Xiaomi  note 12 pro,2,2023-07-21,89999.0,pending,unknown,,,DISCOUNT50,8.0
+1007,C007,Vivo V25,3,,3750.0,unknown,creditcard,chennai,,,2.5
+1009,C009,"iPhone, 14 Pro Max",1,2023-07-20,1099.0,on the way,creditcard,Gotham City,,LAUGH10,
+1010,C010,Motorola Edge-40,0,2023-07-25,550.0,onhold,unknown,,,,
+1011,C011,LG Velvet,2,2023-06-18,35000.0,deliverd,paypal,punecity,,VELVET25,6.0
+1012,C012,Realme X50,0,2023-07-06,399.0,pending,creditcard,sector-56 gurgaon,,SAVE10,4.0
+1013,C013,Asus ROG Phone,3,2023-07-10,59999.0,delivered,cash,bangalore,,,9.0
+1014,C014,Google Pixel 6a,1,2023-07-15,449.0,cancelled,debit,Hyderabad,,PIXELNEW,7.0
+1015,C015,Sony Xperia 5,2,2023-07-15,65000.0,delivering,credit,coimbatore,,,
