@@ -32,34 +32,9 @@ A **Customer 360** analytics pipeline implementing the **Medallion Architecture*
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    MEDALLION ARCHITECTURE                           │
-│                    Customer 360 View                                │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│   BRONZE (Raw)           SILVER (Cleaned)         GOLD (Analytics)  │
-│   ┌────────────┐        ┌────────────────┐       ┌──────────────┐  │
-│   │ customers  │   →    │ customers_clean│   →   │              │  │
-│   └────────────┘        └────────────────┘       │              │  │
-│   ┌────────────┐        ┌────────────────┐       │              │  │
-│   │ orders     │   →    │ orders_clean   │   →   │  gold_joined │  │
-│   └────────────┘        └────────────────┘       │              │  │
-│   ┌────────────┐        ┌────────────────┐       │  (LEFT JOIN  │  │
-│   │ payments   │   →    │ payments_clean │   →   │   on         │  │
-│   └────────────┘        └────────────────┘       │  CustomerID) │  │
-│   ┌────────────┐        ┌────────────────┐       │              │  │
-│   │ support_   │   →    │ support_       │   →   │              │  │
-│   │ tickets    │        │ tickets_clean  │       │              │  │
-│   └────────────┘        └────────────────┘       └──────┬───────┘  │
-│   ┌────────────┐        ┌────────────────┐              │          │
-│   │ web_       │   →    │ web_activities │   →          ▼          │
-│   │ activities │        │ _clean         │       ┌──────────────┐  │
-│   └────────────┘        └────────────────┘       │  Power BI    │  │
-│                                                  │  Dashboard   │  │
-│                                                  └──────────────┘  │
-└─────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="architecture.png" alt="E-Commerce Customer 360 Architecture" width="100%">
+</p>
 
 ---
 
