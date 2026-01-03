@@ -3,6 +3,10 @@
 ## Overview
 A collection of Azure and Microsoft Fabric projects demonstrating data engineering, ETL pipelines, and analytics patterns. Each project includes documentation, code, and best practices.
 
+<p align="center">
+  <img src="m-fabric.webp" alt="Microsoft Fabric" width="600">
+</p>
+
 ## Projects
 
 ### Data Engineering / ETL
