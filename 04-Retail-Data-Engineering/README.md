@@ -166,22 +166,14 @@ Avg Order Value = DIVIDE(SUM(retail_metrics[TotalSales]), SUM(retail_metrics[Ord
 
 ---
 
-## Technology Stack
+## Tech Stack
 
-<table>
-  <tr>
-    <td align="center"><strong>Processing</strong></td>
-    <td align="center"><strong>Platform</strong></td>
-    <td align="center"><strong>Storage</strong></td>
-    <td align="center"><strong>Visualization</strong></td>
-  </tr>
-  <tr>
-    <td align="center">PySpark</td>
-    <td align="center">Microsoft Fabric</td>
-    <td align="center">Delta Lake</td>
-    <td align="center">Power BI</td>
-  </tr>
-</table>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-742774?style=for-the-badge&logo=microsoft&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge&logo=databricks&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white)
 
 ---
 
