@@ -26,6 +26,10 @@
 
 A **Customer 360** analytics pipeline implementing the **Medallion Architecture** (Bronze → Silver → Gold). This project joins 5 data sources to create a unified customer view for analytics and KPI reporting.
 
+<p align="center">
+  <img src="../m-fabric.webp" alt="Microsoft Fabric" width="600">
+</p>
+
 ## Architecture
 
 ```

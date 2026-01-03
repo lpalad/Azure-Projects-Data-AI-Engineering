@@ -24,6 +24,10 @@
 
 An **Azure Data Factory (ADF)** end-to-end data migration pipeline that incrementally loads daily product CSV files into a SQL database. The pipeline tracks processed files to prevent duplicate loads.
 
+<p align="center">
+  <img src="../m-fabric.webp" alt="Microsoft Fabric" width="600">
+</p>
+
 ## Architecture
 
 ```

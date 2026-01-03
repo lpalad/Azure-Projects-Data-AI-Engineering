@@ -25,6 +25,10 @@
 
 An ETL data pipeline implementing the **Medallion Architecture** (Bronze → Silver → Gold) for retail data analysis. Built with Python, PySpark, and Microsoft Fabric.
 
+<p align="center">
+  <img src="../m-fabric.webp" alt="Microsoft Fabric" width="600">
+</p>
+
 ## Architecture
 
 ```
