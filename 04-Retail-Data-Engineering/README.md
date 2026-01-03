@@ -36,24 +36,9 @@ A retail data engineering pipeline that transforms raw retail transaction data i
 
 ## Project Structure
 
-```
-04-Retail-Data-Engineering/
-├── data/
-│   ├── bronze/
-│   │   └── retail_raw_data_560.json     # Raw transaction data (560 records)
-│   ├── silver/
-│   │   └── retail_clean.csv             # Cleaned & standardized data
-│   └── gold/
-│       ├── retail_metrics.csv           # Aggregated business metrics
-│       ├── retail_clean.csv             # Cleaned data for flexible BI
-│       └── dashboard.png                # Power BI dashboard screenshot
-├── scripts/
-│   ├── bronze_to_silver.py              # PySpark transformation script
-│   └── silver_to_gold.py                # PySpark aggregation script
-├── notebooks/
-│   └── retail_fabric_pipeline.ipynb     # Fabric notebook version
-└── README.md
-```
+<p align="center">
+  <img src="project_structure.png" alt="Project Structure" width="100%">
+</p>
 
 ---
 
