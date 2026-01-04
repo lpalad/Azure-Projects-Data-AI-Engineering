@@ -25,7 +25,7 @@
 A retail data engineering pipeline that transforms raw retail transaction data into clean, aggregated business metrics ready for Power BI visualization. This project demonstrates the **Medallion Architecture** pattern commonly used in modern data lakehouses.
 
 <p align="center">
-  <img src="../m-fabric.webp" alt="Microsoft Fabric" width="600">
+  <img src="retail.png" alt="Retail Data Engineering" width="600">
 </p>
 
 ## Architecture
