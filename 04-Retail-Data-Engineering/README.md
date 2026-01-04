@@ -42,6 +42,36 @@ A retail data engineering pipeline that transforms raw retail transaction data i
 
 ---
 
+## Data Quality Checks
+
+This pipeline includes automated data quality validation before transformation:
+
+```
+==================================================
+  DATA QUALITY CHECKS - Bronze Layer
+==================================================
+✓ Row count: 560 rows (PASS)
+✓ Required columns: 14/14 present (PASS)
+✓ Null check: OrderID has 0 nulls (PASS)
+✓ Null check: CustomerID has 0 nulls (PASS)
+✓ Value check: No invalid quantities (PASS)
+✓ Value check: No negative/zero prices (PASS)
+==================================================
+✓ All critical data quality checks PASSED
+==================================================
+```
+
+| Check | Rule | Action on Fail |
+|-------|------|----------------|
+| Row Count | Must have > 0 rows | Stop pipeline |
+| Required Columns | All 14 columns must exist | Stop pipeline |
+| Null OrderID | No nulls allowed | Stop pipeline |
+| Null CustomerID | No nulls allowed | Stop pipeline |
+| Quantity Range | Must be > 0 | Warning |
+| Price Range | Must be > 0 | Warning |
+
+---
+
 ## Data Pipeline
 
 ### Bronze Layer (Raw Data)

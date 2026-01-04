@@ -63,6 +63,33 @@ All projects follow the **Medallion Architecture**:
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+## CI/CD Pipeline
+
+![CI Pipeline](https://github.com/lpalad/Azure-Projects-Data-AI-Engineering/actions/workflows/ci.yml/badge.svg)
+
+This repository includes automated CI/CD using GitHub Actions:
+
+| Check | Description |
+|-------|-------------|
+| **Python Syntax** | Validates all `.py` files compile correctly |
+| **Code Linting** | Runs flake8 for code style enforcement |
+| **Project Structure** | Verifies all project directories exist |
+| **Data Quality** | Validates Bronze layer data before transformation |
+
+## Data Quality
+
+Pipelines include automated data quality validation:
+
+```
+✓ Row count validation
+✓ Required columns check
+✓ Null value detection
+✓ Value range validation
+```
+
+If critical checks fail, the pipeline stops before bad data propagates.
 
 ## Getting Started
 

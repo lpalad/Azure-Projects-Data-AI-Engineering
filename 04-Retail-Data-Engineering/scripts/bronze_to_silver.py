@@ -5,6 +5,7 @@ This script cleans and standardizes the raw retail data from Bronze layer.
 - Renames messy column names to clean PascalCase format
 - Parses dates to proper date type
 - Casts numeric columns to appropriate types
+- Includes data quality validation checks
 
 Author: Data Engineering Portfolio
 Platform: Microsoft Fabric / PySpark
@@ -13,6 +14,7 @@ Platform: Microsoft Fabric / PySpark
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, to_date, initcap, round as spark_round, date_format
 from pyspark.sql.types import IntegerType, DoubleType
+import sys
 
 # ----------------------------
 # Initialize Spark Session
@@ -32,11 +34,98 @@ SILVER_PATH = "data/silver/retail_clean.parquet"
 # BRONZE_PATH = "Files/bronze/retail_raw_data_560.json"
 # SILVER_PATH = "Files/silver/retail_clean"
 
+# Required columns in Bronze layer
+REQUIRED_COLUMNS = [
+    "Order iD", "order_date", "cust_ID", "Cust Segment", "region",
+    "prodct_ID", "Prodct Category", "prod_Name", "QTY", "price_unit",
+    "cost_unit", "channel", "new customer", "store type"
+]
+
+
+# ----------------------------
+# Data Quality Functions
+# ----------------------------
+def run_data_quality_checks(df, stage="Bronze"):
+    """
+    Run data quality validation checks on the DataFrame.
+    Returns True if all checks pass, False otherwise.
+    """
+    print("\n" + "=" * 50)
+    print(f"  DATA QUALITY CHECKS - {stage} Layer")
+    print("=" * 50)
+
+    checks_passed = True
+    row_count = df.count()
+
+    # Check 1: Row count > 0
+    if row_count > 0:
+        print(f"✓ Row count: {row_count} rows (PASS)")
+    else:
+        print(f"✗ Row count: {row_count} rows (FAIL)")
+        checks_passed = False
+
+    # Check 2: Required columns exist
+    missing_cols = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if len(missing_cols) == 0:
+        print(f"✓ Required columns: {len(REQUIRED_COLUMNS)}/{len(REQUIRED_COLUMNS)} present (PASS)")
+    else:
+        print(f"✗ Missing columns: {missing_cols} (FAIL)")
+        checks_passed = False
+
+    # Check 3: Null check on key columns
+    null_order_id = df.filter(col("Order iD").isNull()).count()
+    if null_order_id == 0:
+        print(f"✓ Null check: OrderID has {null_order_id} nulls (PASS)")
+    else:
+        print(f"✗ Null check: OrderID has {null_order_id} nulls (FAIL)")
+        checks_passed = False
+
+    null_cust_id = df.filter(col("cust_ID").isNull()).count()
+    if null_cust_id == 0:
+        print(f"✓ Null check: CustomerID has {null_cust_id} nulls (PASS)")
+    else:
+        print(f"✗ Null check: CustomerID has {null_cust_id} nulls (FAIL)")
+        checks_passed = False
+
+    # Check 4: Value range checks
+    negative_qty = df.filter(col("QTY") <= 0).count()
+    if negative_qty == 0:
+        print(f"✓ Value check: No invalid quantities (PASS)")
+    else:
+        print(f"⚠ Value check: {negative_qty} rows with quantity <= 0 (WARNING)")
+
+    negative_price = df.filter(col("price_unit") <= 0).count()
+    if negative_price == 0:
+        print(f"✓ Value check: No negative/zero prices (PASS)")
+    else:
+        print(f"⚠ Value check: {negative_price} rows with price <= 0 (WARNING)")
+
+    print("=" * 50)
+
+    if checks_passed:
+        print("✓ All critical data quality checks PASSED")
+    else:
+        print("✗ Some data quality checks FAILED")
+
+    print("=" * 50 + "\n")
+
+    return checks_passed
+
+
 # ----------------------------
 # Step 1: Load Bronze Data
 # ----------------------------
 print("Loading Bronze data...")
 df_bronze = spark.read.option("multiline", "true").json(BRONZE_PATH)
+
+# ----------------------------
+# Step 2: Run Data Quality Checks
+# ----------------------------
+quality_passed = run_data_quality_checks(df_bronze, "Bronze")
+
+if not quality_passed:
+    print("ERROR: Data quality checks failed. Pipeline stopped.")
+    sys.exit(1)
 
 print(f"Bronze records loaded: {df_bronze.count()}")
 print("\nBronze Schema (raw):")

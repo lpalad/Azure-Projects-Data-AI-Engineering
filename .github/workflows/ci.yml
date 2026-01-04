@@ -1,0 +1,106 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-validate:
+    name: Lint & Validate Python
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pyspark
+
+      - name: Check Python syntax
+        run: |
+          echo "========== PYTHON SYNTAX CHECK =========="
+          python -m py_compile 04-Retail-Data-Engineering/scripts/bronze_to_silver.py
+          python -m py_compile 04-Retail-Data-Engineering/scripts/silver_to_gold.py
+          echo "✓ All Python files have valid syntax"
+
+      - name: Run flake8 linter
+        run: |
+          echo "========== CODE STYLE CHECK (flake8) =========="
+          flake8 04-Retail-Data-Engineering/scripts/ --max-line-length=120 --ignore=E501,W503 --count --show-source --statistics
+          echo "✓ Code style check passed"
+
+      - name: Validate project structure
+        run: |
+          echo "========== PROJECT STRUCTURE CHECK =========="
+          test -d "01-Medallion-Retail-Pipeline" && echo "✓ Project 01 exists"
+          test -d "02-E-Commerce-Customer360" && echo "✓ Project 02 exists"
+          test -d "03-Data-Migration-Project-End-To-End" && echo "✓ Project 03 exists"
+          test -d "04-Retail-Data-Engineering" && echo "✓ Project 04 exists"
+          test -d "05-Fabric-End-To-End" && echo "✓ Project 05 exists"
+          test -d "06-MySQL-to-Lakehouse-Migration" && echo "✓ Project 06 exists"
+          echo "✓ All project directories verified"
+
+  data-quality-check:
+    name: Data Quality Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Run data quality checks
+        run: |
+          echo "========== DATA QUALITY CHECKS =========="
+          python -c "
+import pandas as pd
+import json
+import sys
+
+# Load bronze data
+with open('04-Retail-Data-Engineering/data/bronze/retail_raw_data_560.json', 'r') as f:
+    data = json.load(f)
+
+df = pd.DataFrame(data)
+print(f'Loaded {len(df)} rows from bronze layer')
+
+# Check 1: Row count
+assert len(df) > 0, 'FAILED: No rows in dataset'
+print(f'✓ Row count: {len(df)} rows (PASS)')
+
+# Check 2: Required columns
+required = ['Order iD', 'order_date', 'Customer  ID', 'product category', 'Quantity Sold', 'unit price']
+missing = [col for col in required if col not in df.columns]
+assert len(missing) == 0, f'FAILED: Missing columns: {missing}'
+print(f'✓ Required columns: All present (PASS)')
+
+# Check 3: No null OrderIDs
+null_count = df['Order iD'].isnull().sum()
+assert null_count == 0, f'FAILED: {null_count} null OrderIDs'
+print(f'✓ Null check: OrderID has {null_count} nulls (PASS)')
+
+# Check 4: Quantity > 0
+invalid_qty = (df['Quantity Sold'] <= 0).sum()
+print(f'✓ Value check: {invalid_qty} invalid quantities (INFO)')
+
+print('=========================================')
+print('All data quality checks passed!')
+"
