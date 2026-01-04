@@ -17,6 +17,8 @@ A collection of Azure and Microsoft Fabric projects demonstrating data engineeri
 | 2 | [E-Commerce Customer 360](./02-E-Commerce-Customer360/) | Customer analytics pipeline joining 5 data sources for unified customer view | Python, PySpark, Fabric, Power BI |
 | 3 | [Data Migration Project](./03-Data-Migration-Project-End-To-End/) | Azure Data Factory pipeline for incremental CSV to SQL migration with file tracking | Azure Data Factory, SQL, CSV |
 | 4 | [Retail Data Engineering](./04-Retail-Data-Engineering/) | Retail transaction pipeline with Medallion Architecture and aggregated business KPIs | PySpark, Fabric, Delta Lake, Power BI |
+| 5 | [Fabric End-To-End](./05-Fabric-End-To-End/) | LMS analytics pipeline with incremental daily loads simulating production environment | PySpark, Fabric, Delta Lake |
+| 6 | [MySQL to Lakehouse Migration](./06-MySQL-to-Lakehouse-Migration/) | Cloud-to-cloud migration guide from AWS MySQL to Fabric Lakehouse using Dataflow Gen2 | AWS RDS, MySQL, Fabric, Dataflow Gen2 |
 
 ## Architecture
 
