@@ -25,7 +25,7 @@
 A step-by-step guide for migrating data from **AWS MySQL (RDS)** to **Microsoft Fabric Lakehouse** using Dataflow Gen2. This no-code approach enables cloud-to-cloud migration in minutes.
 
 <p align="center">
-  <img src="../m-fabric.webp" alt="Microsoft Fabric" width="600">
+  <img src="awsmysql.png" alt="AWS MySQL to Fabric Migration" width="600">
 </p>
 
 ## Architecture
