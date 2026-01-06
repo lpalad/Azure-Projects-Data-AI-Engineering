@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <strong>6 production-ready pipelines. Real migrations. Working code.</strong>
+  <strong>6 Production-Ready Pipelines | Real Migrations | Working Code</strong>
 </p>
 
 <p align="center">
@@ -26,43 +26,73 @@
 
 ---
 
-## The Problem With Most Data Engineering Portfolios
+## Executive Summary: Engineering Profit Through Data Rigor
 
-They show tutorials. Not production work.
+I do not simply "manage data." I build the systems that protect your company's margins and drive its growth.
 
-Anyone can follow a YouTube video. Few can build pipelines that catch bad data before it breaks reports. Fewer still can migrate databases across clouds without losing a single row.
+With over 15 years of experience and an MBA, I bridge the gap between complex engineering and the boardroom.
 
-This portfolio is different.
+My work in Microsoft Fabric and Azure is defined by three pillars:
 
-Every project here solves a real problem. Every pipeline has validation. Every migration was tested against production data.
+| Pillar | What It Means | How I Deliver It |
+|--------|---------------|------------------|
+| **Certainty** | A report is only useful if it is 100% accurate | Automated data quality gates. If the data is wrong, the pipeline stops. |
+| **Efficiency** | Human effort is expensive. Automation is not. | OneLake Shortcuts and Dataflow Gen2 eliminate data silos and manual toil. |
+| **Fiscal Discipline** | Cloud capacity is a cost center, not a blank check | Fabric Capacity Management ensures analytics drive revenue without "bill shock." |
 
 ---
 
 ## 📋 What's Inside
 
-1. [Why Hire Me](#why-hire-me)
+1. [The Logic of Experience](#the-logic-of-experience-what-15-years-taught-me)
 2. [The 6 Projects](#the-6-projects)
 3. [How I Build Pipelines](#how-i-build-pipelines)
 4. [The Tech I Use](#the-tech-i-use)
-5. [What I Learned](#what-i-learned)
-6. [About Me](#about-me)
+5. [About Me](#about-me)
 
 ---
 
-## Why Hire Me
+## The Logic of Experience: What 15 Years Taught Me
 
-Here is what I bring to your team:
+Most engineers learn from documentation. I learned from production.
 
-| Skill | Proof |
-|-------|-------|
-| **I build pipelines that work** | 6 complete projects, all tested, all documented |
-| **I catch problems early** | Data quality checks stop bad data before it spreads |
-| **I automate everything** | GitHub Actions runs tests on every single commit |
-| **I migrate databases safely** | AWS MySQL to Azure Fabric with zero data loss |
-| **I care about costs** | Fabric Capacity Management to prevent bill shock |
-| **I connect to your existing systems** | OneLake Shortcuts bridge AWS S3 to Azure |
+These are the non-negotiable rules I apply to every project:
 
-Most candidates talk about what they can do. I show you.
+### 1. Data Quality Is Not Optional
+
+One null value in a primary key can destroy a million-dollar decision.
+
+I learned that it is better to stop a pipeline than to deliver a lie. Now, I validate every row before it moves forward.
+
+```
+✓ Does the file have data?
+✓ Are all required columns present?
+✓ Are there any null values in key fields?
+✓ Are quantities and prices positive numbers?
+
+If any check fails → Pipeline stops. Bad data never reaches reports.
+```
+
+### 2. Automation Is Freedom
+
+Manual work is the birthplace of human error.
+
+I use GitHub Actions and ADF triggers because a script does not get tired. A script does not forget a step. A script runs at 3am without complaint.
+
+**Before automation:** 4 hours per week of manual file processing.
+**After automation:** 4 minutes. Zero human intervention.
+
+### 3. Simplicity Wins Over Cleverness
+
+"Clever" code is a nightmare to maintain. The next person who reads it will curse your name.
+
+I use the Medallion Architecture (Bronze → Silver → Gold) because it is a proven, boring, and indestructible pattern. Netflix uses it. Airbnb uses it. Uber uses it. It works at any scale.
+
+### 4. Costs Are a Technical Requirement
+
+In Microsoft Fabric, performance is easy. Lowering the bill is hard.
+
+I build pipelines that process only what is necessary. Incremental loading. Partitioned storage. Scheduled workloads during off-peak hours. I protect the bottom line because I understand that every dollar spent on compute is a dollar not spent on growth.
 
 ---
 
@@ -80,7 +110,7 @@ Most candidates talk about what they can do. I show you.
 | Silver | I fix column names. I parse dates. I validate types. |
 | Gold | I calculate TotalSales, GrossProfit, ProfitMargin. Ready for Power BI. |
 
-**The result:** Clean data. Accurate reports. Happy stakeholders.
+**The result:** Clean data. Accurate reports. Stakeholders who trust the numbers.
 
 [→ See the code](./01-Medallion-Retail-Pipeline/)
 
@@ -88,11 +118,11 @@ Most candidates talk about what they can do. I show you.
 
 ### Project 02: Customer 360
 
-**The problem:** Customer data is scattered across 5 different systems. Sales cannot see the full picture.
+**The problem:** Customer data is scattered across 5 different systems. Sales cannot see the full picture. Marketing cannot personalize. Support cannot anticipate.
 
 **What I built:** A pipeline that joins Customers, Orders, Payments, Support Tickets, and Web Activity into one unified view.
 
-**The result:** One table with everything you need to know about each customer. Sales teams stop asking IT for reports.
+**The result:** One table with everything you need to know about each customer. Sales stops asking IT for reports. They just look at the dashboard.
 
 [→ See the code](./02-E-Commerce-Customer360/)
 
@@ -100,44 +130,37 @@ Most candidates talk about what they can do. I show you.
 
 ### Project 03: ADF Data Migration
 
-**The problem:** CSV files arrive daily. Someone has to manually import them into SQL Server. This takes hours every week.
+**The problem:** CSV files arrive daily. Someone has to manually import them into SQL Server. This takes hours every week. Errors happen. Files get missed.
 
 **What I built:** An Azure Data Factory pipeline that automatically detects new files, loads them, and tracks what has been processed.
 
-**The result:** Zero manual work. Files processed within minutes of arrival. Full audit trail of every import.
+**The result:** Zero manual work. Files processed within minutes of arrival. Full audit trail of every import. The person who used to do this manually now does higher-value work.
 
 [→ See the code](./03-Data-Migration-Project-End-To-End/)
 
 ---
 
-### Project 04: Retail Data Engineering (with Quality Checks)
+### Project 04: Retail Data Engineering (with Quality Gates)
 
-**The problem:** Bad data gets into reports. Nobody notices until the CFO asks why the numbers are wrong.
+**The problem:** Bad data gets into reports. Nobody notices until the CFO asks why the numbers are wrong. By then, trust is damaged.
 
-**What I built:** A pipeline with built-in validation. Before any transformation runs, the system checks:
+**What I built:** A pipeline with built-in validation. Before any transformation runs, the system checks every row against quality rules.
 
-```
-✓ Does the file have data?
-✓ Are all required columns present?
-✓ Are there any null values in key fields?
-✓ Are quantities and prices positive numbers?
-```
+**If any check fails, the pipeline stops.** Bad data never reaches the reports. The team gets alerted. The problem gets fixed at the source.
 
-**If any check fails, the pipeline stops.** Bad data never reaches the reports.
-
-**The result:** Confidence. When you see a number, you know it is correct.
+**The result:** Confidence. When you see a number, you know it is correct. When the CFO asks, you have an answer.
 
 [→ See the code](./04-Retail-Data-Engineering/)
 
 ---
 
-### Project 05: LMS Analytics (Daily Loads)
+### Project 05: LMS Analytics (Incremental Loads)
 
-**The problem:** Student data arrives every day. You need to process it without reprocessing everything from scratch.
+**The problem:** Student data arrives every day. Reprocessing everything from scratch is slow and expensive. But you cannot miss a single day.
 
-**What I built:** An incremental loading pipeline. Each day's data goes into its own partition. Queries only read what they need.
+**What I built:** An incremental loading pipeline. Each day's data goes into its own partition. Queries only read what they need. Storage costs stay low.
 
-**The result:** Fast processing. Efficient storage. Easy troubleshooting when something goes wrong with one day's data.
+**The result:** Fast processing. Efficient storage. Easy troubleshooting when something goes wrong with one specific day.
 
 [→ See the code](./05-Fabric-End-To-End/)
 
@@ -145,11 +168,11 @@ Most candidates talk about what they can do. I show you.
 
 ### Project 06: AWS MySQL to Azure Migration
 
-**The problem:** Your database is in AWS. Your analytics team uses Azure. Someone needs to move the data.
+**The problem:** Your database is in AWS. Your analytics team uses Azure. Someone needs to move the data without losing a single row.
 
-**What I built:** A complete migration using Dataflow Gen2. No code required. Point, click, migrate.
+**What I built:** A complete migration using Dataflow Gen2. No code required. Point, click, migrate. Step-by-step guide included.
 
-**The result:** Data flows from AWS to Azure in minutes. Step-by-step guide included so your team can repeat this for other databases.
+**The result:** Data flows from AWS to Azure in minutes. Your team can repeat this for other databases without calling a consultant.
 
 [→ See the code](./06-MySQL-to-Lakehouse-Migration/)
 
@@ -165,13 +188,13 @@ SOURCE → BRONZE → SILVER → GOLD → POWER BI
 
 | Stage | What I Do | Why It Matters |
 |-------|-----------|----------------|
-| **Source** | Connect to CSV, JSON, Excel, MySQL | Your data is everywhere. I can reach it. |
-| **Bronze** | Store raw data exactly as received | You can always go back to the original. |
-| **Silver** | Clean, validate, standardize | Data quality problems stop here. |
-| **Gold** | Aggregate, join, calculate KPIs | Reports are fast because the work is done. |
+| **Source** | Connect to CSV, JSON, Excel, MySQL, APIs | Your data is everywhere. I can reach it. |
+| **Bronze** | Store raw data exactly as received | You can always go back to the original. Auditors love this. |
+| **Silver** | Clean, validate, standardize | Data quality problems die here. They do not spread. |
+| **Gold** | Aggregate, join, calculate KPIs | Reports are fast because the heavy lifting is done. |
 | **Power BI** | Build dashboards | Business users see insights, not tables. |
 
-This is not my invention. Netflix uses this pattern. Airbnb uses it. Uber uses it. It works at scale.
+This is not my invention. It is an industry standard. I use it because it works.
 
 ---
 
@@ -195,28 +218,16 @@ This is not my invention. Netflix uses this pattern. Airbnb uses it. Uber uses i
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-### Microsoft Fabric Skills
-- **Lakehouse** — I know how to structure files and tables for fast queries
-- **Dataflow Gen2** — I migrate databases without writing code
-- **Notebooks** — I write PySpark transformations that scale
-- **Semantic Models** — I connect data engineering to Power BI
-- **OneLake Shortcuts** — I bridge AWS S3 to Azure without moving data
-- **Capacity Management** — I monitor costs so you do not get surprised bills
+### Microsoft Fabric Expertise
 
----
-
-## What I Learned
-
-Building these projects taught me lessons that matter:
-
-| Lesson | What Happened |
-|--------|---------------|
-| **Data quality is not optional** | One null OrderID broke three downstream reports. Now I validate everything. |
-| **Automation saves hours** | Manual file processing took 4 hours per week. Pipeline does it in 4 minutes. |
-| **Documentation is part of the job** | Nobody uses pipelines they cannot understand. I document everything. |
-| **Simple patterns beat clever code** | Medallion Architecture is not exciting. It just works. Every time. |
-| **Costs matter** | Fabric can get expensive fast. I learned to pause capacity and schedule workloads. |
-| **Testing catches mistakes** | GitHub Actions found 3 bugs before they reached production. |
+| Component | What I Do With It |
+|-----------|-------------------|
+| **Lakehouse** | Structure files and tables for fast queries and low storage costs |
+| **Dataflow Gen2** | Migrate databases without writing code |
+| **Notebooks** | Write PySpark transformations that scale to millions of rows |
+| **Semantic Models** | Connect data engineering to Power BI for self-service analytics |
+| **OneLake Shortcuts** | Bridge AWS S3 to Azure without moving or duplicating data |
+| **Capacity Management** | Monitor and optimize costs to prevent bill shock |
 
 ---
 
@@ -233,10 +244,10 @@ cd Azure-Projects-Data-AI-Engineering/04-Retail-Data-Engineering
 # Each one has specific setup instructions
 ```
 
-### What You Need
+### Prerequisites
 
-| Tool | Why |
-|------|-----|
+| Tool | Why You Need It |
+|------|-----------------|
 | Microsoft Fabric account | To run the pipelines |
 | Power BI Desktop | To view the dashboards |
 | Python 3.11+ | To test scripts locally |
@@ -252,16 +263,18 @@ I build data systems that connect to business outcomes.
 
 15 years of experience. Production ML systems. AWS pipelines. Azure migrations. Real projects with real results.
 
+I do not just write code. I build systems that protect margins, drive growth, and earn trust.
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardspalad/)
 [![Portfolio](https://img.shields.io/badge/AI_Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://salesconnect.com.au/aip.html)
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://www.cloudhermit.com.au/)
 
 ### Other Work
 
-| Repository | What It Shows |
-|------------|---------------|
-| [AWS Projects](https://github.com/lpalad/AWS-Projects) | Lambda, DynamoDB, IoT pipelines |
-| [ML Lead Scoring](https://github.com/lpalad/mda) | Production ML that lifted sales 40-50% |
+| Repository | What It Demonstrates |
+|------------|----------------------|
+| [AWS Projects](https://github.com/lpalad/AWS-Projects) | Lambda, DynamoDB, IoT pipelines at scale |
+| [ML Lead Scoring](https://github.com/lpalad/mda) | Production ML that lifted sales conversion 40-50% |
 
 ---
 
@@ -271,9 +284,9 @@ I build data systems that connect to business outcomes.
 |------|--------------|
 | January 2026 | Added CI/CD pipeline with automated testing |
 | January 2026 | Added data quality framework |
-| January 2026 | Added AWS MySQL migration guide |
+| January 2026 | Added AWS MySQL to Azure migration guide |
 | January 2026 | Added LMS incremental loading pipeline |
-| January 2026 | Added Retail Data Engineering with validation |
+| January 2026 | Added Retail Data Engineering with quality gates |
 | January 2026 | Added ADF migration project |
 | January 2026 | Added Customer 360 pipeline |
 | January 2026 | Added Medallion Retail Pipeline |
@@ -287,7 +300,7 @@ MIT License - Use this code however you want.
 ---
 
 <p align="center">
-  <strong>I do not just write code. I build systems that work.</strong>
+  <strong>I do not just manage data. I engineer profit.</strong>
   <br><br>
-  If you need someone who can migrate your data, build your pipelines, and make sure the numbers are right—let's talk.
+  If you need someone who can migrate your databases, build pipelines that never fail, and make sure every number is right—let's talk.
 </p>
