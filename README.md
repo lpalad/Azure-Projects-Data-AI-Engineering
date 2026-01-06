@@ -99,6 +99,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ## The 6 Projects
 
 ### Project 01: Medallion Retail Pipeline
+> 🔴 Messy raw data → 🟢 Report-ready tables
 
 **The problem:** Raw retail data is messy. Column names have typos. Dates are in wrong formats. You cannot build reports on this.
 
@@ -117,6 +118,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ---
 
 ### Project 02: Customer 360
+> 🔴 5 scattered systems → 🟢 One unified view
 
 **The problem:** Customer data is scattered across 5 different systems. Sales cannot see the full picture. Marketing cannot personalize. Support cannot anticipate.
 
@@ -129,6 +131,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ---
 
 ### Project 03: ADF Data Migration
+> 🔴 Manual imports → 🟢 Zero-touch automation
 
 **The problem:** CSV files arrive daily. Someone has to manually import them into SQL Server. This takes hours every week. Errors happen. Files get missed.
 
@@ -141,6 +144,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ---
 
 ### Project 04: Retail Data Engineering (with Quality Gates)
+> 🔴 Bad data reaches reports → 🟢 Quality gates stop it
 
 **The problem:** Bad data gets into reports. Nobody notices until the CFO asks why the numbers are wrong. By then, trust is damaged.
 
@@ -155,6 +159,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ---
 
 ### Project 05: LMS Analytics (Incremental Loads)
+> 🔴 Full reprocessing daily → 🟢 Incremental loads only
 
 **The problem:** Student data arrives every day. Reprocessing everything from scratch is slow and expensive. But you cannot miss a single day.
 
@@ -167,6 +172,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 ---
 
 ### Project 06: AWS MySQL to Azure Migration
+> 🔴 Cross-cloud complexity → 🟢 Migration in minutes
 
 **The problem:** Your database is in AWS. Your analytics team uses Azure. Someone needs to move the data without losing a single row.
 
