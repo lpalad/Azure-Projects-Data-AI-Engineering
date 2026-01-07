@@ -113,7 +113,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** Clean data. Accurate reports. Stakeholders who trust the numbers.
 
-[→ See the code](./01-Medallion-Retail-Pipeline/)
+[✅ **See Working Code**](./01-Medallion-Retail-Pipeline/)
 
 ---
 
@@ -126,7 +126,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** One table with everything you need to know about each customer. Sales stops asking IT for reports. They just look at the dashboard.
 
-[→ See the code](./02-E-Commerce-Customer360/)
+[✅ **See Working Code**](./02-E-Commerce-Customer360/)
 
 ---
 
@@ -139,7 +139,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** Zero manual work. Files processed within minutes of arrival. Full audit trail of every import. The person who used to do this manually now does higher-value work.
 
-[→ See the code](./03-Data-Migration-Project-End-To-End/)
+[✅ **See Working Code**](./03-Data-Migration-Project-End-To-End/)
 
 ---
 
@@ -154,7 +154,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** Confidence. When you see a number, you know it is correct. When the CFO asks, you have an answer.
 
-[→ See the code](./04-Retail-Data-Engineering/)
+[✅ **See Working Code**](./04-Retail-Data-Engineering/)
 
 ---
 
@@ -167,7 +167,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** Fast processing. Efficient storage. Easy troubleshooting when something goes wrong with one specific day.
 
-[→ See the code](./05-Fabric-End-To-End/)
+[✅ **See Working Code**](./05-Fabric-End-To-End/)
 
 ---
 
@@ -180,7 +180,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 
 **The result:** Data flows from AWS to Azure in minutes. Your team can repeat this for other databases without calling a consultant.
 
-[→ See the code](./06-MySQL-to-Lakehouse-Migration/)
+[✅ **See Working Code**](./06-MySQL-to-Lakehouse-Migration/)
 
 ---
 
