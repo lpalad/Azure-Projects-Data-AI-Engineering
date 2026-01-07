@@ -189,7 +189,7 @@ I build pipelines that process only what is necessary. Incremental loading. Part
 Every pipeline follows the same proven pattern:
 
 ```
-SOURCE → BRONZE → SILVER → GOLD → POWER BI
+📥 SOURCE  →  🥉 BRONZE  →  🥈 SILVER  →  🥇 GOLD  →  📊 POWER BI
 ```
 
 | Stage | What I Do | Why It Matters |
