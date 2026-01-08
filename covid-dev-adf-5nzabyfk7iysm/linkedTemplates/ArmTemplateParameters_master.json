@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-dev-adf-5nzabyfk7iysm"
+		},
+		"ls_sql_coviddb_password": {
+			"value": ""
+		},
+		"ls_adls_coviddata_properties_typeProperties_url": {
+			"value": "https://coviddevstg5nzabyfk7iysm.dfs.core.windows.net/"
+		},
+		"ls_sql_coviddb_properties_typeProperties_server": {
+			"value": "covid-dev-sql-5nzabyfk7iysm.database.windows.net"
+		},
+		"ls_sql_coviddb_properties_typeProperties_database": {
+			"value": "covid_reporting"
+		},
+		"ls_sql_coviddb_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
