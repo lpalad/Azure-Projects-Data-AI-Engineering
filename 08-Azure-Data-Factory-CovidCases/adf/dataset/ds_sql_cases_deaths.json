@@ -1,0 +1,12 @@
+{
+	"name": "ds_sql_cases_deaths",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_coviddb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
