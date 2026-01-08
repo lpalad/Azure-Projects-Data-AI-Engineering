@@ -249,7 +249,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"folderPath": "ecdc",
-						"fileSystem": "processed"
+						"fileSystem": "raw"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
